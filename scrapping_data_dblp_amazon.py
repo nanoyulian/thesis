@@ -142,29 +142,8 @@ def parse_dblp_author_in_conference(url):
     except Exception as e:
         print e
   
-    
-if __name__ == "__main__":
-      
-    #siapkan array id conference yang ingin di scrap authornya per paper
-    conflist_id = ['cvpr']
-    #lakukan scrapping authors 
-    extracted_data = readConference(conflist_id)
-    
-    #siapkan Graph kosong
-    G = nx.Graph()
-    #membuat edge list author berdasarkan data hasil scrapping
-    for data in extracted_data:
-       #3D conference  
-       i=1
-       for conf in data:
-           generate_graph_with_edge_list(G,conf)
-    
-#    print "====== Nodes (Authors) : ====== \n"
-#    print G.nodes() 
-#    print "\n"
-#    print "====== Edges (authorA, authorB) : ===== \n"
-#    print G.edges()
-    
+#runnin louvain algorithm community detection, G = network (sudah ada vertex dan edge)
+def run_louvain_cd(G):
     part = co.best_partition(G)
     #bikin part baru iterate, yang urutannya sesuai dengan g.nodes￼
     part2 = [] #list baru
@@ -190,3 +169,22 @@ if __name__ == "__main__":
     sorted_part = sorted(part.items(),key=operator.itemgetter(1))
     print sorted_part
     plt.show()
+    
+if __name__ == "__main__":
+      
+    #1. siapkan array id conference yang ingin di scrap authornya per paper
+    conflist_id = ['issi']
+    #2. lakukan scrapping authors 
+    extracted_data = readConference(conflist_id)
+    #3. siapkan Graph kosong
+    G = nx.Graph()
+    #4. membuat edge list pada Graph berdasarkan data (2D array:lihat generate_graph_with_edge_list) hasil scrapping
+    for data in extracted_data:
+       #3D Array conference  
+       for conf in data:
+           generate_graph_with_edge_list(G,conf)
+    
+    #4. Jalankan algoritma Community Detection ex : louvain
+    run_louvain_cd(G)
+    
+    
