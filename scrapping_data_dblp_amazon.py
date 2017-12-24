@@ -186,7 +186,7 @@ if __name__ == "__main__":
     print "Num. of Edges: ", G.number_of_edges()
     print "Network Size:", G.size()   
     
-    #import operator
-    #sorted_part = sorted(part.items(),key=operator.itemgetter(1))
-    #print sorted_part
+    import operator
+    sorted_part = sorted(part.items(),key=operator.itemgetter(1))
+    print sorted_part
     plt.show()
