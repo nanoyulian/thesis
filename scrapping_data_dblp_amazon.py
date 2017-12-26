@@ -13,6 +13,7 @@ import itertools
 import networkx as nx  
 import matplotlib.pyplot as plt
 import community as co
+import operator
 
 def parse(url):
     headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
@@ -76,7 +77,8 @@ def generate_graph_with_edge_list(G, data2D):
         else:      
             if(len(data)==1): #ada beberapa li entry proceeding formatnya bukan paper dan author jadi pastikan minimal 1.
                 G.add_node(data[0])    
-          
+    
+       
     return G     
     
 def readConference(conflist_id):
@@ -87,10 +89,6 @@ def readConference(conflist_id):
         url = "http://dblp.uni-trier.de/db/conf/"+i
         print "Processing: "+url
         extracted_data.append(parse_dblp_author_in_conference(url))
-        #parse_dblp_author_in_conference(url)
-        
-    #f=open('data.json','w')
-    #json.dump(extracted_data,f,indent=4)
     
     return extracted_data
        
@@ -156,35 +154,59 @@ def run_louvain_cd(G):
     colors = [ (_i/(_i+3)) for _i in part_id]
         
     #draw graph and apply the colors for each community.
-    nx.draw_networkx(G,node_color = colors,  with_labels=True, font_size=8, alpha=0.5, node_size=18 )
+    nx.draw_networkx(G,node_color = colors,  with_labels=False, font_size=8, alpha=0.5, node_size=18 )
 
-    print "\n"
+    print "========================================================================="
+    print "Network Descriptions"
+    print "========================================================================="    
     print "Modularity: ", co.modularity(part,G)
-    print "Num. Communities:",  len(set(part.values()))
     print "Num. of Vertices:", G.number_of_nodes()
     print "Num. of Edges: ", G.number_of_edges()
     print "Network Size:", G.size()   
-    
-    import operator
+    print "========================================================================="
+    print "Detected Communities Based On Louvain Algorithm(Member , Community ID)"
+    print "Number of Communities Detected:",  len(set(part.values()))    
+    print "=========================================================================\n"    
     sorted_part = sorted(part.items(),key=operator.itemgetter(1))
     print sorted_part
     plt.show()
+
+#menyimpan graph dalam format edgelist (original f1 dan converted f2)
+def generate_edgelistfile(G):
+    dict_id_authors = {}
+    for key,val in zip(G.nodes,range(len(G.nodes))):
+        dict_id_authors[key]=val
     
+    f1=open('data-edgelist.txt','wb')
+    f2=open('data-edgelist-converted.txt','wb')    
+    for u,v in G.edges():
+        f1.write("%s %s\n" % (u, v))
+        #search based on val in dict_id_authors
+        f2.write("%d %d\n" % (dict_id_authors[u],dict_id_authors[v]) )
+        
+    f1.close()
+    f2.close()
+    
+################## ENTRY POINT #################################
 if __name__ == "__main__":
       
-    #1. siapkan array id conference yang ingin di scrap authornya per paper
-    conflist_id = ['issi']
-    #2. lakukan scrapping authors 
+    #1. siapkan array link id conference yang ingin di scrap authornya per paper
+    conflist_id = ['eurosp'] # sp, eurosp, cvpr, issi, 
+    
+    #2. lakukan scrapping authors , return array 4D
     extracted_data = readConference(conflist_id)
+
     #3. siapkan Graph kosong
     G = nx.Graph()
+
     #4. membuat edge list pada Graph berdasarkan data (2D array:lihat generate_graph_with_edge_list) hasil scrapping
     for data in extracted_data:
        #3D Array conference  
        for conf in data:
            generate_graph_with_edge_list(G,conf)
-    
+        
+    #5. (optional) save ke file edgelist    
+    generate_edgelistfile(G)
+        
     #4. Jalankan algoritma Community Detection ex : louvain
     run_louvain_cd(G)
-    
-    
