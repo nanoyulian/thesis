@@ -140,7 +140,7 @@ def parse_dblp_author_in_conference(url):
     except Exception as e:
         print e
   
-#runnin louvain algorithm community detection, G = network (sudah ada vertex dan edge)
+#run louvain algorithm community detection, G = network (sudah ada vertex dan edge)
 def run_louvain_cd(G):
     part = co.best_partition(G)
     #bikin part baru iterate, yang urutannya sesuai dengan g.nodes￼
