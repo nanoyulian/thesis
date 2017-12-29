@@ -13,11 +13,18 @@ Created on Thu Dec 28 06:41:05 2017
 #    
 #print graph_linklist
 
-import random
+from copy import deepcopy
+import numpy as np
 
-def random_walk(n):
-    x=0
-    y=0
-    for i in range(n):
-        step = random
-    
+start_node = np.array([1,2]) - 1
+print start_node
+
+v = np.zeros(6)
+print v
+
+v[start_node] = 1. / len(start_node)
+print v 
+
+for j in range(30):
+        v2 = deepcopy(v)
+        print v2
