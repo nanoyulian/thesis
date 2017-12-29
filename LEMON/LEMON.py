@@ -34,9 +34,6 @@ from scipy import linalg as splin
 from optparse import OptionParser
 
 
-
-
-
 def swap(a,b):
     if a > b:
         return b,a
@@ -73,23 +70,33 @@ def set_initial_prob_proportional(n,degree_sequence,starting_nodes):
 def read_edgelist(filename,delimiter=None,nodetype=int):
     """Generate the adjacent matrix of a graph with overlapping communities. 
        Input: A two-clumn edgelist 
+       
+       1 2
+       1 3
+       1 4
+       ...
+       ...
+       
        Return: An adjacency matrix in the form of ndarray corresponding to the given edge list.
     """
     edgeset = set()
     nodeset = set()
     
-    print "Reading the edgelist..."
+    print "Reading the edgelist... nodeset : kumpulan node(label) yg udah di sort, edgeset : kumpulan edge pada graph" 
     with open(filename) as f:
         for line in f.readlines():
             if not line.strip().startswith("#"):
                 L = line.strip().split(delimiter)
                 ni,nj = nodetype(L[0]),nodetype(L[1])
-                nodeset.add(ni)
-                nodeset.add(nj)
+                nodeset.add(ni) 
+                nodeset.add(nj)                
                 if ni != nj:
-                    edgeset.add(swap(ni,nj))
+                    edgeset.add(swap(ni,nj)) # (1,2 )
+                    
         node_number = len(list(nodeset))
         edge_number = len(list(edgeset))
+        #print nodeset
+        #print edgeset 
     del edgeset
     
     print "The network has", node_number, "nodes with", edge_number, "edges."
@@ -98,27 +105,29 @@ def read_edgelist(filename,delimiter=None,nodetype=int):
 
     for i in range(node_number):
         graph_linklist[i].add(i)
-    with open(filename, 'U') as f:
+    
+    with open(filename, 'U') as f: 
         for line in f.readlines():
             if not line.strip().startswith("#"):
                 L = line.strip().split(delimiter)
                 ni,nj = nodetype(L[0]),nodetype(L[1])
                 if ni != nj:
-                    a = ni - 1
+                    a = ni - 1   #YANG DIPAKE ADALAH INDEXNYA BUKAN VALUENYA.... 
                     b = nj - 1
-                    graph_linklist[a].add(b)
+                    graph_linklist[a].add(b) # KENAPA FORMATNYA SEPERTI INI, MEMPERMUDAH HITUNG DEGREE
                     graph_linklist[b].add(a)
     gc.collect()
 
     degree = []
     for node in range(node_number):
-        degree.append (len(graph_linklist[node]))
-
-
+        degree.append (len(graph_linklist[node])) #HITUNG DEGREE NYA SETIAP NODE HASIL KUMPULAN SET DR GRAPH_LINKLIST
+        #print len(graph_linklist[node])
 
     print "Finish constructing graph."
     print "-------------------------------------------------------"
-  
+    
+    #print graph_linklist
+    
     return graph_linklist, node_number, edge_number,degree
 
 
@@ -185,18 +194,17 @@ def cal_conductance(G,cluster):
 
 def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rate=None,biased=True):
     
-    initial = np.array(starting_node)
+    initial = np.array(starting_node) #STARTING_NODE ADALAH ARRAY DARI SEED YG DIDIFENISIKAN SEBELUMNYA
     if biased:
         prob_distribution = set_initial_prob_proportional(node_number,degree_sequence,initial)
     else:
         prob_distribution = set_initial_prob(node_number,initial)
 
-    subgraph = set(starting_node)
+    subgraph = set(starting_node) #SUBGRAPH YANG DIHASILKAN DARI SET DARI SEEDSET 
     RW_graph = set(starting_node)
-
     
     for j in range(30):
-        original_distribution = deepcopy(prob_distribution)
+        original_distribution = deepcopy(prob_distribution) #cloning dari objek prob_distribution
         for node in RW_graph:
             neighbors = G_linklist[node]
             divided_prob = original_distribution[node] / float(len(neighbors))
@@ -514,8 +522,8 @@ if __name__=='__main__':
     parser.add_option("-f", "--input network file", dest="network_file", default="../example/amazon/graph",
                       help="input file of edge list for clustering [default: example_graphs/amazon/graph]")
 
-    parser.add_option("-g", "--input community ground truth file", dest="groundtruth_community_file", default="../example/amazon/community",
-                      help="input file of ground truth community membership [default: example_graphs/amazon/community]")
+#    parser.add_option("-g", "--input community ground truth file", dest="groundtruth_community_file", default="../example/amazon/community",
+#                      help="input file of ground truth community membership [default: example_graphs/amazon/community]")
 
     parser.add_option("--out", "--output file", dest="output_file", default="output.txt",
                       help="output file of detected community [default: output.txt]")
@@ -542,7 +550,7 @@ if __name__=='__main__':
     (options, args) = parser.parse_args()
     delimiter = options.delimiter
     network_file = options.network_file
-    community_file = options.groundtruth_community_file
+    #community_file = options.groundtruth_community_file
     output_file = options.output_file
     seed_set_file = options.seed_set_file
     min_comm_size = int(options.min_comm_size)
@@ -553,11 +561,9 @@ if __name__=='__main__':
 
   
 
-
 ####################################################################################################################
-     
 
-    comms_indices_map, count = read_groundtruth(community_file,delimiter=delimiter,nodetype=int)
+    #comms_indices_map, count = read_groundtruth(community_file,delimiter=delimiter,nodetype=int)
     graph_linklist,node_number,edge_number, degree= read_edgelist(network_file,delimiter=delimiter,nodetype=int)
 
     # read the initial seed set from file
@@ -565,49 +571,77 @@ if __name__=='__main__':
         for line in fin.readlines():
             if not line.strip().startswith("#"):
                 L = line.strip().split('\t')
+                #print L
                 seedset = np.fromstring(L[0],dtype=int,sep=' ')
                 break
-    seedset = np.array(seedset) - 1
-    
+    seedset = np.array(seedset) - 1 #get the index not the value
 
-    # modify the "test_comm" if you want to test some other ground truth communities
-    test_comm = np.array([14833, 42658, 43004, 58660 ,14835, 14836, 14837 ,106584, 115338 ,42659 ,58661 ,106585 ,288614 ,106586 ,14838 ,106587 ,302943 ,14839 ,14840 ,302944 ,115339, 106588 ,106589 ,206424 ,106590 ,42660 ,106591, 42661, 115340, 293641, 106592])
-    test_comm = test_comm - 1
+    #print seedset
+    #print graph_linklist
     
-    # sample the graph, adjust indices
+    
+    # modify the "test_comm" if you want to test some other ground truth communities
+#    test_comm = np.array([14833, 42658, 43004, 58660 ,14835, 14836, 14837 ,106584, 115338 ,42659 ,58661 ,106585 ,288614 ,106586 ,14838 ,106587 ,302943 ,14839 ,14840 ,302944 ,115339, 106588 ,106589 ,206424 ,106590 ,42660 ,106591, 42661, 115340, 293641, 106592])
+#    test_comm = test_comm - 1
+    
+    # sample the graph, adjust indices      PAKE METODE GRAPH SAMPLING (LIHAT DI PAPER), 
+    # NEW GRAPH SUDAH DALAM BENTUK MATRIKS ADJANCCY MATRIKS DARI NODE-NODE YANG DISAMPLE
+    #map_dict = mapping index antara (indexNode-newgraph : indexNode-graph asli)
+    #new_seedset = INDEXNODE DARI INDEXNODE-NEWGRAPH => LIHAT hasil map_dict
     new_graph, map_dict, map_dict_reverse, sample_rate, new_graph_size  = sample_graph(graph_linklist,node_number,degree,seedset,0.007,biased=False)
     new_seedset = map_from_ori_to_new(seedset,map_dict_reverse)
-    new_test_comm = map_from_ori_to_new(test_comm,map_dict_reverse)
+    #new_test_comm = map_from_ori_to_new(test_comm,map_dict_reverse)
+    
+    #print new_seedset
+    #print new_graph
+    #print map_dict
+    #print new_graph_size
     
     # run the local spectral clustering algorithm and return the detected community (Note: the indices here correspond to mapped indices in the sampled graph)
     detected_comm = seed_expand_auto(new_graph,new_seedset,min_comm_size,max_comm_size,expand_step,subspace_dim=3,walk_steps=3,biased=False)
-    
+   
     # map the indices back to the original graph
     detected_comm_ori = map_from_new_to_ori(detected_comm,map_dict)
     
-
+    print detected_comm_ori + 1 #ditambah 1 karena ini matrix dari INDEX node communitynya.. 
+    
+    #NEXT: 
+    #COBA TAMBAHIN SET SEEDNYA APAKAH JUGA AKAN BERPENGARUH KE JUMLAH KOMUNITAS YG DIDETEKSI
 
     # printing running information
-    print "-------------------------------------------------------"
-    print "The detected community is: \n"
-    print list(detected_comm_ori+1)
-    F1_score = cal_Fscore(detected_comm,new_test_comm)
-    print "-----------------------------------------------------------------------"
-    print "The F1 score between detected community and ground truth community is: ",F1_score
-
-    
-    # write out result
-    with open(output_file,"a") as out:
-        out.write("# detected community:"+"\n")
-        out.write(str(list(detected_comm_ori+1)))
-        out.write('\n')
-        out.write('\n')
-        out.write("# F1 score: "+str(F1_score)+'\n')
+#    print "-------------------------------------------------------"
+#    print "The detected community is: \n"
+#    print list(detected_comm_ori+1)
+#    F1_score = cal_Fscore(detected_comm,new_test_comm)
+#    print "-----------------------------------------------------------------------"
+#    print "The F1 score between detected community and ground truth community is: ",F1_score
+#
+#    
+#    # write out result
+#    with open(output_file,"a") as out:
+#        out.write("# detected community:"+"\n")
+#        out.write(str(list(detected_comm_ori+1)))
+#        out.write('\n')
+#        out.write('\n')
+#        out.write("# F1 score: "+str(F1_score)+'\n')
         
       
 
         
 
+"""
+ALGORITMA LEMON
+
+INPUT (edgelist,seed_node)
+OUTPUT (DETECTED COMMUNITY)
+
+1. Membangun Graph link List (edges di setiap node (degree))
+2. New_Graph = Melakukan Graph Sampling berdasarkan Seed Node yang didefinisikan 
+3. Lakukan Local Spectral Clustering pada New_Graph Berdasarkan NewSeed Node dengan pendekatan random walk
+4. Mendapatkan Komunitas pada New_Graph
+
+
+"""
 
 
 
