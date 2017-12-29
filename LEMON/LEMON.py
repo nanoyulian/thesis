@@ -17,19 +17,18 @@
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 2 of the License, or
-# (at your option) any later version.
-
+# (at your option) any later version
 
 import numpy as np
 import math 
 import pulp                       # You need to manually install this package in order to run this code
-import sys
-import random
+#import sys
+#import random
 import gc
 
 from copy import deepcopy
-from scipy import io as spio
-from scipy import sparse
+#from scipy import io as spio
+#from scipy import sparse
 from scipy import linalg as splin
 from optparse import OptionParser
 
@@ -202,25 +201,34 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
 
     subgraph = set(starting_node) #SUBGRAPH YANG DIHASILKAN DARI SET DARI SEEDSET 
     RW_graph = set(starting_node)
-    
+        
     for j in range(30):
         original_distribution = deepcopy(prob_distribution) #cloning dari objek prob_distribution
         for node in RW_graph:
+            #print "node : ", node 
             neighbors = G_linklist[node]
+            #print "len(neighbors) :" , len(neighbors)            
             divided_prob = original_distribution[node] / float(len(neighbors))
+            #print "divided_prob: ", divided_prob            
             prob_distribution[node] -= original_distribution[node]
+            #print "\n"
             for v in neighbors:
                 prob_distribution[v] += divided_prob
+            #ini yang merubah node di RW_Graph saat perulangan
             RW_graph = RW_graph.union(neighbors)
-        
+                        
             if len(RW_graph) >= 7000:
                 break      
-
-    for i in range(30):
+            
+    #print G_linklist[100905]
+    #print RW_graph
+    
+    for i in range(30): #KENAPA DIULANG 30X ??? 
         for node in subgraph:
-
+            
             neighbors = G_linklist[node]
             subgraph = subgraph.union(neighbors)
+           
             if len(subgraph) >= 7000:
                 break
     
@@ -234,7 +242,7 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
         sub_prob_distribution.append(prob_distribution[node])
         index += 1
     
-    new = [0 for k in range(node_number)]
+    #new = [0 for k in range(node_number)]
     new_graph_size = 3000
 
     node_in_new_graph = list(np.argsort(sub_prob_distribution)[::-1][:new_graph_size])
