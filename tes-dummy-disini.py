@@ -4,11 +4,20 @@ Created on Thu Dec 28 06:41:05 2017
 
 @author: nano
 """
+#
+#graph_linklist = [set() for i in range(0,100)]
+#print graph_linklist
+#
+#for i in range(100):
+#    graph_linklist[i].add(i)
+#    
+#print graph_linklist
 
-graph_linklist = [set() for i in range(0,100)]
-print graph_linklist
+import random
 
-for i in range(100):
-    graph_linklist[i].add(i)
+def random_walk(n):
+    x=0
+    y=0
+    for i in range(n):
+        step = random
     
-print graph_linklist

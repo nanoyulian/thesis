@@ -637,9 +637,27 @@ OUTPUT (DETECTED COMMUNITY)
 
 1. Membangun Graph link List (edges di setiap node (degree))
 2. New_Graph = Melakukan Graph Sampling berdasarkan Seed Node yang didefinisikan 
-3. Lakukan Local Spectral Clustering pada New_Graph Berdasarkan NewSeed Node dengan pendekatan random walk
+2a Bentuk adjancy Matriks dari new_graph
+3. Lakukan Local Spectral Clustering pada Matriks New_Graph Berdasarkan 
+   NewSeed Node dengan pendekatan random walk
 4. Mendapatkan Komunitas pada New_Graph
 
+Seeding Methods :
+the inward-edge ratio for a vertex v is defined by 
+the fraction of links connecting to another vertex inside the target community C 
+among all the links coming out from v. 
+We pick |S| vertices with inward-edge ratio ranked 
+in the top one third among all vertices in C.
+
+inward-edge ratio = jumlah edge dalam C (kecuali vertex v) / degree v  
+
+PROPOSE PEMILIHAN SEED DENGAN MENGGUNAKAN LOUVAIN ALGORITHM
+BAGAIMANA MEMILIH COMMUNITY AWAL UNTUK PROSES SEEDING ? 
+    - LAKUKAN COMMUNITY DETECTION ALGORITHM MISAL LOUVAIN
+    - PILIH 1/3 COMMUNITY DENGAN MEMBER TERBESAR 
+    - PILIH 1/3 SEED DI TIAP COMMUNITY
+        DAN UNTUK TIAP KOMUNITAS DILAKUKAN PEMILIHAN VERTEX SEED BERDASARKAN INWARD-EDGE RATIO
+    
 
 """
 
