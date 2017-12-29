@@ -181,8 +181,8 @@ def generate_edgelistfile(G):
     f2=open('data-edgelist-converted.txt','wb')    
     for u,v in G.edges():
         f1.write("%s %s\n" % (u, v))
-        #search based on val in dict_id_authors
-        f2.write("%d %d\n" % (dict_id_authors[u],dict_id_authors[v]) )
+        #convert tiap nama ke integer mulai dari 1
+        f2.write("%d %d\n" % (dict_id_authors[u]+1,dict_id_authors[v]+1) )
         
     f1.close()
     f2.close()
@@ -205,7 +205,7 @@ if __name__ == "__main__":
        for conf in data:
            generate_graph_with_edge_list(G,conf)
         
-    #5. (optional) save ke file edgelist    
+    #5. (optional) save ke file edgelist    id dimulai dari 1
     generate_edgelistfile(G)
         
     #4. Jalankan algoritma Community Detection ex : louvain
