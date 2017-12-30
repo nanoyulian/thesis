@@ -141,7 +141,7 @@ def parse_dblp_author_in_conference(url):
         print e
   
 #run louvain algorithm community detection, G = network (sudah ada vertex dan edge)
-def run_louvain_cd(G):
+def run_louvain_cd(G,show_com_list):
     part = co.best_partition(G)
     #bikin part baru iterate, yang urutannya sesuai dengan g.nodes￼
     part2 = [] #list baru
@@ -168,10 +168,13 @@ def run_louvain_cd(G):
     print "Number of Communities Detected:",  len(set(part.values()))    
     print "=========================================================================\n"    
     sorted_part = sorted(part.items(),key=operator.itemgetter(1))
-    print sorted_part
+    if show_com_list == True:
+        print "Community List : \n" 
+        print  sorted_part
+    
     plt.show()
 
-#menyimpan graph dalam format edgelist (original f1 dan converted f2)
+#menyimpan graph dalam format edgelist (original f1 dan converted f2, f3 mapping id)
 def generate_edgelistfile(G): 
     f3=open('dblp_nodes_id','wb')
     dict_id_authors = {}
@@ -215,4 +218,4 @@ if __name__ == "__main__":
     generate_edgelistfile(G)
         
     #4. Jalankan algoritma Louvain Community Detection
-    #run_louvain_cd(G)
+    run_louvain_cd(G,show_com_list=True)
