@@ -231,7 +231,7 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
     #print G_linklist[100905]
     #print RW_graph
     
-    for i in range(30): #KENAPA DIULANG 30X ??? 
+    for i in range(30): #KENAPA DIULANG 30X ??? Karena buat nyample buat distribusi sampelnya (neighbors)
         for node in subgraph:
             
             neighbors = G_linklist[node]
@@ -239,6 +239,9 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
            
             if len(subgraph) >= 7000:
                 break
+    
+    print RW_graph
+    print subgraph
     
     index = 0
     RW_dict = {}

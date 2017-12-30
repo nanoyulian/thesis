@@ -168,25 +168,26 @@ def run_louvain_cd(G):
     print "Number of Communities Detected:",  len(set(part.values()))    
     print "=========================================================================\n"    
     sorted_part = sorted(part.items(),key=operator.itemgetter(1))
-    #print sorted_part
+    print sorted_part
     plt.show()
 
 #menyimpan graph dalam format edgelist (original f1 dan converted f2)
-def generate_edgelistfile(G):
+def generate_edgelistfile(G): 
+    f3=open('dblp_nodes_id','wb')
     dict_id_authors = {}
     #print G.nodes
     for key,val in zip(G.nodes,range(len(G.nodes))):
         dict_id_authors[key]=val
-        print key,":",val
-        
-    #print dict_id_authors
-    #MASIH MASALAH ADA ID NODE YG LONCAT.... TIDAK URUT????
+        f3.write("%s : %d \n" % (key, val+1))
+    f3.close()
+    
+    #print dict_id_authors['Andrade:Ewerton_R=']+1 = 336 (eurosp)
     f1=open('dblp_data','wb')
     f2=open('dblp_edgelist','wb')    
-    #f3=open('dblp_nodes','wb')
+    
     for u,v in sorted(G.edges()):
         f1.write("%s %s\n" % (u, v))
-        #convert tiap nama ke integer mulai dari 1
+        #convert tiap nama ke integer mulai dari 1 biar bisa dibaca di LEMON
         f2.write("%d %d\n" % (dict_id_authors[u]+1,dict_id_authors[v]+1) )
         
     f1.close()
@@ -196,7 +197,7 @@ def generate_edgelistfile(G):
 if __name__ == "__main__":
       
     #1. siapkan array link id conference yang ingin di scrap authornya per paper
-    conflist_id = ['sp','eurosp','cvpr'] # sp, eurosp, cvpr, issi, 
+    conflist_id = ['eurosp'] # sp, eurosp, cvpr, issi, 
     
     #2. lakukan scrapping authors , return array 4D
     extracted_data = readConference(conflist_id)
@@ -213,5 +214,5 @@ if __name__ == "__main__":
     #5. (optional) save ke file edgelist    id dimulai dari 1
     generate_edgelistfile(G)
         
-    #4. Jalankan algoritma Community Detection ex : louvain
-    run_louvain_cd(G)
+    #4. Jalankan algoritma Louvain Community Detection
+    #run_louvain_cd(G)
