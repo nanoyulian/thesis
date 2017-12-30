@@ -94,22 +94,30 @@ def read_edgelist(filename,delimiter=None,nodetype=int):
                     
         node_number = len(list(nodeset))
         edge_number = len(list(edgeset))
-        #print nodeset
+        
+        print nodeset
+        print node_number
         #print edgeset 
     del edgeset
     
     print "The network has", node_number, "nodes with", edge_number, "edges."
     graph_linklist = [set() for i in range(0,node_number)]   # Initialize the graph in the format of linked list
     del nodeset
-
+    
+    #print graph_linklist
+    
     for i in range(node_number):
         graph_linklist[i].add(i)
     
+    #print graph_linklist
+    
     with open(filename, 'U') as f: 
         for line in f.readlines():
+            print line
             if not line.strip().startswith("#"):
                 L = line.strip().split(delimiter)
                 ni,nj = nodetype(L[0]),nodetype(L[1])
+                print ni,nj
                 if ni != nj:
                     a = ni - 1   #YANG DIPAKE ADALAH INDEXNYA BUKAN VALUENYA.... 
                     b = nj - 1
@@ -242,7 +250,7 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
         sub_prob_distribution.append(prob_distribution[node])
         index += 1
     
-    #new = [0 for k in range(node_number)]
+    #new = [0 for k in range(node_number)] 
     new_graph_size = 3000
 
     node_in_new_graph = list(np.argsort(sub_prob_distribution)[::-1][:new_graph_size])
@@ -527,7 +535,7 @@ if __name__=='__main__':
     parser.add_option("-d", "--delimiter", dest="delimiter", default=' ',
                       help="delimiter of input & output files [default: space]")
 
-    parser.add_option("-f", "--input network file", dest="network_file", default="../example/amazon/graph",
+    parser.add_option("-f", "--input network file", dest="network_file", default="../dblp_edgelist",
                       help="input file of edge list for clustering [default: example_graphs/amazon/graph]")
 
 #    parser.add_option("-g", "--input community ground truth file", dest="groundtruth_community_file", default="../example/amazon/community",
@@ -536,7 +544,7 @@ if __name__=='__main__':
     parser.add_option("--out", "--output file", dest="output_file", default="output.txt",
                       help="output file of detected community [default: output.txt]")
 
-    parser.add_option("--sd", "--input seed set file", dest="seed_set_file", default="../example/amazon/seed",
+    parser.add_option("--sd", "--input seed set file", dest="seed_set_file", default="../dblp_seed",
                       help="input file of initial seed set [default: example_graphs/amazon/seed]")
 
     parser.add_option("-c", "--minimum community size", dest="min_comm_size", default=20,

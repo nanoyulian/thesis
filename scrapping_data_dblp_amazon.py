@@ -15,49 +15,49 @@ import matplotlib.pyplot as plt
 import community as co
 import operator
 
-def parse(url):
-    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
-    page = requests.get(url,headers=headers)
-    for i in range(20):
-        sleep(3)
-        try:
-            doc = html.fromstring(page.content)
-            XPATH_NAME = '//h1[@id="title"]//text()'
-            XPATH_SALE_PRICE = '//span[contains(@id,"ourprice") or contains(@id,"saleprice")]/text()'
-            XPATH_ORIGINAL_PRICE = '//td[contains(text(),"List Price") or contains(text(),"M.R.P") or contains(text(),"Price")]/following-sibling::td/text()'
-            XPATH_CATEGORY = '//a[@class="a-link-normal a-color-tertiary"]//text()'
-            XPATH_AVAILABILITY = '//div[@id="availability"]//text()'
- 
-            RAW_NAME = doc.xpath(XPATH_NAME)
-            RAW_SALE_PRICE = doc.xpath(XPATH_SALE_PRICE)
-            RAW_CATEGORY = doc.xpath(XPATH_CATEGORY)
-            RAW_ORIGINAL_PRICE = doc.xpath(XPATH_ORIGINAL_PRICE)
-            RAw_AVAILABILITY = doc.xpath(XPATH_AVAILABILITY)
- 
-            NAME = ' '.join(''.join(RAW_NAME).split()) if RAW_NAME else None
-            SALE_PRICE = ' '.join(''.join(RAW_SALE_PRICE).split()).strip() if RAW_SALE_PRICE else None
-            CATEGORY = ' > '.join([i.strip() for i in RAW_CATEGORY]) if RAW_CATEGORY else None
-            ORIGINAL_PRICE = ''.join(RAW_ORIGINAL_PRICE).strip() if RAW_ORIGINAL_PRICE else None
-            AVAILABILITY = ''.join(RAw_AVAILABILITY).strip() if RAw_AVAILABILITY else None
- 
-            if not ORIGINAL_PRICE:
-                ORIGINAL_PRICE = SALE_PRICE
-            #retrying in case of caotcha
-            if not NAME :
-                raise ValueError('captcha')
-
-            data = {
-                    'NAME':NAME,
-                    'SALE_PRICE':SALE_PRICE,
-                    'CATEGORY':CATEGORY,
-                    'ORIGINAL_PRICE':ORIGINAL_PRICE,
-                    'AVAILABILITY':AVAILABILITY,
-                    'URL':url,
-                    }
- 
-            return data
-        except Exception as e:
-            print e
+#def parse(url):
+#    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
+#    page = requests.get(url,headers=headers)
+#    for i in range(20):
+#        sleep(3)
+#        try:
+#            doc = html.fromstring(page.content)
+#            XPATH_NAME = '//h1[@id="title"]//text()'
+#            XPATH_SALE_PRICE = '//span[contains(@id,"ourprice") or contains(@id,"saleprice")]/text()'
+#            XPATH_ORIGINAL_PRICE = '//td[contains(text(),"List Price") or contains(text(),"M.R.P") or contains(text(),"Price")]/following-sibling::td/text()'
+#            XPATH_CATEGORY = '//a[@class="a-link-normal a-color-tertiary"]//text()'
+#            XPATH_AVAILABILITY = '//div[@id="availability"]//text()'
+# 
+#            RAW_NAME = doc.xpath(XPATH_NAME)
+#            RAW_SALE_PRICE = doc.xpath(XPATH_SALE_PRICE)
+#            RAW_CATEGORY = doc.xpath(XPATH_CATEGORY)
+#            RAW_ORIGINAL_PRICE = doc.xpath(XPATH_ORIGINAL_PRICE)
+#            RAw_AVAILABILITY = doc.xpath(XPATH_AVAILABILITY)
+# 
+#            NAME = ' '.join(''.join(RAW_NAME).split()) if RAW_NAME else None
+#            SALE_PRICE = ' '.join(''.join(RAW_SALE_PRICE).split()).strip() if RAW_SALE_PRICE else None
+#            CATEGORY = ' > '.join([i.strip() for i in RAW_CATEGORY]) if RAW_CATEGORY else None
+#            ORIGINAL_PRICE = ''.join(RAW_ORIGINAL_PRICE).strip() if RAW_ORIGINAL_PRICE else None
+#            AVAILABILITY = ''.join(RAw_AVAILABILITY).strip() if RAw_AVAILABILITY else None
+# 
+#            if not ORIGINAL_PRICE:
+#                ORIGINAL_PRICE = SALE_PRICE
+#            #retrying in case of caotcha
+#            if not NAME :
+#                raise ValueError('captcha')
+#
+#            data = {
+#                    'NAME':NAME,
+#                    'SALE_PRICE':SALE_PRICE,
+#                    'CATEGORY':CATEGORY,
+#                    'ORIGINAL_PRICE':ORIGINAL_PRICE,
+#                    'AVAILABILITY':AVAILABILITY,
+#                    'URL':url,
+#                    }
+# 
+#            return data
+#        except Exception as e:
+#            print e
 
 
 #format param datas : authors_in_paper = [[1,2,3,4,5],[1,8,3],[2,9],[10]]
@@ -74,9 +74,9 @@ def generate_graph_with_edge_list(G, data2D):
                 G.add_edge(edge_list[0],edge_list[1])
                 
         #untuk author tunggal tambahkan langsung mjd node pada graph
-        else:      
-            if(len(data)==1): #ada beberapa li entry proceeding formatnya bukan paper dan author jadi pastikan minimal 1.
-                G.add_node(data[0])    
+#        else:      
+#            if(len(data)==1): #ada beberapa li entry proceeding formatnya bukan paper dan author jadi pastikan minimal 1.
+#                G.add_node(data[0])    
     
        
     return G     
@@ -168,18 +168,23 @@ def run_louvain_cd(G):
     print "Number of Communities Detected:",  len(set(part.values()))    
     print "=========================================================================\n"    
     sorted_part = sorted(part.items(),key=operator.itemgetter(1))
-    print sorted_part
+    #print sorted_part
     plt.show()
 
 #menyimpan graph dalam format edgelist (original f1 dan converted f2)
 def generate_edgelistfile(G):
     dict_id_authors = {}
+    #print G.nodes
     for key,val in zip(G.nodes,range(len(G.nodes))):
         dict_id_authors[key]=val
-    
-    f1=open('data-edgelist.txt','wb')
-    f2=open('data-edgelist-converted.txt','wb')    
-    for u,v in G.edges():
+        print key,":",val
+        
+    #print dict_id_authors
+    #MASIH MASALAH ADA ID NODE YG LONCAT.... TIDAK URUT????
+    f1=open('dblp_data','wb')
+    f2=open('dblp_edgelist','wb')    
+    #f3=open('dblp_nodes','wb')
+    for u,v in sorted(G.edges()):
         f1.write("%s %s\n" % (u, v))
         #convert tiap nama ke integer mulai dari 1
         f2.write("%d %d\n" % (dict_id_authors[u]+1,dict_id_authors[v]+1) )
@@ -191,7 +196,7 @@ def generate_edgelistfile(G):
 if __name__ == "__main__":
       
     #1. siapkan array link id conference yang ingin di scrap authornya per paper
-    conflist_id = ['eurosp'] # sp, eurosp, cvpr, issi, 
+    conflist_id = ['sp','eurosp','cvpr'] # sp, eurosp, cvpr, issi, 
     
     #2. lakukan scrapping authors , return array 4D
     extracted_data = readConference(conflist_id)
