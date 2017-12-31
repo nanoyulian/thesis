@@ -87,7 +87,7 @@ def readConference(conflist_id):
    
     for i in conflist_id:
         url = "http://dblp.uni-trier.de/db/conf/"+i
-        print "Processing: "+url
+        print "Scrap-Processing: "+url
         extracted_data.append(parse_dblp_author_in_conference(url))
     
     return extracted_data
@@ -141,7 +141,8 @@ def parse_dblp_author_in_conference(url):
         print e
   
 #run louvain algorithm community detection, G = network (sudah ada vertex dan edge)
-def run_louvain_cd(G,show_com_list):
+def run_louvain_cd(G,show_com_list,savefile):
+    print "running Louvain Algorithm..."
     part = co.best_partition(G)
     #bikin part baru iterate, yang urutannya sesuai dengan g.nodes￼
     part2 = [] #list baru
@@ -167,7 +168,16 @@ def run_louvain_cd(G,show_com_list):
     print "Detected Communities Based On Louvain Algorithm(Member , Community ID)"
     print "Number of Communities Detected:",  len(set(part.values()))    
     print "=========================================================================\n"    
+    
     sorted_part = sorted(part.items(),key=operator.itemgetter(1))
+    
+    if savefile == True:
+        f = open('com_list_louvain','wb')
+        f.write("community_detected using Louvain Algorithm: (member : id community) \n" )
+        for val in sorted_part:
+            f.write("%s \n" % str(val))        
+        f.close()
+        
     if show_com_list == True:
         print "Community List : \n" 
         print  sorted_part
@@ -176,6 +186,7 @@ def run_louvain_cd(G,show_com_list):
 
 #menyimpan graph dalam format edgelist (original f1 dan converted f2, f3 mapping id)
 def generate_edgelistfile(G): 
+    print "Creating dblp_nodes_id file..."
     f3=open('dblp_nodes_id','wb')
     dict_id_authors = {}
     #print G.nodes
@@ -184,6 +195,7 @@ def generate_edgelistfile(G):
         f3.write("%s : %d \n" % (key, val+1))
     f3.close()
     
+    print "Creating dblp_data and edgelist file..."
     #print dict_id_authors['Andrade:Ewerton_R=']+1 = 336 (eurosp)
     f1=open('dblp_data','wb')
     f2=open('dblp_edgelist','wb')    
@@ -200,7 +212,7 @@ def generate_edgelistfile(G):
 if __name__ == "__main__":
       
     #1. siapkan array link id conference yang ingin di scrap authornya per paper
-    conflist_id = ['eurosp'] # sp, eurosp, cvpr, issi, 
+    conflist_id = ['sp', 'eurosp', 'cvpr'] # sp, eurosp, cvpr, issi, 
     
     #2. lakukan scrapping authors , return array 4D
     extracted_data = readConference(conflist_id)
@@ -218,4 +230,4 @@ if __name__ == "__main__":
     generate_edgelistfile(G)
         
     #4. Jalankan algoritma Louvain Community Detection
-    run_louvain_cd(G,show_com_list=True)
+    run_louvain_cd(G,show_com_list=False, savefile = True)

@@ -439,7 +439,7 @@ Agrawal:Abeer Jang:Jiyong
 Agrawal:Amit_K= Chang:Ju_Yong
 Agrawal:Amit_K= Chari:Visesh
 Agrawal:Amit_K= Chellappa:Rama
-Agrawal:Amit_K= Gupta_0001:Mohit
+Agrawal:Amit_K= Gupta:Mohit
 Agrawal:Amit_K= Mohan:Ankit
 Agrawal:Amit_K= Narasimhan:Srinivasa_G=
 Agrawal:Amit_K= O=Toole:Matthew
@@ -1236,6 +1236,7 @@ Anirudh:Rushil Thiagarajan:Jayaraman_J=
 Anirudh:Rushil Wang:Qiao
 Anjos:Andr=eacute= Chingovska:Ivana
 Anjos:Andr=eacute= Marcel:S=eacute=bastien
+Ant=uacute=nez:Emilio_R= Talvala:Eino=Ville
 Antani:Sameer_K= Gargi:Ullas
 Antani:Sameer_K= Rahman:Md=_Mahmudur
 Antani:Sameer_K= Thoma:George_R=
@@ -1344,7 +1345,6 @@ Ara=uacute=jo:Helder Caseiro:Rui
 Ara=uacute=jo:Helder Gon=ccedil=alves:Nuno
 Ara=uacute=jo:Helder Perdigoto:Luis
 Aradhye:Hrishikesh_B= Sbaiz:Luciano
-Araki:Toshinori Furukawa_0001:Jun
 Araki:Toshinori Ohara:Kazuma
 Araki:Toshinori Watzman:Adi
 Araki:Toshinori Weinstein:Or
@@ -2266,7 +2266,7 @@ Bar=oacute=:Xavier Mart=iacute=nez:Brais
 Bar=oacute=:Xavier Oliu:Marc
 Bar=oacute=:Xavier Valstar:Michel_F=
 Barak:Assi Araki:Toshinori
-Barak:Assi Furukawa_0001:Jun
+Barak:Assi Furukawa:Jun
 Barak:Assi Lichter:Tamar
 Barak:Assi Nof:Ariel
 Barak:Assi Ohara:Kazuma
@@ -11523,13 +11523,15 @@ Fursov:Vladimir Skidanov:Roman
 Furuhashi:Yukihito Kosaka:Akio
 Furuhashi:Yukihito Saito:Akito
 Furuhashi:Yukihito Shibasaki:Takao
+Furukawa:Jun Araki:Toshinori
+Furukawa:Jun Lichter:Tamar
+Furukawa:Jun Ohara:Kazuma
+Furukawa:Jun Watzman:Adi
+Furukawa:Jun Weinstein:Or
 Furukawa:Ryo Inose:Kenji
 Furukawa:Ryo Sagawa:Ryusuke
 Furukawa:Yasutaka Seitz:Steven_M=
 Furukawa:Yasutaka Wijmans:Erik
-Furukawa_0001:Jun Ohara:Kazuma
-Furukawa_0001:Jun Watzman:Adi
-Furukawa_0001:Jun Weinstein:Or
 Furuyama:Nobuhiro Arslan:Hasan
 Furuyama:Nobuhiro Bryll:Robert_K=
 Furuyama:Nobuhiro Kirbas:Cemil
@@ -11968,6 +11970,7 @@ Garg:Ashutosh Pavlovic:Vladimir
 Garg:Gaurav Ant=uacute=nez:Emilio_R=
 Garg:Gaurav Horowitz:Mark
 Garg:Gaurav Levoy:Marc
+Garg:Gaurav Talvala:Eino=Ville
 Garg:Gaurav Vaish:Vaibhav
 Garg:Gaurav Wilburn:Bennett
 Garg:Rahul Ramanan:Deva
@@ -12119,7 +12122,7 @@ Geambasu:Roxana Humbert:Mathias
 Geambasu:Roxana Juels:Ari
 Geambasu:Roxana L=eacute=cuyer:Mathias
 Geambasu:Roxana Lin:Huang
-Geambasu:Roxana Sen_0001:Siddhartha
+Geambasu:Roxana Sen:Siddhartha
 Geambasu:Roxana Tram=egrave=r:Florian
 Geary:Bobby Grecos:Christos
 Gebhart:Genevieve Kohno:Tadayoshi
@@ -13321,7 +13324,7 @@ Griffin:Christopher Moore:Kathleen_A=
 Griffin:Christopher Squicciarini:Anna_Cinzia
 Griffith:John_M= Pushee:Ian_A=
 Griffith:John_M= aipr2003.html#GulerGP03
-Grimm_0001:Robert Bershad:Brian_N=
+Grimm:Robert Bershad:Brian_N=
 Grimson:Eric Bose:Biswajit
 Grimson:Eric Fisher_III:John_W=
 Grimson:Eric Sinha:Pawan
@@ -13818,6 +13821,9 @@ Gupta:Khushi Parikh:Devi
 Gupta:Khushi Yadav:Deshraj
 Gupta:Mithun_Das Huang:Thomas_S=
 Gupta:Mithun_Das Petrovic:Nemanja
+Gupta:Mohit Narasimhan:Srinivasa_G=
+Gupta:Mohit Tian:Yuandong
+Gupta:Mohit Veeraraghavan:Ashok
 Gupta:Otkrist McDuff:Daniel
 Gupta:Otkrist Raskar:Ramesh
 Gupta:Payas Ahamad:Mustaque
@@ -13864,7 +13870,6 @@ Gupta:Vishwa Chapdelaine:Claude
 Gupta:Vishwa Foucher:Samuel
 Gupta:Vishwa Gagnon:Langis
 Gupta:Vishwa H=eacute=ritier:Maguelonne
-Gupta_0001:Mohit Veeraraghavan:Ashok
 Gur:Raquel_E= Wang:Peng
 Gur:Ruben_C= Gur:Raquel_E=
 Gur:Ruben_C= Khurd:Parmeshwar
@@ -15832,6 +15837,7 @@ Horowitz:Bradley Pentland:Alex
 Horowitz:Mark Ant=uacute=nez:Emilio_R=
 Horowitz:Mark Levoy:Marc
 Horowitz:Mark Mitchell:John_C=
+Horowitz:Mark Talvala:Eino=Ville
 Horowitz:Mark Thekkath:Chandramohan_A=
 Horowitz:Mark Vaish:Vaibhav
 Horowitz:Mark Wilburn:Bennett
@@ -16348,7 +16354,7 @@ Huang:Tz=Huan Cheng:Yi=Ting
 Huang:Tz=Huan Wu:Meng=Sung
 Huang:Tzu=Kuo Geambasu:Roxana
 Huang:Tzu=Kuo L=eacute=cuyer:Mathias
-Huang:Tzu=Kuo Sen_0001:Siddhartha
+Huang:Tzu=Kuo Sen:Siddhartha
 Huang:W= Pentland:Alex
 Huang:W= Turk:Matthew
 Huang:Wei Han:Yamin
@@ -20883,7 +20889,6 @@ L=auml=hner:Zorah Bronstein:Michael_M=
 L=auml=hner:Zorah Cremers:Daniel
 L=auml=hner:Zorah Rodol=agrave=:Emanuele
 L=auml=hner:Zorah Schmidt:Frank_R=
-L=eacute=cuyer:Mathias Sen_0001:Siddhartha
 L=eacute=v=ecirc=que:Sylvain Boura:Christina
 L=eacute=v=ecirc=que:Sylvain Vigilant:David
 L=ecirc==Huu:D=_Khu=ecirc= Paragios:Nikos
@@ -22019,6 +22024,7 @@ Levitt:Karl_N= sp1990.html#HerberleinDLMWW90
 Levitt:Karl_N= sp1991.html#Alves-FossL91
 Levoy:Marc Ant=uacute=nez:Emilio_R=
 Levoy:Marc Park:Sung_Hee
+Levoy:Marc Talvala:Eino=Ville
 Levoy:Marc Vaish:Vaibhav
 Levoy:Marc Wilburn:Bennett
 Levy:Henry_M= Gribble:Steven_D=
@@ -22930,7 +22936,6 @@ Liao:Xuejun Yang:Jianbo
 Liao:Xuejun Yuan:Xin
 Libal:Vit Ramaswamy:Ganesh_N=
 Lichter:Tamar Araki:Toshinori
-Lichter:Tamar Furukawa_0001:Jun
 Lichter:Tamar Ohara:Kazuma
 Lichter:Tamar Watzman:Adi
 Lichter:Tamar Weinstein:Or
@@ -23350,7 +23355,7 @@ Lindell:Robert Porras:Phillip_A=
 Lindell:Robert Sibert:Olin
 Lindell:Yehuda Araki:Toshinori
 Lindell:Yehuda Barak:Assi
-Lindell:Yehuda Furukawa_0001:Jun
+Lindell:Yehuda Furukawa:Jun
 Lindell:Yehuda Lichter:Tamar
 Lindell:Yehuda Nof:Ariel
 Lindell:Yehuda Ohara:Kazuma
@@ -27798,7 +27803,6 @@ Narasimhan:Srinivasa_G= Choe:Gyeongmin
 Narasimhan:Srinivasa_G= Dubrawski:Artur
 Narasimhan:Srinivasa_G= Dubrawski:Artur_W=
 Narasimhan:Srinivasa_G= Gomez:Hernando
-Narasimhan:Srinivasa_G= Gupta_0001:Mohit
 Narasimhan:Srinivasa_G= Kanade:Takeo
 Narasimhan:Srinivasa_G= Koppal:Sanjeev_J=
 Narasimhan:Srinivasa_G= Pinsky:Michael_R=
@@ -27954,7 +27958,7 @@ Nayar:Shree_K= Cossairt:Oliver
 Nayar:Shree_K= Dana:Kristin_J=
 Nayar:Shree_K= Ginneken:Bram_van
 Nayar:Shree_K= Gupta:Alok
-Nayar:Shree_K= Gupta_0001:Mohit
+Nayar:Shree_K= Gupta:Mohit
 Nayar:Shree_K= Hadjidemetriou:Efstathios
 Nayar:Shree_K= Karmarkar:Amruta
 Nayar:Shree_K= Koenderink:Jan_J=
@@ -28478,7 +28482,7 @@ Noergaard:Mads Christensen:Thomas
 Noergaard:Mads Hoover:Adam_W=
 Noergaard:Mads Madsen:Claus_B=
 Nof:Ariel Araki:Toshinori
-Nof:Ariel Furukawa_0001:Jun
+Nof:Ariel Furukawa:Jun
 Nof:Ariel Lichter:Tamar
 Nof:Ariel Ohara:Kazuma
 Nof:Ariel Watzman:Adi
@@ -34080,7 +34084,7 @@ Schechner:Yoav_Y= Barzelay:Zohar
 Schechner:Yoav_Y= Davis:Anthony_B=
 Schechner:Yoav_Y= Diamant:Yaron
 Schechner:Yoav_Y= Elad:Michael
-Schechner:Yoav_Y= Gupta_0001:Mohit
+Schechner:Yoav_Y= Gupta:Mohit
 Schechner:Yoav_Y= Kaftory:Ran
 Schechner:Yoav_Y= Kiryati:Nahum
 Schechner:Yoav_Y= Kutulakos:Kiriakos_N=
@@ -34686,6 +34690,7 @@ Sen:Shayak Rajamani:Sriram_K=
 Sen:Shayak Tsai:Janice_Y=
 Sen:Shayak Wing:Jeannette_M=
 Sen:Shayak Zick:Yair
+Sen:Siddhartha L=eacute=cuyer:Mathias
 Senator:Ted_E= Goldberg:Henry_G=
 Senator:Ted_E= Sartain:James_F=
 Senator:Ted_E= Young:William_T=
@@ -36174,6 +36179,8 @@ Smiley:Byron Vinciguerra:Lori
 Sminchisescu:Cristian Li:Fuxin
 Sminchisescu:Cristian Mathe:Stefan
 Sminchisescu:Cristian Zanfir:Mihai
+Smith:Adam_D= Thakurta:Abhradeep
+Smith:Adam_D= Upadhyay:Jalaj
 Smith:Benjamin Allen:Peter_K=
 Smith:Benjamin Murray:Stephen
 Smith:Benjamin Stamos:Ioannis
@@ -36717,7 +36724,7 @@ Spagnolo:Paolo Stella:Ettore
 Spahn:Riley Geambasu:Roxana
 Spahn:Riley Huang:Tzu=Kuo
 Spahn:Riley L=eacute=cuyer:Mathias
-Spahn:Riley Sen_0001:Siddhartha
+Spahn:Riley Sen:Siddhartha
 Spampinato:Concetto Palazzo:Simone
 Spampinato:Concetto Souly:Nasim
 Sparks:E=_P= Blissett:Rod
@@ -38162,12 +38169,6 @@ Talele:Nirupama Jaeger:Trent
 Talele:Nirupama Payer:Mathias
 Talmi:Itamar Mechrez:Roey
 Talmi:Itamar Zelnik=Manor:Lihi
-Talvala:Eino=Ville Ant=uacute=nez:Emilio_R=
-Talvala:Eino=Ville Garg:Gaurav
-Talvala:Eino=Ville Horowitz:Mark
-Talvala:Eino=Ville Levoy:Marc
-Talvala:Eino=Ville Vaish:Vaibhav
-Talvala:Eino=Ville Wilburn:Bennett
 Talwalkar:Ameet Kumar:Sanjiv
 Talwalkar:Ameet Rowley:Henry_A=
 Taly:Ankur Erlingsson:=Uacute=lfar
@@ -38882,7 +38883,6 @@ Th=uuml=ring:Sven Ohya:Jun
 Thabet:Ali_K= Niebles:Juan_Carlos
 Thakoor:Ninad Bhanu:Bir
 Thakoor:Ninad Gao:Jean
-Thakurta:Abhradeep Smith:Adam_D=
 Thaler:Marcus Bailer:Werner
 Thaller:Wolfgang Krispel:Ulrich
 Thangali:Ashwin Ablavsky:Vitaly
@@ -39180,7 +39180,6 @@ Tian:YongHong Pontil:Massimiliano
 Tian:YongHong Wang:Yaowei
 Tian:YongHong Xiang:Tao
 Tian:Yuan Wang_0001:Yizhou
-Tian:Yuandong Gupta_0001:Mohit
 Tian:Yuandong Metaxas:Dimitris
 Tian:Yuandong Narasimhan:Srinivasa_G=
 Tian:Yuandong Torre:Fernando_De_la
@@ -40076,7 +40075,6 @@ Unruh:Dominique Backes_0001:Michael
 Unruh:Dominique Hofheinz:Dennis
 Unruh:Dominique Maffei:Matteo
 Unser:Michael Cornelis:Jan
-Upadhyay:Jalaj Smith:Adam_D=
 Upadhyay:Jalaj Thakurta:Abhradeep
 Upchurch:Paul Bala:Kavita
 Upchurch:Paul Bell:Sean
@@ -40165,6 +40163,7 @@ Vaillant:R=eacute=gis Krissian:Karl
 Vaillant:R=eacute=gis Malandain:Gr=eacute=goire
 Vaillant:R=eacute=gis Trousset:Yves
 Vaish:Vaibhav Ant=uacute=nez:Emilio_R=
+Vaish:Vaibhav Talvala:Eino=Ville
 Vaish:Vaibhav Wilburn:Bennett
 Vajda:Ferenc Srp:=Aacute=goston
 Vald=eacute=s:V=iacute=ctor Baron:Robert_V=
@@ -42703,6 +42702,7 @@ Wijesekera:Primal Wagner_0001:David_A=
 Wilber:Michael_J= Boult:Terrance_E=
 Wilber:Michael_J= Scheirer:Walter_J=
 Wilburn:Bennett Ant=uacute=nez:Emilio_R=
+Wilburn:Bennett Talvala:Eino=Ville
 Wilburn:Bennett Xu:Hui
 Wilburn:Bennett Yu:Huimin
 Wilcox:Laurie_M= Benzeroual:Karim
@@ -46804,7 +46804,7 @@ Zhang:Li Figurnov:Michael
 Zhang:Li Gong:Shaogang
 Zhang:Li Gu:Jianping
 Zhang:Li Guo:Yiwen
-Zhang:Li Gupta_0001:Mohit
+Zhang:Li Gupta:Mohit
 Zhang:Li Jiang:Hongrui
 Zhang:Li Li:Qiang
 Zhang:Li Li:Yuan

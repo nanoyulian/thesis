@@ -95,8 +95,8 @@ def read_edgelist(filename,delimiter=None,nodetype=int):
         node_number = len(list(nodeset))
         edge_number = len(list(edgeset))
         
-        print nodeset
-        print node_number
+        #print nodeset
+        #print node_number
         #print edgeset 
     del edgeset
     
@@ -113,11 +113,11 @@ def read_edgelist(filename,delimiter=None,nodetype=int):
     
     with open(filename, 'U') as f: 
         for line in f.readlines():
-            print line
+            #print line
             if not line.strip().startswith("#"):
                 L = line.strip().split(delimiter)
                 ni,nj = nodetype(L[0]),nodetype(L[1])
-                print ni,nj
+                #print ni,nj
                 if ni != nj:
                     a = ni - 1   #YANG DIPAKE ADALAH INDEXNYA BUKAN VALUENYA.... 
                     b = nj - 1
@@ -240,8 +240,8 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
             if len(subgraph) >= 7000:
                 break
     
-    print RW_graph
-    print subgraph
+    #print RW_graph
+    #print subgraph
     
     index = 0
     RW_dict = {}
@@ -254,7 +254,7 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
         index += 1
     
     #new = [0 for k in range(node_number)] 
-    new_graph_size = 3000
+    new_graph_size = 3000 #jumlah node pada graph baru yang akan disample berdasarkan seed
 
     node_in_new_graph = list(np.argsort(sub_prob_distribution)[::-1][:new_graph_size])
     node_in_new_graph_ori_index = []
@@ -550,16 +550,16 @@ if __name__=='__main__':
     parser.add_option("--sd", "--input seed set file", dest="seed_set_file", default="../dblp_seed",
                       help="input file of initial seed set [default: example_graphs/amazon/seed]")
 
-    parser.add_option("-c", "--minimum community size", dest="min_comm_size", default=20,
+    parser.add_option("-c", "--minimum community size", dest="min_comm_size", default=600,
                       help="the minimum size of a single community in the network [default: 50]")
 
-    parser.add_option("-C", "--maximal community size", dest="max_comm_size", default=100,
+    parser.add_option("-C", "--maximal community size", dest="max_comm_size", default=1000,
                       help="the maximum size of a single community in the network [default: 400]")
 
     parser.add_option("-s", "--sample rate", dest="sample_rate", default=0.007,
                       help="the percentile of nodes left for local detection after sampling [default: 0.007]")
 
-    parser.add_option("-e", "--expand step", dest="expand_step", default=6,
+    parser.add_option("-e", "--expand step", dest="expand_step", default=3,
                       help="the step of seed set increasement during expansion process [default: 6]")
 
     parser.add_option("-z", "--seed set size", dest="ini_num_of_seed", default=3,
