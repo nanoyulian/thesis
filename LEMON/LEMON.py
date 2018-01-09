@@ -396,15 +396,13 @@ def seed_expand_auto(G,seedset,min_comm_size,max_comm_size,expand_step=None,subs
     
     # Initialization
     detected = list(seedset)
-    [r,c] = Orth_Prob_Matrix.shape
-    seed = seedset
+    [r,c] = Orth_Prob_Matrix.shape #row, column
+    seed = seedset 
     step = expand_step
     iteration = 0
     F1_scores = []
     Jaccard_scores = []
     detected_comm = []
-
-
    
     global_conductance = np.zeros(30)
     global_conductance[-1] = 1000000 # set the last element to be infinitely large
@@ -422,8 +420,7 @@ def seed_expand_auto(G,seedset,min_comm_size,max_comm_size,expand_step=None,subs
        
         detected = list(set(list(detected) + sorted_top))
         seed = np.array(detected)
-        
-       
+               
         conductance_record = np.zeros(max_comm_size - min_comm_size + 1)
         conductance_record[-1] = 0
         community_size = [0]

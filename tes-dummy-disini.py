@@ -65,13 +65,8 @@ def distance(a,b, ax=1):
 
 #X adalah kumpulan data titik 2 dimensi yang ingin di cluster ke 2 centroid K = 2 :(0,1)
 X = np.array([[11,12],[8,4],[4,7],[5,5],
-              [9,2],
-              [3,4],
-              [4,6],
-              [3,9],
-              [1,5],
-              [5,8],
-              [6,0]] )
+              [9,2], [3,4], [4,6],[3,9],
+              [1,5], [5,8], [6,0]] )
 
 print X #format matrix
 

@@ -76,8 +76,7 @@ def generate_graph_with_edge_list(G, data2D):
         #untuk author tunggal tambahkan langsung mjd node pada graph
 #        else:      
 #            if(len(data)==1): #ada beberapa li entry proceeding formatnya bukan paper dan author jadi pastikan minimal 1.
-#                G.add_node(data[0])    
-    
+#                G.add_node(data[0])        
        
     return G     
     
@@ -212,7 +211,7 @@ def generate_edgelistfile(G):
 if __name__ == "__main__":
       
     #1. siapkan array link id conference yang ingin di scrap authornya per paper
-    conflist_id = ['sp', 'eurosp', 'cvpr'] # sp, eurosp, cvpr, issi, 
+    conflist_id = ['eurosp','sp','cvpr'] # sp, eurosp, cvpr, issi, 
     
     #2. lakukan scrapping authors , return array 4D
     extracted_data = readConference(conflist_id)
@@ -228,6 +227,11 @@ if __name__ == "__main__":
         
     #5. (optional) save ke file edgelist    id dimulai dari 1
     generate_edgelistfile(G)
-        
+    
+    #plt.rcParams['axes.facecolor'] = '#ffffb3'
+    #nx.draw_networkx(G,pos=nx.spring_layout(G), width = 0.6, edge_color="#ff0000", node_color="#333399", with_labels=False,alpha=0.4, node_size=5)
+    #listofdegreetuple = G.degree()    
+    #print sorted(listofdegreetuple, key=lambda x: x[1],reverse=True)
+    
     #4. Jalankan algoritma Louvain Community Detection
     run_louvain_cd(G,show_com_list=False, savefile = True)
