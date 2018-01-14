@@ -1,3 +1,5 @@
+=Aacute=lvarez:Jos=eacute=_Manuel Gevers:Theo
+=Aacute=lvarez:Jos=eacute=_Manuel L=oacute=pez:Antonio_M=
 =Aring=str=ouml=m:Freddie Schmitzer:Bernhard
 =Aring=str=ouml=m:Freddie Schn=ouml=rr:Christoph
 =Aring=str=ouml=m:Kalle Ahrnbom:Martin
@@ -710,8 +712,13 @@ Akgul:Yusuf_Sinan Kambhamettu:Chandra
 Akgul:Yusuf_Sinan Stone:Maureen
 Akhawe:Devdatta Athayle:Anish
 Akhawe:Devdatta Chatterjee:Rahul
+Akhawe:Devdatta Hanna:Steve
 Akhawe:Devdatta Juels:Ari
+Akhawe:Devdatta Mao:Feng
+Akhawe:Devdatta McCamant:Stephen
 Akhawe:Devdatta Ristenpart:Thomas
+Akhawe:Devdatta Saxena:Prateek
+Akhawe:Devdatta Song:Dawn
 Akhoondi:Masoud Madhyastha:Harsha_V=
 Akhoondi:Masoud Yu:Curtis
 Akhter:Ijaz Black:Michael_J=
@@ -1089,7 +1096,6 @@ Anandan:P= Owen:R=_L=
 Anandan:P= Rui:Yong
 Anandan:P= Seitz:Steven_M=
 Anandan:P= Staib:Lawrence_H=
-Anandkumar:Anima Khanna:Aran
 Anandkumar:Anima Kossaifi:Jean
 Anandkumar:Anima Lipton:Zachary_Chase
 Anantharaman:Prashant Lindqvist:Ulf
@@ -1106,6 +1112,16 @@ Anderson:Charles_H= Belongie:Serge_J=
 Anderson:Charles_H= Goodman:Rodney_M=
 Anderson:Charles_H= Perona:Pietro
 Anderson:Charles_W= Kirby:Michael_J=
+Anderson:Danny Checkoway:Stephen
+Anderson:Danny Czeskis:Alexei
+Anderson:Danny Kantor:Brian
+Anderson:Danny Kohno:Tadayoshi
+Anderson:Danny Koscher:Karl
+Anderson:Danny McCoy:Damon
+Anderson:Danny Patel:Shwetak
+Anderson:Danny Roesner:Franziska
+Anderson:Danny Savage:Stefan
+Anderson:Danny Shacham:Hovav
 Anderson:David_J= Lin:Dayu
 Anderson:David_J= Perona:Pietro
 Anderson:David_P= Rangan:P=_Venkat
@@ -1372,7 +1388,6 @@ Arden:Owen Askarov:Aslan
 Arden:Owen George:Michael_D=
 Arden:Owen Myers:Andrew_C=
 Arden:Owen Vikram:K=
-Arderiu:Joan Yang_0001:Ming=Hsuan
 Ardeshir:Shervin Collins=Sibley:Kofi_Malcolm
 Ardeshir:Shervin Zamir:Amir_Roshan
 Ardi:Calvin Fisk:Gina
@@ -1788,7 +1803,6 @@ Babahajiani:Pouria Fan:Lixin
 Babahajiani:Pouria Gabbouj:Moncef
 Babaie:Morteza Kalra:Shivam
 Babbs:Justin Souvenir:Richard
-Babenko:Boris Yang_0001:Ming=Hsuan
 Babon:Frederic Allie:Valerie
 Babon:Frederic Boisson:Guillaume
 Babon:Frederic Bureller:Olivier
@@ -1865,7 +1879,6 @@ Bae:Woong Wang:Xinchao
 Bae:Woong Wang:Zhengtao
 Bae:Woong Wu:Shixiang
 Bae:Woong Xu:Xiangyu
-Bae:Woong Yang_0001:Ming=Hsuan
 Bae:Woong Ye:Jong_Chul
 Bae:Woong Yu:Haichao
 Bae:Woong Yu:Ke
@@ -1958,7 +1971,6 @@ Bailur:Smita_V= Koduri:Tejaswi
 Bailur:Smita_V= Murali:Vidya_N=
 Bajaj:Chandrajit_L= Anton:Fran=ccedil=ois
 Bajaj:Chandrajit_L= Zhang_0005:Qin
-Bajcsy:Peter Lund:Steven_P=
 Bajcsy:Ruzena Alexander:Daniel_C=
 Bajcsy:Ruzena Binford:Thomas_O=
 Bajcsy:Ruzena Chaudhry:Rizwan
@@ -2055,6 +2067,7 @@ Balasubramanian:Prashanth Mittal:Anurag
 Balasubramanian:Prashanth Pathak:Sarthak
 Balasubramanian:Sanjay Chhabra:Atul_K=
 Balasubramanian:Vineeth_Nallure Ye:Jieping
+Baldwin:Robert_W= Gramlich:Wayne
 Bales:Michael_Ryan Apewokin:Senyo
 Bales:Michael_Ryan Valentine:Brian
 Bales:Michael_Ryan Wills:D=_Scott
@@ -2126,6 +2139,10 @@ Bandara:Udana Wang:Xiangyu
 Bandari:Esfandiar Little:James_J=
 Bandera:Cesar Du:Fenglei
 Bandera:Cesar Izatt:Andrew
+Bandhakavi:Sruthi Etalle:Sandro
+Bandhakavi:Sruthi Hartog:Jerry_den
+Bandhakavi:Sruthi Rocha:Bruno_P=_S=
+Bandhakavi:Sruthi Winsborough:William_H=
 Bandmann:Olav_L= Dam:Mads
 Bandmann:Olav_L= Firozabadi:Babak_Sadighi
 Banerjee:Amit Chellappa:Rama
@@ -2503,6 +2520,7 @@ Bau:David Khosla:Aditya
 Bau:David Oliva:Aude
 Bau:David Torralba_0001:Antonio
 Bau:David Zhou:Bolei
+Bau:Jason Gupta:Divij
 Bauckhage:Christian Cremers:Armin_B=
 Bauer:Claus Radhakrishnan:Regunathan
 Bauer:Lujo Christin:Nicolas
@@ -2539,12 +2557,13 @@ Baust:Maximilian Ilic:Slobodan
 Baust:Maximilian Navab:Nassir
 Baust:Maximilian Slavcheva:Miroslava
 Baust:Maximilian Yezzi:Anthony_J=
-Bautista:Miguel_=Aacute=ngel Bar=oacute=:Xavier
-Bautista:Miguel_=Aacute=ngel Escalante:Hugo_Jair
-Bautista:Miguel_=Aacute=ngel Fabian:Junior
-Bautista:Miguel_=Aacute=ngel Oliu:Marc
-Bautista:Miguel_=Aacute=ngel Ommer:Bj=ouml=rn
-Bautista:Miguel_=Aacute=ngel Sanakoyeu:Artsiom
+Bautista_0001:Miguel_=Aacute=ngel Bar=oacute=:Xavier
+Bautista_0001:Miguel_=Aacute=ngel Escalante:Hugo_Jair
+Bautista_0001:Miguel_=Aacute=ngel Escalera:Sergio
+Bautista_0001:Miguel_=Aacute=ngel Fabian:Junior
+Bautista_0001:Miguel_=Aacute=ngel Oliu:Marc
+Bautista_0001:Miguel_=Aacute=ngel Ommer:Bj=ouml=rn
+Bautista_0001:Miguel_=Aacute=ngel Sanakoyeu:Artsiom
 Bawendi:Moungi Bardagjy:Andrew
 Bawendi:Moungi Lawson:Everett
 Bawendi:Moungi Raskar:Ramesh
@@ -2707,7 +2726,6 @@ Belongie:Serge_J= Moghimi:Mohammad
 Belongie:Serge_J= Rabaud:Vincent
 Belongie:Serge_J= Wah:Catherine
 Belongie:Serge_J= Winlock:Tess
-Belongie:Serge_J= Yang_0001:Ming=Hsuan
 Belongie:Serge_J= Zhou:Feng
 Ben=Arie:Jezekiel Ma:Kai
 Ben=Arie:Jezekiel Nandy:Dibyendu
@@ -3001,6 +3019,7 @@ Bestagini:Paolo Tubaro:Stefano
 Bestagini:Paolo Wang:Yu
 Beth:Thomas Klein:Birgit
 Beth:Thomas Yahalom:Raphael
+Bethard:Steven Jurafsky:Daniel
 Bethencourt:John Chan:Hubert_T==H=
 Bethencourt:John Gong:Neil_Zhenqiang
 Bethencourt:John Narayanan:Arvind
@@ -3175,6 +3194,7 @@ Bilodeau:Guillaume=Alexandre Desgent:S=eacute=bastien
 Bilodeau:Guillaume=Alexandre Duss:Sandra
 Bilodeau:Guillaume=Alexandre Farah:Rana
 Bilodeau:Guillaume=Alexandre Galinier:Philippe
+Bilodeau:Guillaume=Alexandre Garnier:R=
 Bilodeau:Guillaume=Alexandre Lessard:Adrien
 Bilodeau:Guillaume=Alexandre Sonn:Socheat
 Bilodeau:Guillaume=Alexandre St=Charles:Pierre=Luc
@@ -3302,7 +3322,9 @@ Bishop:Matt Aura:Tuomas
 Bishop:Matt Avrunin:George_S=
 Bishop:Matt Clarke:Lori_A=
 Bishop:Matt Levitt:Karl_N=
+Bishop:Matt Neumann:Peter_G=
 Bishop:Matt Riddle:Sean
+Bishop:Matt Schaefer:Marv
 Bishop:Matt Simidchieva:Borislava_I=
 Bishop:Rob Aitken:Andrew_P=
 Bishop:Rob Caballero:Jose
@@ -3906,7 +3928,6 @@ Brady:David_J= Yuan:Xin
 Brady:J=_Michael Jenkinson:Mark
 Brady:Mary Bajcsy:Peter
 Brady:Mary Chalfoun:Joe
-Brady:Mary Lund:Steven_P=
 Brady_0001:Michael Du:Fenglei
 Brady_0001:Michael Highnam:Ralph
 Brady_0001:Michael Merron:Jason
@@ -4239,7 +4260,6 @@ Brunsmann:Ulrich Doll:Konrad
 Brunthaler:Stefan Crane:Stephen
 Brunthaler:Stefan Franz:Michael
 Brunthaler:Stefan Homescu:Andrei
-Brunthaler:Stefan Liebchen:Christopher
 Brusco:Nicola Cortelazzo:Guido_M=
 Brush:A=_J=_Bernheim Egelman:Serge
 Brush:A=_J=_Bernheim Schechter:Stuart_E=
@@ -4495,15 +4515,19 @@ Burry:Aaron Paul:Peter
 Burry:Aaron Wshah:Safwan
 Bursuc:Sergiu Ryan:Peter_Y=_A=
 Bursztein:Elie Bailey:Michael
+Bursztein:Elie Bau:Jason
 Bursztein:Elie Beauxis:Romain
+Bursztein:Elie Bethard:Steven
 Bursztein:Elie Comanescu:Oxana
 Bursztein:Elie Durumeric:Zakir
 Bursztein:Elie Fabry:Celine
 Bursztein:Elie Foster:Sam
 Bursztein:Elie Grier:Chris
+Bursztein:Elie Gupta:Divij
 Bursztein:Elie Hamburg:Mike
 Bursztein:Elie Ho:Grant
 Bursztein:Elie Invernizzi:Luca
+Bursztein:Elie Jurafsky:Daniel
 Bursztein:Elie Kapravelos:Alexandros
 Bursztein:Elie Lagarenne:Jocelyn
 Bursztein:Elie McCoy:Damon
@@ -4837,7 +4861,6 @@ Cao:Lei Le:Truc
 Cao:Lei Lin:Liang
 Cao:Lei Sun:Deqing
 Cao:Lei Wu:Shixiang
-Cao:Lei Yang_0001:Ming=Hsuan
 Cao:Lei Yu:Haichao
 Cao:Lei Zhang:Lei
 Cao:Liangliang Chang:Shiyu
@@ -4990,6 +5013,7 @@ Carmant:Lionel Bilodeau:Guillaume=Alexandre
 Carmant:Lionel Desgent:S=eacute=bastien
 Carmant:Lionel Duss:Sandra
 Carmant:Lionel Farah:Rana
+Carmant:Lionel St=Onge:Pier=Luc
 Carmona:Pedro_Latorre Lenz:Reiner
 Carneiro:Gustavo Amat:Fernando
 Carneiro:Gustavo Comaniciu:Dorin
@@ -5139,7 +5163,6 @@ Chakraborty:Shayok Eusebio:Jose
 Chakravarty:Punarjay Tuytelaars:Tinne
 Chakravorty:Antorweep Wlodarczyk:Tomasz_Wiktor
 Chalfoun:Joe Bajcsy:Peter
-Chalfoun:Joe Lund:Steven_P=
 Cham:Tat=Jen Cipolla:Roberto
 Cham:Tat=Jen Ciptadi:Arridhana
 Cham:Tat=Jen Feng:Zhou
@@ -5422,7 +5445,6 @@ Chang:Xiaojun ijcai2017.html#ChengCLHGZ17
 Chang:Ya Feris:Rog=eacute=rio_Schmidt
 Chang:Ya Hu:Changbo
 Chang:Ya Turk:Matthew
-Chang:Yao=Jen Chen:Tsuhan
 Chang:Yao=Jen Kowdle:Adarsh
 Chang:Yaw Chen:Cuixian
 Chang:Yaw Ricanek:Karl
@@ -5544,6 +5566,12 @@ Chechik:Gal Vedantam:Ramakrishna
 Chechik:Gal Veit:Andreas
 Checka:Neal Rangarajan:Vibhav
 Checka:Neal Wilson:Kevin_W=
+Checkoway:Stephen Kantor:Brian
+Checkoway:Stephen Koscher:Karl
+Checkoway:Stephen McCoy:Damon
+Checkoway:Stephen Roesner:Franziska
+Checkoway:Stephen Savage:Stefan
+Checkoway:Stephen Shacham:Hovav
 Chekhlov:Denis Pupilli:Mark
 Chekmenev:Sergey_Y= Essock:Edward_A=
 Chekmenev:Sergey_Y= Farag:Aly_A=
@@ -5920,18 +5948,26 @@ Chen:Trista_P= Chen:Francine
 Chen:Trista_P= Davis:Larry_S=
 Chen:Trista_P= Gupta:Abhinav
 Chen:Tsuhan Ashraf:Ahmed_Bilal
+Chen:Tsuhan Chang:Yao=Jen
 Chen:Tsuhan Chiu:Yi=I
 Chen:Tsuhan Chu:Hang
 Chen:Tsuhan Edelman:Shimon
+Chen:Tsuhan Gallagher:Andrew_C=
 Chen:Tsuhan Hua:Gang
+Chen:Tsuhan Jia:Zhaoyin
 Chen:Tsuhan Kihara:Yuka
 Chen:Tsuhan Kowdle:Adarsh
+Chen:Tsuhan Li:Congcong
+Chen:Tsuhan Liu:David
 Chen:Tsuhan Lucey:Simon
 Chen:Tsuhan Luo:Jiebo
 Chen:Tsuhan Parikh:Devi
+Chen:Tsuhan Peng:Kuan=Chuan
 Chen:Tsuhan Saxena:Ashutosh
 Chen:Tsuhan Shim:Hyunjung
+Chen:Tsuhan Sukthankar:Rahul
 Chen:Tsuhan Zhang:Yimeng
+Chen:Tsuhan Zitnick:C=_Lawrence
 Chen:Wei Corso:Jason_J=
 Chen:Wei Xiong:Caiming
 Chen:Wei=Chao Gelfand:Natasha
@@ -6014,7 +6050,6 @@ Chen:Yen=Kuang Yang:Shao=Wen
 Chen:Yi Wang:Peng
 Chen:Yi=Chen Chellappa:Rama
 Chen:Yi=Ting Liu:Xiaokai
-Chen:Yi=Ting Yang_0001:Ming=Hsuan
 Chen:Yie=Tarng Cheng:Kai=Wen
 Chen:Yiran Afzal:Tariq
 Chen:Yiran Li:Hai
@@ -6105,7 +6140,7 @@ Chen:Zhaofeng McCamant:Stephen
 Chen:Zhaofeng Song:Dawn
 Chen:Zhaofeng Szekeres:Laszlo
 Chen:Zhaofeng Wei:Tao
-Chen:Zhaofeng Zhang:Chao
+Chen:Zhaofeng Zhang_0008:Chao
 Chen:Zhaofeng Zou:Wei
 Chen:Zhe Tao:Dacheng
 Chen:ZhiYu Page:David_L=
@@ -6552,7 +6587,6 @@ Choi:Jae=Seok Wang:Zhengtao
 Choi:Jae=Seok Wu:Shixiang
 Choi:Jae=Seok Xu:Jinchang
 Choi:Jae=Seok Xu:Xiangyu
-Choi:Jae=Seok Yang_0001:Ming=Hsuan
 Choi:Jae=Seok Ye:Jong_Chul
 Choi:Jae=Seok Yoo:Jae_Jun
 Choi:Jae=Seok Yu:Haichao
@@ -6704,8 +6738,10 @@ Christin:Nicolas Mazurek:Michelle_L=
 Christin:Nicolas Vidas:Timothy
 Christmas:William_J= Wu:Xiaojun
 Christodorescu:Mihai Bryant:Randal_E=
+Christodorescu:Mihai Fredrikson:Matt
 Christodorescu:Mihai Seshia:Sanjit_A=
 Christodorescu:Mihai Song:Dawn_Xiaodong
+Christodorescu:Mihai Yan:Xifeng
 Chrysos:Grigorios Deng:Jiankang
 Chrysos:Grigorios Shen:Jie
 Chrysos:Grigorios Trigeorgis:George
@@ -6752,6 +6788,7 @@ Chuang:Yung=Yu Chen:Chu=Song
 Chuang:Yung=Yu Cheng:Kai=Yin
 Chuang:Yung=Yu Cheng:Yi=Ting
 Chuang:Yung=Yu Chung:Cheng=Da
+Chuang:Yung=Yu Ding:Jian=Jiun
 Chuang:Yung=Yu Huang:Tz=Huan
 Chuang:Yung=Yu Lai:Wei=Sheng
 Chuang:Yung=Yu Lee:Ken=Yi
@@ -7159,7 +7196,6 @@ Copos:Bogdan Rowe:Jeff
 Coppens:Bart Verbauwhede:Ingrid
 Coraor:Lee_D= McCandless:Jeffrey
 Corazza:Stefano Andriacchi:Thomas_P=
-Corbett=Davies:Sam Savarese:Silvio
 Corbetta:Jacopo Bianchi:Antonio
 Corbetta:Jacopo Fratantonio:Yanick
 Corbetta:Jacopo Invernizzi:Luca
@@ -7299,6 +7335,7 @@ Courty:Nicolas Creusot:Clement
 Courville:Aaron_C= Kastner:Kyle
 Couvignou:Philippe_A= Khosla:Pradeep_K=
 Couzinie=Devy:Florent Alahari:Karteek
+Couzinie=Devy:Florent Sun_0009:Jian
 Cova:Marco Balzarotti:Davide
 Cova:Marco Jovanovic:Nenad
 Cowley_0002:Benjamin Savvides:Marios
@@ -7447,7 +7484,6 @@ Cruz:Crist=oacute=v=atilde=o Wang:Zhengtao
 Cruz:Crist=oacute=v=atilde=o Wu:Shixiang
 Cruz:Crist=oacute=v=atilde=o Xu:Jinchang
 Cruz:Crist=oacute=v=atilde=o Xu:Xiangyu
-Cruz:Crist=oacute=v=atilde=o Yang_0001:Ming=Hsuan
 Cruz:Crist=oacute=v=atilde=o Ye:Jong_Chul
 Cruz:Crist=oacute=v=atilde=o Yoo:Jae_Jun
 Cruz:Crist=oacute=v=atilde=o Yu:Haichao
@@ -7470,12 +7506,9 @@ Cucchiara:Rita Mira:Joaquim_De
 Cucchiara:Rita Vezzani:Roberto
 Cui:Hainan Hu:Zhanyi
 Cui:Hainan Shen:Shuhan
-Cui:Jingyu Gool:Luc_J=_Van
 Cui:Jingyu Tang:Xiaoou
 Cui:Jingyu Wen:Fang
-Cui:Jingyu Wu:Qiying
 Cui:Jingyu Yang:Qiong
-Cui:Jingyu Zhang:Changshui
 Cui:Jinshi Shao:Xiaowei
 Cui:Jinshi Zha:Hongbin
 Cui:Weidong Peinado:Marcus
@@ -7553,6 +7586,14 @@ Cuzzolin:Fabio Mateus:Diana
 Cvejic:Nedeljko Bull:David_R=
 Cvejic:Nedeljko Knowles:Henry_D=
 Cvejic:Nedeljko Nikolov:Stavri_G=
+Czeskis:Alexei Checkoway:Stephen
+Czeskis:Alexei Kantor:Brian
+Czeskis:Alexei Koscher:Karl
+Czeskis:Alexei McCoy:Damon
+Czeskis:Alexei Patel:Shwetak
+Czeskis:Alexei Roesner:Franziska
+Czeskis:Alexei Savage:Stefan
+Czeskis:Alexei Shacham:Hovav
 Czogiel:Irina Dryden:Ian
 Czogiel:Irina Wang:Song
 Czogiel:Irina Zhang:Zhiqi
@@ -7680,7 +7721,6 @@ Dai:Shuaifu Ding:Yu
 Dai:Shuaifu Liang:Zhenkai
 Dai:Shuaifu Wang:Tielei
 Dai:Shuaifu Wei:Tao
-Dai:Shuaifu Zhang:Chao
 Dai:Shuaifu Zou:Wei
 Dai:Xiangtian Lu:Le
 Dai:Xiyang Ng:Joe_Yue=Hei
@@ -7797,6 +7837,7 @@ Dana:Kristin_J= Varga:Michael
 Dana:Kristin_J= Yuan:Wenjia
 Dance:Christopher_R= Perronnin:Florent
 Danelljan:Martin Bhat:Goutam
+Danezis:George Dingledine:Roger
 Daniilidis:Konstantinos Beauchemin:Steven_S=
 Daniilidis:Konstantinos Ernst:J=ouml=rg
 Daniilidis:Konstantinos Mendelsohn:Jeffrey
@@ -8068,7 +8109,6 @@ Davis:James_E= Saltz:Joel_H=
 Davis:James_E= Samaras:Dimitris
 Davis:James_E= Sigal:Leonid
 Davis:James_E= Thrun:Sebastian
-Davis:James_E= Yang_0001:Ming=Hsuan
 Davis:James_W= Intille:Stephen_S=
 Davis:Larry_S= Bach:Stephen_H=
 Davis:Larry_S= Chellappa:Rama
@@ -8712,6 +8752,7 @@ Dijkstra:T=_M=_H= Snoeren:Peter_R=
 Dikmen:Mert Hoiem:Derek
 Dikmen:Mert Huang:Thomas_S=
 Dimitropoulos:Xenofontas_A= Raftopoulos:Elias
+Dimitrov:Pavel Phillips:Carlos
 Dimitrov:Pavel Siddiqi:Kaleem
 Dimov:Dimo Escalera:Sergio
 Dimov:Dimo Hern=aacute=ndez=Vela:Antonio
@@ -8732,8 +8773,6 @@ Ding:Guiguang Shen:Fumin
 Ding:Hengzhou Bala:Raja
 Ding:Hengzhou Kumar:Jayant
 Ding:Hu Stojkovic:Branislav
-Ding:Jian=Jiun Chuang:Yung=Yu
-Ding:Jian=Jiun Lai:Wei=Sheng
 Ding:Jian=Jiun Lin:Yen=Yu
 Ding:Kun Meng:Gaofeng
 Ding:Kun Pan:Chunhong
@@ -8749,7 +8788,6 @@ Ding:Xuhua Zhao:Siqi
 Ding:Yu Liang:Zhenkai
 Ding:Yu Wang:Tielei
 Ding:Yu Wei:Tao
-Ding:Yu Zhang:Chao
 Ding:Yu Zou:Wei
 Ding:Yuanyuan Han:Tony_X=
 Ding:Yukang Li:Peihua
@@ -8757,7 +8795,6 @@ Ding:Yukang Wang:Qilong
 Ding:Zhengming Fu:Yun
 Ding:Zhengming Shao:Ming
 Ding_0005:Min Lyngbaek:Kristian
-Dingledine:Roger Danezis:George
 Dinh:H=_Quynh Laramee:Robert_S=
 Dinh:H=_Quynh Lin:Zhongzang
 Dinh:H=_Quynh Xu:Liefei
@@ -8803,7 +8840,6 @@ Dixon:Walter Yanoff:Brian
 Dixon:Walter Yu:Bing
 Dixon:Walter Yu:Ting
 Djahandari:Kelly Sterne:Daniel_F=
-Dmitrienko:Alexandra Liebchen:Christopher
 Dmitrienko:Alexandra Snow:Kevin_Z=
 Do:Minh_N= Chen_0003:Chen
 Do:Minh_N= Cheong:Loong=Fah
@@ -8886,6 +8922,7 @@ Doll=aacute=r:Piotr Srivastava:Rupesh_Kumar
 Doll=aacute=r:Piotr Tian:Yuandong
 Doll=aacute=r:Piotr Tu:Zhuowen
 Doll=aacute=r:Piotr Welinder:Peter
+Doll=aacute=r:Piotr Zhu_0009:Yan
 Doll=aacute=r:Piotr Zitnick:C=_Lawrence
 Doll=aacute=r:Piotr Zweig:Geoffrey
 Dolson:Jennifer Plagemann:Christian
@@ -9143,6 +9180,7 @@ Drijvers:Manu Lehmann:Anja
 Drijvers:Manu Novick:David
 Drijvers:Manu Urian:Rainer
 Drimer:Saar Anderson:Ross_J=
+Drimer:Saar Bond:Mike
 Drimer:Saar Murdoch:Steven_J=
 Drioli:Carlo Perina:Alessandro
 Drioli:Carlo Tavano:Alessandro
@@ -9152,6 +9190,7 @@ Drira:Hassen Meng:Meng
 Drogolyub:Andrey Panchenko:Ivan
 Drogolyub:Andrey Paramonov:Vladimir
 Drogolyub:Andrey Zagoruyko:Sergey
+Droogenbroeck:Marc_Van Paquot:O=
 Drost:Bertram Navab:Nassir
 Drost:Bertram Ulrich:Markus
 Drouin:Marc=Antoine Jodoin:Pierre=Marc
@@ -9270,7 +9309,6 @@ Duan:Ye Sun:Deqing
 Duan:Ye Tao:Dacheng
 Duan:Ye Wang:Xinchao
 Duan:Ye Wu:Shixiang
-Duan:Ye Yang_0001:Ming=Hsuan
 Duan:Ye Yu:Haichao
 Duan:Ye Zhang:Lei
 Duan:Yong Chen_0020:Lei
@@ -9903,7 +9941,6 @@ Escalera:Sergio Anbarjafari:Gholamreza
 Escalera:Sergio Anguera:Mar=iacute=a_Teresa
 Escalera:Sergio Bahnsen:Chris
 Escalera:Sergio Bar=oacute=:Xavier
-Escalera:Sergio Bautista:Miguel_=Aacute=ngel
 Escalera:Sergio Clap=eacute=s:Albert
 Escalera:Sergio Corneanu:Ciprian_A=
 Escalera:Sergio Escalante:Hugo_Jair
@@ -10007,6 +10044,8 @@ Fablet:Ronan Black:Michael_J=
 Fablet:Ronan Nguyen:Huu=Giao
 Fabre:Jean=Charles sp1991.html#DeswarteBF91
 Fabry:Celine Beauxis:Romain
+Fabry:Celine Bethard:Steven
+Fabry:Celine Jurafsky:Daniel
 Fabry:Celine Mitchell:John_C=
 Fabry:Celine Paskov:Hristo_S=
 Facciolo:Gabriele Meinhardt=Llopis:Enric
@@ -10731,6 +10770,7 @@ Finley:Jonathan_J= Kraeh:Christian
 Finley:Jonathan_J= Martinez=Hurtado:J=_L=
 Finley:Jonathan_J= R=uuml=hrmair:Ulrich
 Finley:Jonathan_J= Xu:Xiaolin
+Finnicum:Murph King:Samuel_T=
 Finocchio:Mark Cook:Mat
 Finocchio:Mark Sharp:Toby
 Finucane:Paul Carvajal:Johanna
@@ -11055,8 +11095,10 @@ Franke:Uwe Rehfeld:Timo
 Franke:Uwe Roth_0001:Stefan
 Franke:Uwe Schiele:Bernt
 Franke:Uwe Schneider:Nicolai
+Franklin:Jason Chaki:Sagar
 Franklin:Jason Datta:Anupam
 Franklin:Jason Kaynar:Dilsun_Kirli
+Franklin:Jason Seshadri:Arvind
 Franklin:Matthew_K= Malkin:Michael
 Franklin:Matthew_K= Miner:Sara_K=
 Franklin:Matthew_K= Staddon:Jessica
@@ -11642,7 +11684,6 @@ Gall:Juergen Thorm=auml=hlen:Thorsten
 Gall:Juergen Weber_0004:Andreas
 Gall:Juergen Yao:Angela
 Gallagher:Andrew_C= Chang:Yao=Jen
-Gallagher:Andrew_C= Chen:Tsuhan
 Gallagher:Andrew_C= Chu:Hang
 Gallagher:Andrew_C= Girod:Bernd
 Gallagher:Andrew_C= Jia:Zhaoyin
@@ -11668,7 +11709,6 @@ Gallier:Jean_H= Kennedy:Ryan
 Gallier:Jean_H= Shi:Jianbo
 Gallo:Orazio Aila:Timo
 Gallo:Orazio Arderiu:Joan
-Gallo:Orazio Yang_0001:Ming=Hsuan
 Galoogahi:Hamed_Kiani Lucey:Simon
 Galor:Katharina Gay:Eben
 Galun:Meirav Alpert:Sharon
@@ -11967,6 +12007,7 @@ Garg_0001:Deepak Datta:Anupam
 Garg_0001:Deepak Franklin:Jason
 Garg_0001:Deepak Kaynar:Dilsun_Kirli
 Garg_0001:Deepak Nanevski:Aleksandar
+Garg_0001:Deepak Pfenning:Frank
 Garibaldi:Stefano Sandini:Giulio
 Garman:Christina Ben=Sasson:Eli
 Garman:Christina Chiesa:Alessandro
@@ -11975,7 +12016,6 @@ Garman:Christina Tromer:Eran
 Garman:Christina Virza:Madars
 Garmany:Behrad Holz:Thorsten
 Garmany:Behrad Rossow:Christian
-Garnier:R= Bilodeau:Guillaume=Alexandre
 Garratt:Luke Stebila:Douglas
 Garreau:Guillaume Andreopoulos:Alexander
 Garreau:Guillaume Berg:David_J=
@@ -12288,7 +12328,6 @@ Geusebroek:Jan=Mark Koelma:Dennis
 Geusebroek:Jan=Mark Smeulders:Arnold_W=_M=
 Geusebroek:Jan=Mark Snoek:Cees_G=_M=
 Geusebroek:Jan=Mark Veenman:Cor_J=
-Gevers:Theo =Aacute=lvarez:Jos=eacute=_Manuel
 Gevers:Theo Huang:Thomas_S=
 Gevers:Theo Smeulders:Arnold_W=_M=
 Geyer:Christopher Daniilidis:Kostas
@@ -12298,6 +12337,7 @@ Ghali:R= Desgent:S=eacute=bastien
 Ghali:R= Duss:Sandra
 Ghali:R= Farah:Rana
 Ghali:R= Langlois:J=_M=_Pierre
+Ghali:R= St=Onge:Pier=Luc
 Ghanem:Bernard Ahuja:Shaunak
 Ghanem:Bernard Atmosukarto:Indriyati
 Ghanem:Bernard Bai:Yancheng
@@ -12516,6 +12556,7 @@ Gligor:Virgil_D= Burch:E=_L=
 Gligor:Virgil_D= Chandersekaran:C=_Sekar
 Gligor:Virgil_D= Chapman:Robert_S=
 Gligor:Virgil_D= Cheng:W=
+Gligor:Virgil_D= Datta:Anupam
 Gligor:Virgil_D= Ferraiolo:David_F=
 Gligor:Virgil_D= Gavrila:Serban_I=
 Gligor:Virgil_D= Hecht:Matthew_S=
@@ -12526,6 +12567,7 @@ Gligor:Virgil_D= Luckenbaugh:Gary_L=
 Gligor:Virgil_D= McCune:Jonathan_M=
 Gligor:Virgil_D= Parno:Bryan
 Gligor:Virgil_D= Perrig:Adrian
+Gligor:Virgil_D= Qu:Ning
 Gligor:Virgil_D= Reich:L=_Edward
 Gligor:Virgil_D= Shieh:Shiuh=Pyng
 Gligor:Virgil_D= Stubblebine:Stuart_G=
@@ -12820,7 +12862,7 @@ Gonz=aacute=lez:Germ=aacute=n Fua:Pascal
 Gonz=aacute=lez:Germ=aacute=n T=uuml=retken:Engin
 Gonz=agrave=lez_0001:Jordi Bagdanov:Andrew_D=
 Gonz=agrave=lez_0001:Jordi Bar=oacute=:Xavier
-Gonz=agrave=lez_0001:Jordi Bautista:Miguel_=Aacute=ngel
+Gonz=agrave=lez_0001:Jordi Bautista_0001:Miguel_=Aacute=ngel
 Gonz=agrave=lez_0001:Jordi Bosch:Xavier_Boix
 Gonz=agrave=lez_0001:Jordi Davis:Larry_S=
 Gonz=agrave=lez_0001:Jordi Escalante:Hugo_Jair
@@ -12869,6 +12911,7 @@ Gool:Luc_J=_Van Breitenstein:Michael_D=
 Gool:Luc_J=_Van Cattin:Philippe_C=
 Gool:Luc_J=_Van Chen:Yuhua
 Gool:Luc_J=_Van Cornelis:Kurt
+Gool:Luc_J=_Van Cui:Jingyu
 Gool:Luc_J=_Van Decaluwe:J=
 Gool:Luc_J=_Van Dragon:Ralf
 Gool:Luc_J=_Van Ess:Andreas
@@ -12896,7 +12939,6 @@ Gool:Luc_J=_Van Leibe:Bastian
 Gool:Luc_J=_Van Leistner:Christian
 Gool:Luc_J=_Van Martinovic:Andelo
 Gool:Luc_J=_Van Maur:Dominik_Auf_der
-Gool:Luc_J=_Van Moons:Theo
 Gool:Luc_J=_Van Namboodiri:Vinay_P=
 Gool:Luc_J=_Van Nater:Fabian
 Gool:Luc_J=_Van Oosterlinck:Andr=eacute=
@@ -13219,7 +13261,6 @@ Graham:Steve Yu_0002:Wei
 Graham:Steve Zhao_0001:Wei
 Grajek:Marek Courtois:Nicolas_T=
 Grajek:Marek Gawinecki:Jerzy_A=
-Gramlich:Wayne Baldwin:Robert_W=
 Grana:Costantino Cucchiara:Rita
 Granados:Miguel Ajdin:Boris
 Granados:Miguel Lensch:Hendrik_P=_A=
@@ -13454,6 +13495,9 @@ Gu:Chunhui Ren:Xiaofeng
 Gu:Erdan Badler:Norman_I=
 Gu:Erdan Wang:Jingbin
 Gu:Gary_G= Gennert:Michael_A=
+Gu:Guofei Wang:Tielei
+Gu:Guofei Wei:Tao
+Gu:Guofei Zou:Wei
 Gu:Haisong Asada:Minoru
 Gu:Jianping Li:Qiang
 Gu:Jianping Liu:Yaohong
@@ -13699,7 +13743,6 @@ Guo:Qi Tao:Dacheng
 Guo:Qi Wang:Xinchao
 Guo:Qi Wang:Zhengtao
 Guo:Qi Wu:Shixiang
-Guo:Qi Yang_0001:Ming=Hsuan
 Guo:Qi Ye:Jong_Chul
 Guo:Qi Yu:Haichao
 Guo:Qi Yu:Ke
@@ -13733,7 +13776,6 @@ Guo:Tiantong Wang:Xinchao
 Guo:Tiantong Wang:Zhengtao
 Guo:Tiantong Wu:Shixiang
 Guo:Tiantong Xu:Xiangyu
-Guo:Tiantong Yang_0001:Ming=Hsuan
 Guo:Tiantong Ye:Jong_Chul
 Guo:Tiantong Yoo:Jae_Jun
 Guo:Tiantong Yu:Haichao
@@ -13808,6 +13850,9 @@ Gupta:Ankush Jawahar:C=_V=
 Gupta:Ankush Mannem:Prashanth
 Gupta:Ankush Vedaldi:Andrea
 Gupta:Ankush Zisserman:Andrew
+Gupta:Archie Hassan:Ehtesham
+Gupta:Archie Hebbalaguppe:Ramya
+Gupta:Archie Maurya:Jitender
 Gupta:Archie Mohatta:Shreyash
 Gupta:Archie Perla:Ramakrishna
 Gupta:Debayan Butler:Kevin_R=_B=
@@ -13943,7 +13988,7 @@ Guyader:Jean=Marie Veenland:Jifke_F=
 Guyon:Isabelle Athitsos:Vassilis
 Guyon:Isabelle Bagheri:Mohammad_Ali
 Guyon:Isabelle Bar=oacute=:Xavier
-Guyon:Isabelle Bautista:Miguel_=Aacute=ngel
+Guyon:Isabelle Bautista_0001:Miguel_=Aacute=ngel
 Guyon:Isabelle Corneanu:Ciprian_A=
 Guyon:Isabelle Escalante:Hugo_Jair
 Guyon:Isabelle Escalera:Sergio
@@ -14150,6 +14195,7 @@ Ham:Bumsub Schmid:Cordelia
 Ham:Jeroen_van_der Rijswijk=Deij:Roland_van
 Ham:Jeroen_van_der Wynsberghe:Aimee_van
 Ham:Jeroen_van_der Zuck:Lenore_D=
+Hamadou:Sardaouna Palamidessi:Catuscia
 Hamarneh:Ghassan Abugharbieh:Rafeef
 Hamer:Henning Weise:Thibaut
 Hamid:Raffay Gittens:Alex
@@ -14518,6 +14564,10 @@ Hanjalic:Alan Boughorbel:Sabri
 Hanjalic:Alan Celik:Hasan
 Hanjalic:Alan Hendriks:Emile_A=
 Hanjalic:Alan Li:Xinchao
+Hanna:Steve Mao:Feng
+Hanna:Steve McCamant:Stephen
+Hanna:Steve Saxena:Prateek
+Hanna:Steve Song:Dawn
 Hannuksela:Jari Fan:Lixin
 Hannuksela:Jari Heikkil=auml=:Janne
 Hannuksela:Jari L=oacute=pez:Miguel_Bordallo
@@ -14564,6 +14614,7 @@ Hanson:Allen_R= Schultz:Howard_J=
 Hanson:Allen_R= Silapachote:Piyanuch
 Hanson:Allen_R= Stolle:Frank
 Hanson:Allen_R= Weems:Charles_C=
+Hanson:Allen_R= Weinman:Jerod_J=
 Hanson:Allen_R= Williams:Lance_R=
 Hanson:Allen_R= Zhang:Zhongfei
 Hao:Dinh_Nho Sahli:Hichem
@@ -14730,6 +14781,7 @@ Hartmann:Wilfried Havlena:Michal
 Hartmann:Wilfried Schindler:Konrad
 Hartog:Jerry_den Etalle:Sandro
 Hartog:Jerry_den Fauri:Davide
+Hartog:Jerry_den Rocha:Bruno_P=_S=
 Hartt:Keith Carlotto:Mark
 Harvey:Richard_W= Bangham:J=_Andrew
 Harvey:Richard_W= Cox:Stephen_J=
@@ -14767,7 +14819,6 @@ Hasker:Geoffrey Andersen:David_G=
 Hasker:Geoffrey Chan:Haowen
 Hasker:Geoffrey Perrig:Adrian
 Hasker:Geoffrey Zhang_0003:Xin
-Hassan:Ehtesham Gupta:Archie
 Hassan:Ehtesham Hebbalaguppe:Ramya
 Hassan:Ehtesham Maurya:Jitender
 Hassan:Ehtesham Mohatta:Shreyash
@@ -15048,7 +15099,6 @@ Heath:Kyle Guibas:Leonidas_J=
 Heath:Michael_D= Bowyer:Kevin_W=
 Heath:Michael_D= Sanocki:Thomas_A=
 Heath:Michael_D= Sarkar:Sudeep
-Hebbalaguppe:Ramya Gupta:Archie
 Hebbalaguppe:Ramya Mohatta:Shreyash
 Hebbalaguppe:Ramya Perla:Ramakrishna
 Hebbalaguppe:Ramya Sharma:Monika
@@ -15191,7 +15241,6 @@ Hellier:Pierre Sabater:Neus
 Hellman:Martin_E= sp1980.html#Hellman80
 Hellwich:Olaf Bellmann:Anke
 Hellwich:Olaf Rodehorst:Volker
-Helmer:Scott Lowe:David_G=
 Helmstaedter:Moritz Abraham:Wickliffe_C=
 Helmstaedter:Moritz Bowden:Jared_B=
 Helmstaedter:Moritz Briggman:Kevin_L=
@@ -15461,6 +15510,7 @@ Heurich:Marco Yao:Wei
 Heyden:Anders Sparr:Gunnar
 Hiatt:Laura_M= Trafton:J=_Gregory
 Hicks:Matthew Austin:Todd_M=
+Hicks:Matthew Finnicum:Murph
 Hicks:Matthew King:Samuel_T=
 Hicks:Matthew Sturton:Cynthia
 Hicks:Michael_W= Alvim:M=aacute=rio_S=
@@ -15564,7 +15614,6 @@ Ho:Grant Grier:Chris
 Ho:Grant Kapravelos:Alexandros
 Ho:Grant McCoy:Damon
 Ho:Jeffrey Seo:Dohyung
-Ho:Jeffrey Yang_0001:Ming=Hsuan
 Ho:Wai_Han Verity:Dominic
 Hoai:Minh Samaras:Dimitris
 Hoai:Minh Vicente:Tomas_F=_Yago
@@ -15691,8 +15740,9 @@ Holz:Thorsten Driessen:Benedikt
 Holz:Thorsten Freiling:Felix_C=
 Holz:Thorsten Giuffrida:Cristiano
 Holz:Thorsten Hoffmann:Johannes
+Holz:Thorsten Kolbitsch:Clemens
+Holz:Thorsten Kruegel:Christopher
 Holz:Thorsten Li:Guo
-Holz:Thorsten Liebchen:Christopher
 Holz:Thorsten Mainka:Christian
 Holz:Thorsten Rawat_0001:Sanjay
 Holz:Thorsten Rossow:Christian
@@ -15704,7 +15754,6 @@ Holz:Thorsten Wolf:Christopher
 Homayounfar:Namdar Urtasun:Raquel
 Homescu:Andrei Crane:Stephen
 Homescu:Andrei Franz:Michael
-Homescu:Andrei Liebchen:Christopher
 Homma:Naofumi Kawai:Wataru
 Homma:Naofumi Kiyomoto:Shinsaku
 Homma:Naofumi Ueno:Rei
@@ -16014,6 +16063,7 @@ Hu:Hou=Ning Cheng:Hsien=Tzu
 Hu:Hou=Ning Lin:Yen=Chen
 Hu:Hou=Ning Liu:Ming=Yu
 Hu:Huanhang Li:Yanan
+Hu:Huanhang Lin:Yuetan
 Hu:Huanhang Wang:Donghui
 Hu:Jianfang Zhang:Jianguo
 Hu:Jianfang Zheng:Wei=Shi
@@ -16121,7 +16171,6 @@ Hu:Yuanming Wang:Baoyuan
 Hu:Yuxiao Huang:Thomas_S=
 Hu:Zhanyi Wu:Fuchao
 Hu:Zhe Su:Zhixun
-Hu:Zhe Yang_0001:Ming=Hsuan
 Hu:Zi Heidemann:John_S=
 Hu:Zi Mankin:Allison
 Hu:Zi Somaiya:Nikita
@@ -16191,7 +16240,6 @@ Huang:Chang Liu:Sifei
 Huang:Chang Mao:Junhua
 Huang:Chang Nevatia:Ram
 Huang:Chang Wang:Xiaogang
-Huang:Chang Yang_0001:Ming=Hsuan
 Huang:Chang Yang_0008:Bo
 Huang:Chien=Yuan Camps:Octavia_I=
 Huang:Chien=Yuan Kanungo:Tapas
@@ -16296,7 +16344,6 @@ Huang:Junzhou Zhu:Feiyun
 Huang:Junzhou Zhu:Xinliang
 Huang:Kai Lee:David
 Huang:Kai Pavlidis:Theo
-Huang:Kohsia_S= Trivedi:Mohan_M=
 Huang:Kun Saltz:Joel_H=
 Huang:Lichao Lin:Liang
 Huang:Lin=Shung Bhosale:Amar
@@ -16314,7 +16361,6 @@ Huang:Qi=Xing Ioffe:Sergey
 Huang:Qian Cui:Yuntao
 Huang:Qian Stockman:George_C=
 Huang:Qingming Wang_0001:Yizhou
-Huang:Qingming Yang_0001:Ming=Hsuan
 Huang:Qingming Yao:Hongxun
 Huang:Qingming Zhang:Shengping
 Huang:Qixing Li:Hao
@@ -16697,7 +16743,6 @@ Huynh:Xuan=Phung Wang:Zhengtao
 Huynh:Xuan=Phung Wu:Shixiang
 Huynh:Xuan=Phung Xu:Jinchang
 Huynh:Xuan=Phung Xu:Xiangyu
-Huynh:Xuan=Phung Yang_0001:Ming=Hsuan
 Huynh:Xuan=Phung Ye:Jong_Chul
 Huynh:Xuan=Phung Yoo:Jae_Jun
 Huynh:Xuan=Phung Yu:Haichao
@@ -17206,7 +17251,6 @@ Jain:Arnav_Kumar Wang:Xinchao
 Jain:Arnav_Kumar Wang:Zhengtao
 Jain:Arnav_Kumar Wu:Shixiang
 Jain:Arnav_Kumar Xu:Xiangyu
-Jain:Arnav_Kumar Yang_0001:Ming=Hsuan
 Jain:Arnav_Kumar Ye:Jong_Chul
 Jain:Arnav_Kumar Yoo:Jae_Jun
 Jain:Arnav_Kumar Yu:Haichao
@@ -17338,6 +17382,9 @@ Janning:John Mundy:Joseph_L=
 Janson:Phil Piessens:Frank
 Jarecki:Stanislaw Krawczyk:Hugo
 Jaritz:Maximilian Toromanoff:Marin
+Jarrous:Ayman Moskovich:Boaz
+Jarrous:Ayman Osadchy:Margarita
+Jarrous:Ayman Pinkas:Benny
 Jas:Mainak Parikh:Devi
 Jasiobedzki:Piotr Christensen:Henrik_I=
 Jasiobedzki:Piotr Olofsson:G=ouml=ran
@@ -17549,6 +17596,7 @@ Jha:Somesh Wang:Hao
 Jha:Somesh Watson:Robert_N=_M=
 Jha:Somesh Wing:Jeannette_M=
 Jha:Somesh Wu_0001:Xi
+Jha:Somesh Yan:Xifeng
 Jhala:Ranjit Andrysco:Marc
 Jhala:Ranjit Brown:Fraser
 Jhala:Ranjit Lerner:Sorin
@@ -17681,7 +17729,6 @@ Jia:Ping You:Jane
 Jia:Tao Li:Xiaoxing
 Jia:Tao Zhang_0002:Hao
 Jia:Xu Lu:Huchuan
-Jia:Xu Yang_0001:Ming=Hsuan
 Jia:Yangqing Anguelov:Dragomir
 Jia:Yangqing Berg:Alexander_C=
 Jia:Yangqing Han:Xufeng
@@ -17700,7 +17747,6 @@ Jia:Yunhan_Jack Chen:Qi_Alfred
 Jia:Yunhan_Jack Kong:Chao
 Jia:Yunhan_Jack Lin:Yikai
 Jia:Zhaoyin Chang:Yao=Jen
-Jia:Zhaoyin Chen:Tsuhan
 Jia:Zhaoyin Saxena:Ashutosh
 Jia:Zhaoyin Zhang:Yimeng
 Jiaa:Johnston Hoiem:Derek
@@ -17736,7 +17782,6 @@ Jiang:Ming Ng:Tian=Tsong
 Jiang:Ming Zhao:Qi
 Jiang:Nan Liu:Wenyu
 Jiang:Nan Su:Heng
-Jiang:Shaojie Yang_0001:Ming=Hsuan
 Jiang:Shaojie Zhang:Lei
 Jiang:Shuqiang Huang:Qingming
 Jiang:Shuqiang Li_0003:Liang
@@ -17768,6 +17813,7 @@ Jiang:Wenhao Luo:Wenhan
 Jiang:Wenhao Ma:Lin
 Jiang:Wenhao Wang:Hao
 Jiang:Wenhao Zhu:Xiaolong
+Jiang:Xuxian Wang_0004:Zhi
 Jiang:Yifeng Blumberg:Hilary_P=
 Jiang:Yifeng Edmiston:Erin
 Jiang:Yifeng Papademetris:Xenophon
@@ -18512,6 +18558,7 @@ Kanade:Takeo Hwangbo:Myung
 Kanade:Takeo Kang:Hongwen
 Kanade:Takeo Kimura:Makoto
 Kanade:Takeo Kitani:Kris_M=
+Kanade:Takeo Kumar:B=_V=_K=_Vijaya
 Kanade:Takeo Lucey:Patrick
 Kanade:Takeo Matthews:Iain_A=
 Kanade:Takeo Matthies:Larry_H=
@@ -18689,6 +18736,8 @@ Kanou:Yutaka Ohya:Jun
 Kanterakis:Stathis Batmanghelich:Nematollah
 Kanterakis:Stathis Gooya:Ali
 Kanterakis:Stathis Taskar:Ben
+Kantor:Brian Koscher:Karl
+Kantor:Brian McCoy:Damon
 Kanwisher:Nancy Hsieh:Po=Jang
 Kanwisher:Nancy Sridharan:Ramesh
 Kao:Chiu=Yen Ding:Zhaohua
@@ -19291,6 +19340,7 @@ Khan:Salman_Hameed Bennamoun:Mohammed
 Khan:Salman_Hameed He:Xuming
 Khan:Salman_Hameed Sohel:Ferdous_Ahmed
 Khan:Salman_Hameed Togneri:Roberto
+Khanna:Aran Anandkumar:Anima
 Khanna:Aran Kossaifi:Jean
 Khanna:Aran Lipton:Zachary_Chase
 Khatami:Amin Babaie:Morteza
@@ -19437,7 +19487,6 @@ Kim:Heewon Wang:Xinchao
 Kim:Heewon Wang:Zhengtao
 Kim:Heewon Wu:Shixiang
 Kim:Heewon Xu:Xiangyu
-Kim:Heewon Yang_0001:Ming=Hsuan
 Kim:Heewon Ye:Jong_Chul
 Kim:Heewon Yoo:Jae_Jun
 Kim:Heewon Yu:Haichao
@@ -19582,7 +19631,6 @@ Kim:Munchurl Wang:Xinchao
 Kim:Munchurl Wang:Zhengtao
 Kim:Munchurl Wu:Shixiang
 Kim:Munchurl Xu:Xiangyu
-Kim:Munchurl Yang_0001:Ming=Hsuan
 Kim:Munchurl Ye:Jong_Chul
 Kim:Munchurl Yoo:Jae_Jun
 Kim:Munchurl Yu:Haichao
@@ -19741,8 +19789,10 @@ Kirda:Engin Cova:Marco
 Kirda:Engin Dolan=Gavitt:Brendan
 Kirda:Engin Felmetsger:Viktoria
 Kirda:Engin Fratantonio:Yanick
+Kirda:Engin Holz:Thorsten
 Kirda:Engin Hulin:Patrick
 Kirda:Engin Jovanovic:Nenad
+Kirda:Engin Kolbitsch:Clemens
 Kirda:Engin Kr=uuml=gel:Christopher
 Kirda:Engin Kruegel:Christopher
 Kirda:Engin Mambretti:Andrea
@@ -19750,10 +19800,12 @@ Kirda:Engin Moser:Andreas
 Kirda:Engin Mulliner:Collin
 Kirda:Engin Onarlioglu:Kaan
 Kirda:Engin Robertson:William_K=
+Kirda:Engin Salvaneschi:Guido
 Kirda:Engin Ulrich:Frederick
 Kirda:Engin Vigna:Giovanni
 Kirda:Engin Whelan:Ryan
 Kirda:Engin Wondracek:Gilbert
+Kirda:Engin Zanero:Stefano
 Kirillov:Alexander Omran:Mohamed
 Kirillov:Alexander Rother:Carsten
 Kirkbride:S=_R= Boult:Terrance_E=
@@ -20021,18 +20073,26 @@ Kohlweiss:Markulf Howell:Jon
 Kohlweiss:Markulf Rastogi:Aseem
 Kohlweiss:Markulf Strub:Pierre=Yves
 Kohn:Bernhard Nowakowska:Aneta
+Kohno:Tadayoshi Checkoway:Stephen
 Kohno:Tadayoshi Claffy:Kimberly_C=
 Kohno:Tadayoshi Cowan:Crispin
+Kohno:Tadayoshi Czeskis:Alexei
 Kohno:Tadayoshi Halperin:Daniel
 Kohno:Tadayoshi Heydt=Benjamin:Thomas_S=
+Kohno:Tadayoshi Kantor:Brian
+Kohno:Tadayoshi Koscher:Karl
 Kohno:Tadayoshi Maisel:William_H=
+Kohno:Tadayoshi McCoy:Damon
 Kohno:Tadayoshi Molnar:David
 Kohno:Tadayoshi Morgan:Will
 Kohno:Tadayoshi Moshchuk:Alexander
 Kohno:Tadayoshi Parno:Bryan
+Kohno:Tadayoshi Patel:Shwetak
 Kohno:Tadayoshi Ransford:Benjamin
 Kohno:Tadayoshi Roesner:Franziska
 Kohno:Tadayoshi Sastry:Naveen
+Kohno:Tadayoshi Savage:Stefan
+Kohno:Tadayoshi Shacham:Hovav
 Kohno:Tadayoshi Stubblefield:Adam
 Kohno:Tadayoshi Wagner_0001:David_A=
 Kohno:Tadayoshi Wallach:Dan_S=
@@ -20077,6 +20137,8 @@ Kolagunda:Abhishek Treible:Wayne
 Kolaman:Amir Guterman:Hugo
 Kolaman:Amir Hagege:Rami_R=
 Kolaman:Amir Lvov:Maxim
+Kolbitsch:Clemens Comparetti:Paolo_Milani
+Kolbitsch:Clemens Kruegel:Christopher
 Kolbitsch:Clemens Livshits:Benjamin
 Kolbitsch:Clemens Seifert:Christian
 Kolesnikov:Alexander Lampert:Christoph_H=
@@ -20243,6 +20305,7 @@ Kornaropoulos:Evgenios_N= Rahmouni:Alain
 Kornaropoulos:Evgenios_N= Zerbib:Pierre
 Korner:Marco RuBwurm:Marc
 Kornhuber:Johannes Hornegger:Joachim
+Kornhuber:Johannes Penne:Jochen
 Kornhuber:Johannes Soutschek:Stefan
 Kornprobst:Pierre Bruce:Neil_D=_B=
 Kornprobst:Pierre Deriche:Rachid
@@ -20505,6 +20568,7 @@ Krotkov:Eric Cozman:F=aacute=bio_Gagliardi
 Krsul:Ivan Schuba:Christoph_L=
 Krsul:Ivan Sundaram:Aurobindo
 Kruegel:Christopher Balzarotti:Davide
+Kruegel:Christopher Comparetti:Paolo_Milani
 Kruegel:Christopher Cova:Marco
 Kruegel:Christopher Jovanovic:Nenad
 Kruegel:Christopher Kapravelos:Alexandros
@@ -20567,11 +20631,7 @@ Kulyukin:Vladimir_A= Kutiyanawala:Aliasgar
 Kumar:Abhishek Wu:Hui
 Kumar:Ankita Anati:Roy
 Kumar:Ankita Daniilidis:Kostas
-Kumar:B=_V=_K=_Vijaya Kanade:Takeo
-Kumar:B=_V=_K=_Vijaya Liu:Xiaofeng
-Kumar:B=_V=_K=_Vijaya Rodriguez_0001:Andres
 Kumar:B=_V=_K=_Vijaya Sankaranarayanan:Aswin_C=
-Kumar:B=_V=_K=_Vijaya Savvides:Marios
 Kumar:B=_Vijaya_K=_V= Abiantun:Ramzi
 Kumar:B=_Vijaya_K=_V= Heo:Jingu
 Kumar:B=_Vijaya_K=_V= Park:S=
@@ -20866,7 +20926,6 @@ L=eacute=cuyer:Mathias Sen_0001:Siddhartha
 L=eacute=v=ecirc=que:Sylvain Boura:Christina
 L=eacute=v=ecirc=que:Sylvain Vigilant:David
 L=ecirc==Huu:D=_Khu=ecirc= Paragios:Nikos
-L=oacute=pez:Antonio_M= =Aacute=lvarez:Jos=eacute=_Manuel
 L=oacute=pez:Antonio_M= Bagdanov:Andrew_D=
 L=oacute=pez:Antonio_M= Ger=oacute=nimo:David
 L=oacute=pez:Antonio_M= Gevers:Theo
@@ -20968,6 +21027,7 @@ Lai:Shang=Hong Liu:Tyng=Luh
 Lai:Shang=Hong Su:Hong=Ren
 Lai:Shang=Hong Vemuri:Baba_C=
 Lai:Wei=Sheng Ahuja:Narendra
+Lai:Wei=Sheng Ding:Jian=Jiun
 Lai:Wei=Sheng Hu:Zhe
 Lai:Wei=Sheng Lau:Rynson_W=_H=
 Lai:Wei=Sheng Lin:Yen=Yu
@@ -21066,6 +21126,7 @@ Langlois:J=_M=_Pierre Farah:Rana
 Langlois:J=_M=_Pierre Green_0002:Paul
 Langlois:J=_M=_Pierre Mosleh:Ali
 Langlois:J=_M=_Pierre Onzon:Emmanuel
+Langlois:J=_M=_Pierre St=Onge:Pier=Luc
 Langlois:Tristan Allie:Valerie
 Langlois:Tristan Babon:Frederic
 Langlois:Tristan Boisson:Guillaume
@@ -21175,7 +21236,6 @@ Larsen:Per Brunthaler:Stefan
 Larsen:Per Crane:Stephen
 Larsen:Per Franz:Michael
 Larsen:Per Homescu:Andrei
-Larsen:Per Liebchen:Christopher
 Larsen:Rasmus Aanaes:Henrik
 Larsen:Rasmus Casas:Josep_Ramon
 Larsen:Rasmus Darkner:Sune
@@ -21242,7 +21302,6 @@ Lau:Rynson_W=_H= Pan:Jin=shan
 Lau:Rynson_W=_H= Tang:Yandong
 Lau:Rynson_W=_H= Tian:Jiandong
 Lau:Rynson_W=_H= Yang:Qingxiong
-Lau:Rynson_W=_H= Yang_0001:Ming=Hsuan
 Lau:William_W= Burschka:Darius
 Lau:William_W= Corso:Jason_J=
 Lau:William_W= Ramey:Nicholas_A=
@@ -21595,7 +21654,6 @@ Lee:Kyoung_Mu Wang:Zhengtao
 Lee:Kyoung_Mu Wu:Shixiang
 Lee:Kyoung_Mu Xu:Jinchang
 Lee:Kyoung_Mu Xu:Xiangyu
-Lee:Kyoung_Mu Yang_0001:Ming=Hsuan
 Lee:Kyoung_Mu Ye:Jong_Chul
 Lee:Kyoung_Mu Yoo:Jae_Jun
 Lee:Kyoung_Mu Yu:Haichao
@@ -21935,7 +21993,6 @@ Leung:Alex_Po Gong:Shaogang
 Leung:Daniel Newsam:Shawn_D=
 Leung:Man_Chuen Lee:Kai_Ki
 Leung:Maylor_K=_H= Chia:Alex_Y=_S=
-Leung:Maylor_K=_H= Rahardja:Susanto
 Leung:Thomas Berg:Alexander_C=
 Leung:Thomas Karpathy:Andrej
 Leung:Thomas Li:Fei=Fei
@@ -22112,7 +22169,6 @@ Li:Chunming Gatenby:Chris
 Li:Chunming He:Lei
 Li:Chunming Wang_0026:Li
 Li:Chunming Xu:Chenyang
-Li:Congcong Chen:Tsuhan
 Li:Congcong Deng:Jia
 Li:Congcong Li:Fei=Fei
 Li:Congcong Li:Zhen
@@ -22653,6 +22709,12 @@ Li:Yang Volkau:Ihar
 Li:Yang Wang:Hongan
 Li:Yang Zhang:Fengjun
 Li:Yanhua Brooks:Michael_J=
+Li:Yanlin Datta:Anupam
+Li:Yanlin Gligor:Virgil_D=
+Li:Yanlin McCune:Jonathan_M=
+Li:Yanlin Perrig:Adrian
+Li:Yanlin Qu:Ning
+Li:Yanlin Zhou:Zongwei
 Li:Yao Liu:Lingqiao
 Li:Yehao Mei:Tao
 Li:Yehao Yao:Ting
@@ -22911,7 +22973,6 @@ Liang:Zhenkai Hu:Hong
 Liang:Zhenkai Saxena:Prateek
 Liang:Zhenkai Shinde:Shweta
 Liang:Zhenkai Wei:Tao
-Liang:Zhenkai Zhang:Chao
 Liang:Zhenkai Zou:Wei
 Liang:Zhi=Pei Huang:Thomas_S=
 Liao:Chia=Te Chuang:Hui=Ju
@@ -22965,8 +23026,17 @@ Lie:David Kim:Beom_Heyn
 Lie:David Mitchell:John_C=
 Lie:David Miyani:Dhaval
 Lie:David Thekkath:Chandramohan_A=
+Liebchen:Christopher Brunthaler:Stefan
 Liebchen:Christopher Crane:Stephen
+Liebchen:Christopher Dmitrienko:Alexandra
 Liebchen:Christopher Franz:Michael
+Liebchen:Christopher Holz:Thorsten
+Liebchen:Christopher Homescu:Andrei
+Liebchen:Christopher Larsen:Per
+Liebchen:Christopher Sadeghi:Ahmad=Reza
+Liebchen:Christopher Schuster:Felix
+Liebchen:Christopher Snow:Kevin_Z=
+Liebchen:Christopher Tendyck:Thomas
 Liebelt:Joerg Lienhart:Rainer
 Liebelt:Joerg Schels:Johannes
 Liebelt:Joerg Schmid:Cordelia
@@ -23021,7 +23091,6 @@ Lim:Bee Wang:Zhengtao
 Lim:Bee Wu:Shixiang
 Lim:Bee Xu:Jinchang
 Lim:Bee Xu:Xiangyu
-Lim:Bee Yang_0001:Ming=Hsuan
 Lim:Bee Ye:Jong_Chul
 Lim:Bee Yoo:Jae_Jun
 Lim:Bee Yu:Haichao
@@ -23275,7 +23344,6 @@ Lin:Xu Wang:Xinchao
 Lin:Xu Wang:Zhengtao
 Lin:Xu Wu:Shixiang
 Lin:Xu Xu:Xiangyu
-Lin:Xu Yang_0001:Ming=Hsuan
 Lin:Xu Ye:Jong_Chul
 Lin:Xu Yoo:Jae_Jun
 Lin:Xu Yu:Haichao
@@ -23313,7 +23381,6 @@ Lin:Yuanqing Wang:Xiaoyu
 Lin:Yuanqing Zhang:Xiaofan
 Lin:Yuanqing Zhou:Feng
 Lin:Yuanqing Zhu:Shenghuo
-Lin:Yuetan Hu:Huanhang
 Lin:Yuetan Li:Yanan
 Lin:Yuetan Wang:Donghui
 Lin:Yuewei Barbu:Andrei
@@ -23350,7 +23417,6 @@ Lin_0001:Zhe Mech:Radom=iacute=r
 Lin_0001:Zhe Price:Brian_L=
 Lin_0001:Zhe Shu:Xianbiao
 Lin_0001:Zhe Wang:Oliver
-Lin_0001:Zhe Yang_0001:Ming=Hsuan
 Lin_0001:Zhe Yoon:Sung=Eui
 Lin_0001:Zhe Zhang:Jianming
 Linde:R=_R= Cudney:P=_F=
@@ -23499,7 +23565,6 @@ Liu:Cheng=Lin Wang:Heng
 Liu:Chengjun Liu:Qingfeng
 Liu:Chenxi Schwing:Alexander_G=
 Liu:Chenxi Urtasun:Raquel
-Liu:David Chen:Tsuhan
 Liu:David Comaniciu:Dorin
 Liu:David Hua:Gang
 Liu:David Tietjen:Christian
@@ -23537,7 +23602,6 @@ Liu:Ding Wang:Zhengtao
 Liu:Ding Wu:Shixiang
 Liu:Ding Xu:Jinchang
 Liu:Ding Xu:Xiangyu
-Liu:Ding Yang_0001:Ming=Hsuan
 Liu:Ding Ye:Jong_Chul
 Liu:Ding Yoo:Jae_Jun
 Liu:Ding Yu:Haichao
@@ -23805,7 +23869,6 @@ Liu:Sidong Chen:Mei
 Liu:Sidong Liu:Siqi
 Liu:Sidong Song:Yang
 Liu:Sifei Yang:Chih=Yuan
-Liu:Sifei Yang_0001:Ming=Hsuan
 Liu:Simeng Gao:Junbin
 Liu:Simeng Ju:Fujiao
 Liu:Simeng Sun:Yanfeng
@@ -23920,7 +23983,8 @@ Liu:Xiao Zhou:Feng
 Liu:Xiao Zhou:Xingchen
 Liu:Xiao Zuo:Zhen
 Liu:Xiaobai Lin:Liang
-Liu:Xiaokai Yang_0001:Ming=Hsuan
+Liu:Xiaofeng Kumar:B=_V=_K=_Vijaya
+Liu:Xiaofeng You:Jane
 Liu:Xiaomei Bowyer:Kevin_W=
 Liu:Xiaomei Flynn:Patrick_J=
 Liu:Xiaorui Huang:Yichao
@@ -23966,6 +24030,7 @@ Liu:Yanxi Rauschert:Ingmar
 Liu:Yanxi Slota:George
 Liu:Yanxi Wolff:Mark
 Liu:Yanxi Wu:Zhaohui
+Liu:Yao Dai:Huaiyu
 Liu:Yaohong Li:Qiang
 Liu:Yaohong Zhao:Ziran
 Liu:Yaping Li:Kai
@@ -24096,7 +24161,6 @@ Liu_0001:Si Lin:Liang
 Liu_0001:Si Liu:Guangcan
 Liu_0001:Si Liu:Luoqi
 Liu_0001:Si Shen:Xiaohui
-Liu_0001:Si Yang_0001:Ming=Hsuan
 Liu_0001:Si Zhang_0008:Hua
 Liu_0002:Ji Cong:Yang
 Liu_0002:Ji Huang:Shuai
@@ -24287,6 +24351,7 @@ Lovell:Brian_C= Hobson:Peter
 Lovell:Brian_C= Mau:Sandra
 Lovell:Brian_C= Reddy:Vikas
 Lovell:Brian_C= Smith:Daniel_F=
+Lowe:David_G= Helmer:Scott
 Lowe:David_G= McCann:Sancho
 Lowe:David_G= Pope:Arthur_R=
 Lowry:Stephanie_M= Cadena:Cesar
@@ -24335,7 +24400,6 @@ Loy:Chen_Change Wu:Shixiang
 Loy:Chen_Change Xu:Jinchang
 Loy:Chen_Change Xu:Xiangyu
 Loy:Chen_Change Yang:Shuo
-Loy:Chen_Change Yang_0001:Ming=Hsuan
 Loy:Chen_Change Ye:Jong_Chul
 Loy:Chen_Change Yoo:Jae_Jun
 Loy:Chen_Change Yu:Haichao
@@ -24623,6 +24687,9 @@ Luisier:Florian Natarajan:Pradeep
 Lumsdaine:Andrew Georgiev:Todor_G=
 Lumsdaine:Andrew Yu:Jingyi
 Lumsdaine:Andrew Yu:Zhan
+Lund:Steven_P= Bajcsy:Peter
+Lund:Steven_P= Brady:Mary
+Lund:Steven_P= Chalfoun:Joe
 Lundberg:Andrew_J= Socolinsky:Diego_A=
 Lundberg:Andrew_J= Tang:Renjie
 Lundberg:Andrew_J= Wolff:Lawrence_B=
@@ -24699,7 +24766,6 @@ Luo:Linkai Tao:Dacheng
 Luo:Linkai Wang:Xinchao
 Luo:Linkai Wang:Zhengtao
 Luo:Linkai Wu:Shixiang
-Luo:Linkai Yang_0001:Ming=Hsuan
 Luo:Linkai Ye:Jong_Chul
 Luo:Linkai Yu:Haichao
 Luo:Linkai Yu:Ke
@@ -25413,6 +25479,9 @@ Mantiuk:Rafal_K= Seidel:Hans=Peter
 Mantiuk:Rafal_K= Sumin:Denis
 Mantiuk:Rafal_K= Vinkler:Marek
 Mao:Dansheng Kakarala:Ramakrishna
+Mao:Feng McCamant:Stephen
+Mao:Feng Saxena:Prateek
+Mao:Feng Song:Dawn
 Mao:Hongda Shi:Pengcheng
 Mao:Huizi Wang_0002:Yu
 Mao:Junhua Camburu:Oana
@@ -25436,6 +25505,8 @@ Mao:Zhuoqing_Morley Lin:Yikai
 Mao:Zhuoqing_Morley Osterweil:Eric
 Mao:Zhuoqing_Morley Qian:Zhiyun
 Mao:Zhuoqing_Morley Thomas:Matthew
+Mao:Zhuoqing_Morley Xie:Yinglian
+Mao:Zhuoqing_Morley Yu:Fang
 Mao:Ziqing Chen:Hong
 Mao:Ziqing Chen:Shuo
 Mao:Ziqing Li:Ninghui
@@ -25580,6 +25651,10 @@ Martin:Charles_E= Kolouri:Soheil
 Martin:Charles_R= McHugh:John
 Martin:Elizabeth Wang:Peng
 Martin:Martin_C= Smart:William_D=
+Martin:Milo_M=_K= Finnicum:Murph
+Martin:Milo_M=_K= Hicks:Matthew
+Martin:Milo_M=_K= King:Samuel_T=
+Martin:Milo_M=_K= Smith:Jonathan_M=
 Martin:N= Drare=ni:J=
 Martin:N= Roy:S=
 Martin:Ralph_R= Liu:Yonghuai
@@ -25813,6 +25888,7 @@ Mattar:Marwan_A= Hanson:Allen_R=
 Mattar:Marwan_A= Learned=Miller:Erik_G=
 Mattar:Marwan_A= Lisin:Dimitri_A=
 Mattar:Marwan_A= Silapachote:Piyanuch
+Mattar:Marwan_A= Weinman:Jerod_J=
 Matteucci:Matteo Courville:Aaron_C=
 Matteucci:Matteo Kastner:Kyle
 Matthews:Austin_R= White_0002:Andrew_M=
@@ -25853,7 +25929,6 @@ Mauri:Josepa Radeva:Petia
 Maurice:Xavier Graebling:Pierre
 Maurizot:Mariette Bouthemy:Patrick
 Maurizot:Mariette Delyon:Bernard
-Maurya:Jitender Gupta:Archie
 Maurya:Jitender Hebbalaguppe:Ramya
 Maurya:Jitender Mohatta:Shreyash
 Maurya:Jitender Perla:Ramakrishna
@@ -25985,6 +26060,7 @@ McCoy:Damon Afroz:Sadia
 McCoy:Damon Enright:Brandon
 McCoy:Damon Grier:Chris
 McCoy:Damon Halvorson:Tristan
+McCoy:Damon Koscher:Karl
 McCoy:Damon Rezaeirad:Mohammad
 McCoy:Damon Wang:Peng
 McCullough:Daryl sp1987.html#McCullough87
@@ -26152,7 +26228,6 @@ Mehta:Rakesh Wang:Zhengtao
 Mehta:Rakesh Wu:Shixiang
 Mehta:Rakesh Xu:Jinchang
 Mehta:Rakesh Xu:Xiangyu
-Mehta:Rakesh Yang_0001:Ming=Hsuan
 Mehta:Rakesh Ye:Jong_Chul
 Mehta:Rakesh Yoo:Jae_Jun
 Mehta:Rakesh Yu:Haichao
@@ -26419,6 +26494,7 @@ Meyer:Simone Grosse:Max
 Meyer:Simone Sorkine=Hornung:Alexander
 Meyer:Simone Wang:Oliver
 Meyer:Simone Zimmer:Henning
+Meyerovich:Leo_A= Livshits:V=_Benjamin
 Meyerovich:Mira Camenisch:Jan
 Meyerovich:Mira Lysyanskaya:Anna
 Meyers:K= Torre:Fernando_De_la
@@ -26597,7 +26673,6 @@ Min:Kerui Wu:Lei
 Min:Wu Lim:Joo=Hwee
 Min:Wu Mandal:Bappaditya
 Mindru:Florica Gool:Luc_J=_Van
-Mindru:Florica Moons:Theo
 Minear:Spencer_E= Fine:Todd
 Ming:Jiang Wu:Dinghao
 Ming:Jiang Xu:Dongpeng
@@ -26673,9 +26748,14 @@ Mitchell:B=_Greg Edmunds:Peter_J=
 Mitchell:B=_Greg Kline:David_I=
 Mitchell:B=_Greg Kriegman:David_J=
 Mitchell:John_C= Barth:Adam
+Mitchell:John_C= Bau:Jason
 Mitchell:John_C= Beauxis:Romain
+Mitchell:John_C= Bethard:Steven
 Mitchell:John_C= Datta:Anupam
+Mitchell:John_C= Gupta:Divij
+Mitchell:John_C= Jurafsky:Daniel
 Mitchell:John_C= Li:Ninghui
+Mitchell:John_C= Maffeis:Sergio
 Mitchell:John_C= Mayer:Jonathan_R=
 Mitchell:John_C= Miller:Mark_S=
 Mitchell:John_C= Mitchell:Mark
@@ -26899,7 +26979,6 @@ Monga:Vishal Wang:Zhengtao
 Monga:Vishal Wu:Shixiang
 Monga:Vishal Xu:Jinchang
 Monga:Vishal Xu:Xiangyu
-Monga:Vishal Yang_0001:Ming=Hsuan
 Monga:Vishal Ye:Jong_Chul
 Monga:Vishal Yoo:Jae_Jun
 Monga:Vishal Yu:Haichao
@@ -26956,6 +27035,10 @@ Moon:Seungwhan Sigal:Leonid
 Mooney:Raymond_J= Hendricks:Lisa_Anne
 Mooney:Raymond_J= Rohrbach:Marcus
 Mooney:Raymond_J= Saenko:Kate
+Moons:Theo Gool:Luc_J=_Van
+Moons:Theo Mindru:Florica
+Moons:Theo Oosterlinck:Andr=eacute=
+Moons:Theo Pauwels:Eric_J=
 Moons:Theo Proesmans:Marc
 Moore:Andrew_P= Cowley:Jennifer
 Moore:Andrew_P= McHugh:John
@@ -27176,13 +27259,16 @@ Moses:Yael Kiryati:Nahum
 Moses:Yael Robles=Kelly:Antonio
 Moses:Yael Talker:Lior
 Moshchuk:Alexander Cowan:Crispin
+Moshchuk:Alexander Lee:Wenke
 Moshchuk:Alexander Livshits:Benjamin
 Moshchuk:Alexander Ofek:Eyal
 Moshchuk:Alexander Roesner:Franziska
 Moshchuk:Alexander Rossbach:Christopher_J=
+Moshchuk:Alexander Singh:Kapil
 Moshchuk:Alexander Wang:Helen_J=
 Moshe:Yair Hel=Or:Hagit
 Moskovich:Boaz Osadchy:Margarita
+Moskovich:Boaz Pinkas:Benny
 Moskowitz:Ira_S= Kang:Myong_H=
 Moskowitz:Ira_S= Lee_0001:Daniel_C=
 Moskowitz:Ira_S= Miller:Allen_R=
@@ -27267,7 +27353,6 @@ Mousavi:Hojjat_Seyed Wang:Xinchao
 Mousavi:Hojjat_Seyed Wang:Zhengtao
 Mousavi:Hojjat_Seyed Wu:Shixiang
 Mousavi:Hojjat_Seyed Xu:Xiangyu
-Mousavi:Hojjat_Seyed Yang_0001:Ming=Hsuan
 Mousavi:Hojjat_Seyed Ye:Jong_Chul
 Mousavi:Hojjat_Seyed Yu:Haichao
 Mousavi:Hojjat_Seyed Yu:Ke
@@ -27985,6 +28070,7 @@ Neely:Richard_B= sp1984.html#DinoltNBF84
 Negahdaripour:Shahriar Hayashi:Brian_Y=
 Negahdaripour:Shahriar Kolagani:Nagesh
 Negahdaripour:Shahriar Pirsiavash:Hamed
+Negahdaripour:Shahriar Sekkati:Hicham
 Nehab:Diego Weyrich:Tim
 Neher:Helmut Clausi:David_A=
 Neher:Helmut Fani:Mehrnaz
@@ -28036,6 +28122,7 @@ Neumann:Peter_G= Akl:Selim_G=
 Neumann:Peter_G= Gudka:Khilan
 Neumann:Peter_G= Laurie:Ben
 Neumann:Peter_G= Moore:Simon_W=
+Neumann:Peter_G= Schaefer:Marv
 Neuner:Sebastian Nikiforakis:Nick
 Nevatia:Ram Bolles:Bob
 Nevatia:Ram Collobert:Ronan
@@ -28385,6 +28472,7 @@ Ning:Jifeng Zhang:Lei
 Ning:Peng Dai:Huaiyu
 Ning:Peng He:Xiaofan
 Ning:Peng Jajodia:Sushil
+Ning:Peng Liu:Yao
 Ning:Peng Peng:Pai
 Ning:Peng Reeves:Douglas_S=
 Ning:Peng Setia:Sanjeev
@@ -28881,7 +28969,6 @@ Oorschot:Paul_C=_van Bonneau:Joseph
 Oorschot:Paul_C=_van Herley:Cormac
 Oorschot:Paul_C=_van Somayaji:Anil
 Oosterlinck:Andr=eacute= Decaluwe:J=
-Oosterlinck:Andr=eacute= Moons:Theo
 Oosterlinck:Andr=eacute= Pauwels:Eric_J=
 Oosterlinck:Andr=eacute= Proesmans:Marc
 Oosterlinck:Andr=eacute= Smets:Carl
@@ -28934,6 +29021,7 @@ Orwell:James Boghossian:Boghos_A=
 Orwell:James Pedagadi:Sateesh
 Orwell:James Velastin:Sergio_A=
 Osadchy:Margarita Netz:Aaron
+Osadchy:Margarita Pinkas:Benny
 Osadciw:Lisa_Ann Ross:Arun
 Osadciw:Lisa_Ann Srinivas:Nisha
 Osadciw:Lisa_Ann Veeramachaneni:Kalyan
@@ -29293,7 +29381,6 @@ Pan:Jin=shan Wang:Xinchao
 Pan:Jin=shan Wang:Zhengtao
 Pan:Jin=shan Wu:Shixiang
 Pan:Jin=shan Xu:Xiangyu
-Pan:Jin=shan Yang_0001:Ming=Hsuan
 Pan:Jin=shan Ye:Jong_Chul
 Pan:Jin=shan Yoo:Jae_Jun
 Pan:Jin=shan Yu:Haichao
@@ -29406,7 +29493,6 @@ Pang:Jianxin Wang:Zhengtao
 Pang:Jianxin Wu:Shixiang
 Pang:Jianxin Xu:Jinchang
 Pang:Jianxin Xu:Xiangyu
-Pang:Jianxin Yang_0001:Ming=Hsuan
 Pang:Jianxin Ye:Jong_Chul
 Pang:Jianxin Yoo:Jae_Jun
 Pang:Jianxin Yu:Haichao
@@ -29559,7 +29645,6 @@ Pappas:George_J= Zhou:Jinghao
 Paquette:Louis Dub=eacute=:Yves
 Paquette:Louis Roussel:Marc
 Paquette:Louis Stampfler:Robert
-Paquot:O= Droogenbroeck:Marc_Van
 Paradesi:Sharon Seneviratne:Oshani
 Paradkar:Mihir Udell:Madeleine
 Paragios:Nikos Behmo:R=eacute=gis
@@ -29784,6 +29869,13 @@ Passalis:Georgios Kakadiaris:Ioannis_A=
 Passalis:Georgios Theoharis:Theoharis
 Passalis:Georgios Zafeiriou:Stefanos
 Patel:Keyur Xu:Yilei
+Patel:Shwetak Checkoway:Stephen
+Patel:Shwetak Kantor:Brian
+Patel:Shwetak Koscher:Karl
+Patel:Shwetak McCoy:Damon
+Patel:Shwetak Roesner:Franziska
+Patel:Shwetak Savage:Stefan
+Patel:Shwetak Shacham:Hovav
 Patel:Sunil Duda:Jeffrey_T=
 Patel:Sunil Zhang_0005:Hui
 Patel:Vishal_M= Chellappa:Rama
@@ -29854,7 +29946,6 @@ Pauly:Olivier Esposito:Lorena
 Pauly:Olivier Navab:Nassir
 Pauly:Olivier Padoy:Nicolas
 Pauly:Olivier Poppert:Holger
-Pauwels:Eric_J= Moons:Theo
 Pauwels:Eric_J= Proesmans:Marc
 Pauwels:Karl D=iacute=az:Javier
 Pauwels:Karl Hulle:Marc_M=_Van
@@ -29911,6 +30002,7 @@ Paxson:Vern Pohlmann:Norbert
 Paxson:Vern Rossow:Christian
 Paxson:Vern Savage:Stefan
 Paxson:Vern Shankar:Umesh
+Paxson:Vern Sommer:Robin
 Paxson:Vern Song:Dawn
 Payer:Mathias D=Silva:Vijay
 Payer:Mathias Ge:Xinyang
@@ -29974,7 +30066,9 @@ Peinado:Marcus Wang:Helen_J=
 Peisert:Sean Avrunin:George_S=
 Peisert:Sean Bishop:Matt
 Peisert:Sean Clarke:Lori_A=
+Peisert:Sean Neumann:Peter_G=
 Peisert:Sean Phan:Huong
+Peisert:Sean Schaefer:Marv
 Peisert:Sean Simidchieva:Borislava_I=
 Pekalska:Elzbieta Duin:Robert_P=_W=
 Pekalska:Elzbieta Hancock:Edwin_R=
@@ -30042,7 +30136,6 @@ Peng:Jing Riedel:Norbert
 Peng:Jing Zhang_0016:Peng
 Peng:Jinye Shen:Yi
 Peng:Jinye Yang:Chunlei
-Peng:Kuan=Chuan Chen:Tsuhan
 Peng:Kun Ren:Ren
 Peng:Kun Ying:Xianghua
 Peng:Kun Zha:Hongbin
@@ -30084,9 +30177,7 @@ Peng:Zhigang Lee:Jing=Huei
 Peng:Zhigang Wee:William_G=
 Penne:Jochen Hornegger:Joachim
 Penne:Jochen Kollorz:Eva_N=_K=
-Penne:Jochen Kornhuber:Johannes
 Penne:Jochen Soutschek:Stefan
-Penne:Jochen St=uuml=rmer:Michael
 Pensky:Marianna Foroosh:Hassan
 Pentland:Alex B=eacute=rard:Fran=ccedil=ois
 Pentland:Alex Bichsel:Martin
@@ -30165,6 +30256,7 @@ Perrier:Regis Sturm:Peter_F=
 Perrig:Adrian Andersen:David_G=
 Perrig:Adrian Chan:Haowen
 Perrig:Adrian Chan:Hubert_T==H=
+Perrig:Adrian Datta:Anupam
 Perrig:Adrian Doorn:Leendert_van
 Perrig:Adrian Khosla:Pradeep_K=
 Perrig:Adrian Kim:Tiffany_Hyun=Jin
@@ -30291,7 +30383,6 @@ Pfister:Hanspeter Matusik:Wojciech
 Pfister:Hanspeter Reina:Amelio_V=aacute=zquez
 Pfister:Hanspeter Sudderth:Erik_B=
 Pfister:Hanspeter Sun:Deqing
-Pfister:Hanspeter Yang_0001:Ming=Hsuan
 Pfister:Tomas Hogg:David_C=
 Pfister:Tomas Magee:Derek_R=
 Pfister:Tomas Shrivastava:Ashish
@@ -30345,8 +30436,6 @@ Philipose:Matthai Ren:Xiaofeng
 Philipose:Matthai Shen:Haichen
 Phillips:Aaron_R= Bruillard:Paul_J=
 Phillips:Aaron_R= Star:Keith_T=
-Phillips:Carlos Dimitrov:Pavel
-Phillips:Carlos Siddiqi:Kaleem
 Phillips:Cody_J= Daniilidis:Kostas
 Phillips:Liza Chen:Lei
 Phillips:Mark Joly:Yann
@@ -30984,7 +31073,6 @@ Praveen:Ch_V=_Sai Tao:Dacheng
 Praveen:Ch_V=_Sai Wang:Xinchao
 Praveen:Ch_V=_Sai Wang:Zhengtao
 Praveen:Ch_V=_Sai Wu:Shixiang
-Praveen:Ch_V=_Sai Yang_0001:Ming=Hsuan
 Praveen:Ch_V=_Sai Ye:Jong_Chul
 Praveen:Ch_V=_Sai Yu:Haichao
 Praveen:Ch_V=_Sai Yu:Ke
@@ -31020,7 +31108,6 @@ Price:Brian_L= Deng:Jia
 Price:Brian_L= Huang:Thomas_S=
 Price:Brian_L= Mech:Radom=iacute=r
 Price:Brian_L= Schiller:Stephen
-Price:Brian_L= Yang_0001:Ming=Hsuan
 Price:Brian_L= Zhang:Jianming
 Price:David_W= Rudys:Algis
 Price:David_W= Wallach:Dan_S=
@@ -31071,6 +31158,8 @@ Prkachin:Kenneth_M= Cohn:Jeffrey_F=
 Prkachin:Kenneth_M= Lucey:Patrick
 Prkachin:Kenneth_M= Lucey:Simon
 Probst:Christian_W= Kamm=uuml=ller:Florian
+Probst:Thomas Wan:Chengde
+Probst:Thomas Yao:Angela
 Proctor:Norman Wilson:William_F=
 Prokaj:Jan Duchaineau:M=
 Prokaj:Jan Medioni:G=eacute=rard_G=
@@ -31258,7 +31347,6 @@ Qi:Yonggang Li_0004:Yi
 Qi:Yonggang Xiang:Tao
 Qi:Yonggang Zhang:Honggang
 Qi:Yuankai Huang:Qingming
-Qi:Yuankai Yang_0001:Ming=Hsuan
 Qi:Yuankai Yao:Hongxun
 Qi:Yuankai Zhang:Shengping
 Qi:Zhengwei Xia:Mingyuan
@@ -31280,6 +31368,8 @@ Qian:Ruihe Liu:Si
 Qian:Ruihe Sun:Yao
 Qian:Ruihe Wang:Changhu
 Qian:Ruihe Yu:Han
+Qian:Zhiyun Xie:Yinglian
+Qian:Zhiyun Yu:Fang
 Qian_0001:Feng McCoy:Damon
 Qian_0001:Feng Mi:Xianghang
 Qian_0001:Feng Wang:Peng
@@ -31301,7 +31391,6 @@ Qiao:Yu Sun:Deqing
 Qiao:Yu Tao:Dacheng
 Qiao:Yu Wang:Xinchao
 Qiao:Yu Wu:Shixiang
-Qiao:Yu Yang_0001:Ming=Hsuan
 Qiao:Yu Yu:Haichao
 Qiao:Yu Zhang:Lei
 Qiao_0001:Yu Cai:Zhuowei
@@ -31446,6 +31535,10 @@ Qu:Liangqiong Lau:Rynson_W=_H=
 Qu:Liangqiong Tang:Yandong
 Qu:Liangqiong Tian:Jiandong
 Qu:Lizhen Nock:Richard
+Qu:Ning Datta:Anupam
+Qu:Ning McCune:Jonathan_M=
+Qu:Ning Perrig:Adrian
+Qu:Ning Zhou:Zongwei
 Qu:Shenquan Pan:Chunhong
 Qu:Yufu Zhu:Zhigang
 Qu:Zhi_Yi Zhang:Lei
@@ -31569,6 +31662,7 @@ Ragin:Ann_B= Shen:Linlin
 Ragothaman:Srikanth Dewar:Rajan
 Ragothaman:Srikanth Narasimhan:Sridharakumar
 Rahardja:Susanto Chia:Alex_Y=_S=
+Rahardja:Susanto Leung:Maylor_K=_H=
 Rahimi:Ali Covell:Michele
 Rahimi:Ali Harville:Michael
 Rahimimoghaddam:Mohsen Andrulis:Jonas
@@ -32635,6 +32729,7 @@ Robinson_0001:Peter Tuddenham:Philip
 Rocco:Ignacio Arandjelovic:Relja
 Rocha:Anderson Boult:Terrance_E=
 Rocha:Anderson Scheirer:Walter_J=
+Rocha:Bruno_P=_S= Etalle:Sandro
 Rochan:Mrigank Bruce:Neil_D=_B=
 Rochan:Mrigank Islam:Md=_Amirul
 Rochan:Mrigank Wang:Yang
@@ -32681,6 +32776,7 @@ Rodr=iacute=guez=Serrano:Jos=eacute=_A= Perronnin:Florent
 Rodr=iacute=guez=Serrano:Jos=eacute=_A= Valveny:Ernest
 Rodrigues:Jos=eacute=_Jeronimo Aguiar:Pedro_M=_Q=
 Rodriguez:Mikel Jain:Arpit
+Rodriguez_0001:Andres Kumar:B=_V=_K=_Vijaya
 Roe:Michael Chisnall:David
 Roe:Michael Davis:Brooks
 Roe:Michael Gudka:Khilan
@@ -32691,6 +32787,11 @@ Roe:Michael Norton:Robert
 Roe:Michael Vadera:Munraj
 Roe:Michael Watson:Robert_N=_M=
 Roesner:Franziska Cowan:Crispin
+Roesner:Franziska Kantor:Brian
+Roesner:Franziska Koscher:Karl
+Roesner:Franziska McCoy:Damon
+Roesner:Franziska Savage:Stefan
+Roesner:Franziska Shacham:Hovav
 Roesner:Franziska Zeng:Eric
 Roger:Anthony Boudguiga:Aymen
 Roger:Anthony Bouzerna:Nabil
@@ -33328,7 +33429,6 @@ Sadeghi:Ahmad=Reza Homescu:Andrei
 Sadeghi:Ahmad=Reza Hussain:Siam_U=
 Sadeghi:Ahmad=Reza Koushanfar:Farinaz
 Sadeghi:Ahmad=Reza Larsen:Per
-Sadeghi:Ahmad=Reza Liebchen:Christopher
 Sadeghi:Ahmad=Reza Maes:Roel
 Sadeghi:Ahmad=Reza Schneider_0003:Thomas
 Sadeghi:Ahmad=Reza Schuster:Felix
@@ -33410,6 +33510,7 @@ Saha:Oindrila Sharma:Monika
 Saha:Oindrila Sriraman:Anand
 Saha:Sankalita Bhattacharyya:Shuvra_S=
 Saha:Sankalita Wolf:Wayne_H=
+Sahai:Amit Lewko:Allison_B=
 Sahbi:Hichem Audibert:Jean=Yves
 Sahbi:Hichem Rabarisoa:Jaonary
 Sahillioglu:Yusuf Yemez:Y=uuml=cel
@@ -33425,11 +33526,15 @@ Saidi:Kamel_S= Godil:Afzal
 Saidi:Kamel_S= Hong:Tsai
 Saidi:Kamel_S= Shackleford:William_P=
 Saidi:Kamel_S= Shneier:Michael
+Sailer:Reiner Christodorescu:Mihai
+Sailer:Reiner Fredrikson:Matt
 Sailer:Reiner Hu:Xin
 Sailer:Reiner Jang:Jiyong
+Sailer:Reiner Jha:Somesh
 Sailer:Reiner Schales:Douglas_Lee
 Sailer:Reiner Stoecklin:Marc_Ph=
 Sailer:Reiner Wang:Ting
+Sailer:Reiner Yan:Xifeng
 Saint=Marc:Philippe Chen:Jer=Sen
 Saint=Marc:Philippe Jezouin:Jean=Luc
 Saint=Marc:Philippe Medioni:G=eacute=rard_G=
@@ -33538,6 +33643,9 @@ Salvador:Jordi Hidalgo:Javier_Ruiz
 Salvador:Jordi Perez=Pellitero:Eduardo
 Salvador:Jordi Rosenhahn:Bodo
 Salvador:Michelle_J= Hassani:Behzad
+Salvaneschi:Guido Comparetti:Paolo_Milani
+Salvaneschi:Guido Kolbitsch:Clemens
+Salvaneschi:Guido Kruegel:Christopher
 Salvi:Dhaval Waggoner:Jarrell_W=
 Salvi:Dhaval Wang:Song
 Salvi:Dhaval Zhang:Zhiqi
@@ -33802,7 +33910,9 @@ Sasse:Ralf Wang:Helen_J=
 Sasse:Ralf Wang:Yi=Min
 Sassone:Vladimiro Butler:Michael_J=
 Sassone:Vladimiro Colley:John
+Sassone:Vladimiro Hamadou:Sardaouna
 Sassone:Vladimiro Howard:Giles
+Sassone:Vladimiro Palamidessi:Catuscia
 Sastry:S=_Shankar Ma:Yi
 Sastry:S=_Shankar Yang:Allen_Y=
 Sathish:Rachana Sheet:Debdoot
@@ -33909,13 +34019,17 @@ Saurer:Olivier Pollefeys:Marc
 Savage:Stefan Enright:Brandon
 Savage:Stefan Grier:Chris
 Savage:Stefan Halvorson:Tristan
+Savage:Stefan Kantor:Brian
+Savage:Stefan Koscher:Karl
 Savage:Stefan Li:Guo
 Savage:Stefan McCoy:Damon
+Savage:Stefan Shacham:Hovav
 Savakis:Andreas_E= Azary:Sherif
 Savakis:Andreas_E= Ptucha:Raymond_W=
 Savarese:Silvio Armeni:Iro
 Savarese:Silvio Chandraker:Manmohan
 Savarese:Silvio Chen:Kevin
+Savarese:Silvio Corbett=Davies:Sam
 Savarese:Silvio Dasgupta:Saumitro
 Savarese:Silvio DelPozo:Andrey
 Savarese:Silvio Fischer:Martin
@@ -33956,6 +34070,7 @@ Savva:Manolis Zeng:Andy
 Savvides:Marios Agrawal:N=
 Savvides:Marios Bhagavatula:Chandrasekhar
 Savvides:Marios Duong:Chi_Nhan
+Savvides:Marios Kumar:B=_V=_K=_Vijaya
 Savvides:Marios Park:Sung_Won
 Savvides:Marios Thor:Craig_P=
 Savvides:Marios Zhu:Chenchen
@@ -33984,6 +34099,7 @@ Saxen:Frerk Doll:Konrad
 Saxen:Frerk Hisung:Matthias
 Saxena:Ashutosh Jiang:Yun
 Saxena:Ashutosh Zamir:Amir_Roshan
+Saxena:Prateek McCamant:Stephen
 Sayd:Patrick Allezard:Nicolas
 Sayd:Patrick Bartoli:Adrien
 Sayd:Patrick Castellani:Umberto
@@ -34446,11 +34562,9 @@ Schuon:Sebastian Davis:James_E=
 Schuon:Sebastian Gallo:Orazio
 Schuon:Sebastian Theobalt:Christian
 Schuon:Sebastian Thrun:Sebastian
-Schuon:Sebastian Yang_0001:Ming=Hsuan
 Schuster:Felix Fournet:C=eacute=dric
 Schuster:Felix Gkantsidis:Christos
 Schuster:Felix Holz:Thorsten
-Schuster:Felix Liebchen:Christopher
 Schuster:Felix Mainar=Ruiz:Gloria
 Schuster:Felix Peinado:Marcus
 Schuster:Felix Russinovich:Mark
@@ -34461,6 +34575,8 @@ Schwab:Martin_E= B=uuml=chler:Uta
 Schwab:Martin_E= Brattoli:Biagio
 Schwab:Martin_E= Ommer:Bj=ouml=rn
 Schwab:Martin_E= Wahl:Anna=Sophia
+Schwartz:Edward_J= Avgerinos:Thanassis
+Schwartz:Edward_J= Brumley:David
 Schwartz:Gabriel Nishino:Ko
 Schwartz:Jacob_T= Wolfson:Haim_J=
 Schwarz:Anke Haurilet:Monica=Laura
@@ -34679,7 +34795,6 @@ Seki:Akihito Okutomi:Masatoshi
 Seki:Akihito Pollefeys:Marc
 Seki:Akihito Sattler:Torsten
 Seki:Akihito Savinov:Nikolay
-Sekkati:Hicham Negahdaripour:Shahriar
 Sekkati:Hicham Pirsiavash:Hamed
 Sekniqi:Kevin Grubbs:Paul
 Sela:Matan Kimmel:Ron
@@ -34763,6 +34878,8 @@ Serrat:Joan Rubio:Jos=eacute=_C=
 Serre:Thomas Kuehne:Hilde
 Serwadda:Abdul Kumar:Rajesh
 Serwadda:Abdul Phoha:Vir_V=
+Seshadri:Arvind Chaki:Sagar
+Seshadri:Arvind Datta:Anupam
 Seshadri:Arvind Doorn:Leendert_van
 Seshadri:Arvind Khosla:Pradeep_K=
 Seshadri:Arvind McCune:Jonathan_M=
@@ -34823,7 +34940,10 @@ Shabani:R= Pizzoli:Matia
 Shabani:R= Rigato:D=
 Shabtai:Asaf Oren:Yossi
 Shabtai:Asaf Shitrit:Guy
+Shacham:Hovav Kantor:Brian
+Shacham:Hovav Koscher:Karl
 Shacham:Hovav Lerner:Sorin
+Shacham:Hovav McCoy:Damon
 Shacham:Hovav Mowery:Keaton
 Shackleton:M=_A= Welsh:W=_J=
 Shafait:Faisal Akhtar:Naveed
@@ -35356,7 +35476,6 @@ Shen:Xiaohui Lin_0001:Zhe
 Shen:Xiaohui Liu:Luoqi
 Shen:Xiaohui Mech:Radom=iacute=r
 Shen:Xiaohui Price:Brian_L=
-Shen:Xiaohui Yang_0001:Ming=Hsuan
 Shen:Xiaohui Yoon:Sung=Eui
 Shen:Xiaohui Zhang:Jianming
 Shen:Xiaoyong Jia:Jiaya
@@ -35531,7 +35650,6 @@ Shi:Honghui Wang:Xinchao
 Shi:Honghui Wang:Zhengtao
 Shi:Honghui Wu:Shixiang
 Shi:Honghui Xu:Xiangyu
-Shi:Honghui Yang_0001:Ming=Hsuan
 Shi:Honghui Ye:Jong_Chul
 Shi:Honghui Yoo:Jae_Jun
 Shi:Honghui Yu:Haichao
@@ -35851,6 +35969,7 @@ Sicotte:Nancy_L= Shi:Yonggang
 Sicre:Ronan Kijak:Ewa
 Siddharth:N= Barbu:Andrei
 Siddiqi:Kaleem August:Jonas
+Siddiqi:Kaleem Phillips:Carlos
 Siddiqi:Kaleem Shokoufandeh:Ali
 Siddiqui:Matheen Medioni:G=eacute=rard_G=
 Siddiquie:Behjat Davis:Larry_S=
@@ -35893,6 +36012,7 @@ Sikiric:Ivan Brkic:Karla
 Sikiric:Ivan Hrkac:Tomislav
 Sikiric:Ivan Kalafatic:Zoran
 Sikiric:Ivan Segvic:Sinisa
+Silapachote:Piyanuch Weinman:Jerod_J=
 Silberman:Nathan Dohan:David
 Silberman:Nathan Krishnan:Dilip
 Silv=eacute=n:Olli Fan:Lixin
@@ -36001,7 +36121,9 @@ Singh:Hanumant Flint:Alex
 Singh:Hanumant Freeman:William_T=
 Singh:Hanumant Treibitz:Tali
 Singh:Kapil Koved:Larry
+Singh:Kapil Lee:Wenke
 Singh:Kapil Trewin:Shari
+Singh:Kapil Wang:Helen_J=
 Singh:Karanhaar Pal:Dipan_K=
 Singh:Karanhaar Savvides:Marios
 Singh:Krishna_Kumar Crandall:David_J=
@@ -36211,7 +36333,10 @@ Smith:John_R= Yan:Rong
 Smith:John_R= ecdl2002.html#SmeatonOCVDHRSW02
 Smith:Jonathan_M= Arbaugh:William_A=
 Smith:Jonathan_M= Farber:David_J=
+Smith:Jonathan_M= Finnicum:Murph
 Smith:Jonathan_M= Gibson:Katherine_L=
+Smith:Jonathan_M= Hicks:Matthew
+Smith:Jonathan_M= King:Samuel_T=
 Smith:Kenneth_C= Benhabib:Beno
 Smith:Kenneth_C= Tchoukanov:Ivo
 Smith:Leslie_N= Doster:Timothy
@@ -36316,7 +36441,6 @@ Snow:Daniel Pillai:Sudeep
 Snow:Daniel Ramalingam:Srikumar
 Snow:Daniel Yuille:Alan_L=
 Snow:Kevin_Z= Koo:Hyungjoon
-Snow:Kevin_Z= Liebchen:Christopher
 Snow:Kevin_Z= Matthews:Austin_R=
 Snow:Kevin_Z= Morton:Micah
 Snow:Kevin_Z= Polychronakis:Michalis
@@ -36340,7 +36464,6 @@ Soatto:Stefano Picci:Giorgio
 Soatto:Stefano Ravichandran:Avinash
 Soatto:Stefano Sundaramoorthi:Ganesh
 Soatto:Stefano Wang:Dejun
-Soatto:Stefano Yang_0001:Ming=Hsuan
 Soatto:Stefano Yi:Zhao
 Sobel:Irwin Culbertson:W=_Bruce
 Sobel:Irwin Fitzhugh:Andrew
@@ -36421,7 +36544,6 @@ Son:Sanghyun Sun:Deqing
 Son:Sanghyun Tao:Dacheng
 Son:Sanghyun Wang:Xinchao
 Son:Sanghyun Wu:Shixiang
-Son:Sanghyun Yang_0001:Ming=Hsuan
 Son:Sanghyun Yu:Haichao
 Son:Sanghyun Zhang:Lei
 Son:Sanghyun Zhou:Ruofan
@@ -36460,6 +36582,7 @@ Song:Congzheng Stronati:Marco
 Song:Dawn Johnson:Noah_M=
 Song:Dawn McCamant:Stephen
 Song:Dawn Reynaud:Daniel
+Song:Dawn Saxena:Prateek
 Song:Dawn Wei:Tao
 Song:Dawn_Xiaodong Bethencourt:John
 Song:Dawn_Xiaodong Brumley:David
@@ -36894,13 +37017,10 @@ Sroubek:Filip Novotn=yacute=:Luk=aacute=s
 Sroubek:Filip Rozumnyi:Denys
 Sroubek:Filip Sindelar:Ondrej
 St=Onge:Pier=Luc Bilodeau:Guillaume=Alexandre
-St=Onge:Pier=Luc Carmant:Lionel
 St=Onge:Pier=Luc Desgent:S=eacute=bastien
 St=Onge:Pier=Luc Duss:Sandra
 St=Onge:Pier=Luc Farah:Rana
 St=Onge:Pier=Luc Garnier:R=
-St=Onge:Pier=Luc Ghali:R=
-St=Onge:Pier=Luc Langlois:J=_M=_Pierre
 St=ouml=ttinger:Julian Gevers:Theo
 St=ouml=ttinger:Julian Giunchiglia:Fausto
 St=ouml=ttinger:Julian Hanbury:Allan
@@ -36908,6 +37028,7 @@ St=ouml=ttinger:Julian Pandey:Anand_K=
 St=ouml=ttinger:Julian Sebe:Nicu
 St=ouml=ttinger:Julian Uijlings:Jasper_R=_R=
 St=uuml=rmer:Michael Hornegger:Joachim
+St=uuml=rmer:Michael Penne:Jochen
 Stachniak:Simon Freedman:Daniel
 Stachniak:Simon Klein:Ben
 Stachniak:Simon Krupka:Eyal
@@ -37363,7 +37484,6 @@ Su:Zhendong Chen_0003:Hao
 Su:Zhendong Chuah:Chen=Nee
 Su:Zhendong Mai:Jianning
 Su:Zhixun Lin:Zhouchen
-Su:Zhixun Yang_0001:Ming=Hsuan
 Suarez=Tangil:Guillermo Cavallaro:Lorenzo
 Suarez=Tangil:Guillermo Tam:Kimberly
 Suau:Pablo Bonev_0001:Boyan
@@ -37434,7 +37554,6 @@ Sukthankar:Rahul Bhattacharya:Subhabrata
 Sukthankar:Rahul Boyraz:Hakan
 Sukthankar:Rahul Chen:Mei
 Sukthankar:Rahul Chen:Ming=yu
-Sukthankar:Rahul Chen:Tsuhan
 Sukthankar:Rahul Davidson:James
 Sukthankar:Rahul Ferrari:Vittorio
 Sukthankar:Rahul Han:Xufeng
@@ -37726,7 +37845,6 @@ Sun_0008:Jian Zhou:Mingcai
 Sun_0009:Jian Alahari:Karteek
 Sun_0009:Jian Cao:Wenfei
 Sun_0009:Jian Cho:Minsu
-Sun_0009:Jian Couzinie=Devy:Florent
 Sun_0009:Jian Duchenne:Olivier
 Sun_0009:Jian Shum:Heung=Yeung
 Sun_0009:Jian Tang:Xiaoou
@@ -38187,6 +38305,7 @@ Talvala:Eino=Ville Wilburn:Bennett
 Talwalkar:Ameet Kumar:Sanjiv
 Talwalkar:Ameet Rowley:Henry_A=
 Taly:Ankur Erlingsson:=Uacute=lfar
+Taly:Ankur Maffeis:Sergio
 Taly:Ankur Miller:Mark_S=
 Taly:Ankur Mitchell:John_C=
 Taly:Ankur Nagra:Jasvir
@@ -38320,7 +38439,6 @@ Tan:Yap=Peng Wang_0001:Hongxing
 Tan:Yap=Peng Yaying:Lin
 Tan:Yap=Peng Yuan:Junsong
 Tan:Yap=Peng Zhou:Xiuzhuang
-Tan:Ying Wang_0002:Jun
 Tanaka:Hiromi_T= Kishino:Fumio
 Tanaka:Hiromi_T= Tsuji:Saburo
 Tanaka:Hiromi_T= Xu:Gang
@@ -38630,7 +38748,6 @@ Tao:Dacheng Qiao:Maoying
 Tao:Dacheng Ruan:Ying
 Tao:Dacheng Sun:Deqing
 Tao:Dacheng Wu:Shixiang
-Tao:Dacheng Yang_0001:Ming=Hsuan
 Tao:Dacheng Yu:Haichao
 Tao:Dacheng Zhang:Lei
 Tao:Dacheng Zhou:Xingchen
@@ -38829,7 +38946,6 @@ Temlyakov:Andrew Munsell:Brent_C=
 Temlyakov:Andrew Waggoner:Jarrell_W=
 Temlyakov:Andrew Wang:Song
 Tendyck:Thomas Holz:Thorsten
-Tendyck:Thomas Liebchen:Christopher
 Tenenbaum:Joshua_B= Huang:Haibin
 Teney:Damien Hall:Peter
 Teney:Damien Kit:Dimitry
@@ -39175,7 +39291,6 @@ Tian:Yapeng Wang:Xinchao
 Tian:Yapeng Wang:Zhengtao
 Tian:Yapeng Wu:Shixiang
 Tian:Yapeng Xu:Xiangyu
-Tian:Yapeng Yang_0001:Ming=Hsuan
 Tian:Yapeng Ye:Jong_Chul
 Tian:Yapeng Yoo:Jae_Jun
 Tian:Yapeng Yu:Haichao
@@ -39432,7 +39547,6 @@ Tonde:Chetan Elgammal:Ahmed_M=
 Tong:Frank Funt:Brian_V=
 Tong:Lang Venkitasubramaniam:Parvathinathan
 Tong:Na Lu:Huchuan
-Tong:Na Yang_0001:Ming=Hsuan
 Tong:Wei Cai:Yang
 Tong:Wei Ding:Gangyi
 Tong:Wei Meng:Deyu
@@ -39682,6 +39796,7 @@ Trist=aacute=n=Vega:Antonio Mart=iacute=n=Fern=aacute=ndez:Marcos
 Trivedi:Mohan_M= Cheng:Shinko_Y=
 Trivedi:Mohan_M= Copeland:Anthony_C=
 Trivedi:Mohan_M= Dueholm:Jacob_V=
+Trivedi:Mohan_M= Huang:Kohsia_S=
 Trivedi:Mohan_M= Kristoffersen:Miklas_S=
 Trivedi:Mohan_M= Lee:Sean
 Trivedi:Mohan_M= Lu:Frankie
@@ -39936,6 +40051,7 @@ Turaga:Pavan_K= Veeraraghavan:Ashok
 Turaga:Pavan_K= Venkataraman:Vinay
 Turaga:Pavan_K= Wang:Jian
 Turaga:Pavan_K= Wang:Qiao
+Turaga:Pavan_K= Wang_0002:Fei
 Turaga:Pavan_K= Wolf:Steven_L=
 Turk:Matthew Hu:Changbo
 Turk:Matthew Park:Kyungmo
@@ -40892,7 +41008,6 @@ Vu:Tiep_Huu Wang:Zhengtao
 Vu:Tiep_Huu Wu:Shixiang
 Vu:Tiep_Huu Xu:Jinchang
 Vu:Tiep_Huu Xu:Xiangyu
-Vu:Tiep_Huu Yang_0001:Ming=Hsuan
 Vu:Tiep_Huu Ye:Jong_Chul
 Vu:Tiep_Huu Yoo:Jae_Jun
 Vu:Tiep_Huu Yu:Haichao
@@ -41009,7 +41124,6 @@ Walters:Robert Wactlar:Howard_D=
 Waltham:Christopher Appiah:Kofi
 Waltham:Christopher Hunter:Andrew
 Waltner:Georg Possegger:Horst
-Wan:Chengde Probst:Thomas
 Wan:Chengde Yao:Angela
 Wan:Fang Han:Zhenjun
 Wan:Fang Ke:Wei
@@ -41163,6 +41277,7 @@ Wang:He Xu:Yiqun
 Wang:Helen_J= Chen:Peter_M=
 Wang:Helen_J= Cowan:Crispin
 Wang:Helen_J= King:Samuel_T=
+Wang:Helen_J= Lee:Wenke
 Wang:Helen_J= Livshits:Benjamin
 Wang:Helen_J= Meseguer:Jos=eacute=
 Wang:Helen_J= Ofek:Eyal
@@ -41564,7 +41679,6 @@ Wang:Tielei Lee:Wenke
 Wang:Tielei Liang:Zhenkai
 Wang:Tielei Lu:Long
 Wang:Tielei Wei:Tao
-Wang:Tielei Zhang:Chao
 Wang:Tielei Zou:Wei
 Wang:Ting Jang:Jiyong
 Wang:Ting Schales:Douglas_Lee
@@ -41691,7 +41805,6 @@ Wang:Xinchao Lin:Liang
 Wang:Xinchao Sun:Deqing
 Wang:Xinchao Tao:Dacheng
 Wang:Xinchao Wu:Shixiang
-Wang:Xinchao Yang_0001:Ming=Hsuan
 Wang:Xinchao Yu:Haichao
 Wang:Xinchao Zhang:Lei
 Wang:Xinggang Liu:Wenyu
@@ -41981,7 +42094,6 @@ Wang:Zhengtao Sun:Deqing
 Wang:Zhengtao Tao:Dacheng
 Wang:Zhengtao Wang:Xinchao
 Wang:Zhengtao Wu:Shixiang
-Wang:Zhengtao Yang_0001:Ming=Hsuan
 Wang:Zhengtao Yu:Haichao
 Wang:Zhengtao Zhang:Lei
 Wang:Zhengtao Zhou:Ruofan
@@ -42084,7 +42196,7 @@ Wang_0002:Fei Beymer:David
 Wang_0002:Fei Greenspan:Hayit
 Wang_0002:Fei Pohl:Kilian_M=
 Wang_0002:Fei Syeda=Mahmood:Tanveer_F=
-Wang_0002:Fei Turaga:Pavan_K=
+Wang_0002:Jun Tan:Ying
 Wang_0002:Liang Ahuja:Narendra
 Wang_0002:Liang Davis:James
 Wang_0002:Liang Gong:Minglun
@@ -42156,6 +42268,7 @@ Wang_0010:Rui Qadeer:Shaz
 Wang_0010:Rui Wang:XiaoFeng
 Wang_0010:Rui Xing:Luyi
 Wang_0010:Rui Yuan:Kan
+Wang_0010:Rui Zhang:Kehuan
 Wang_0012:Gang Abdulnabi:Abrar_H=
 Wang_0012:Gang Chan:Tsung=Han
 Wang_0012:Gang Chen:Yushi
@@ -42272,6 +42385,7 @@ Waters:Brent Bethencourt:John
 Waters:Brent Dunn:Alan_M=
 Waters:Brent Katz:Jonathan
 Waters:Brent Lee:Michael_Z=
+Waters:Brent Lewko:Allison_B=
 Waters:Brent Sahai:Amit
 Waters:Brent Witchel:Emmett
 Watson:Gaven_J= Albrecht:Martin_R=
@@ -42418,9 +42532,6 @@ Weingarten:Achi=Or O=Flynn:Colin
 Weingarten:Achi=Or Ronen:Eyal
 Weingarten:Achi=Or Shamir:Adi
 Weinland:Daniel Boyer:Edmond
-Weinman:Jerod_J= Hanson:Allen_R=
-Weinman:Jerod_J= Mattar:Marwan_A=
-Weinman:Jerod_J= Silapachote:Piyanuch
 Weinmann:Andreas Baust:Maximilian
 Weinmann:Andreas Demaret:Laurent
 Weinmann:Andreas Navab:Nassir
@@ -42573,7 +42684,6 @@ Wen:Hongdiao Zuo:Wangmeng
 Wen:Hongkai Trigoni:Niki
 Wen:Longyin Li:Wenbo
 Wen:Longyin Yan:Junjie
-Wen:Longyin Yang_0001:Ming=Hsuan
 Wen:Longyin Yi:Dong
 Wen:Longyin You:Zhisheng
 Wen:Wei Afzal:Tariq
@@ -42861,8 +42971,11 @@ Winn:John_M= Hoiem:Derek
 Winn:John_M= Ni:Kai
 Winn:John_M= Rother:Carsten
 Winograd:Terry R=ouml=scheisen:Martin
+Winsborough:William_H= Etalle:Sandro
+Winsborough:William_H= Hartog:Jerry_den
 Winsborough:William_H= Li:Ninghui
 Winsborough:William_H= Mitchell:John_C=
+Winsborough:William_H= Rocha:Bruno_P=_S=
 Winslett:Marianne Yu:Ting
 Winslow:Raimond_L= Miller:Michael_I=
 Winslow:Raimond_L= Mori:Susumu
@@ -42984,6 +43097,8 @@ Wolter:Diedrich gir2017.html#WolterBH17
 Won:Jae_Hyun Lee:Man_Hee
 Won:Jae_Hyun Park:In_Kyu
 Wondracek:Gilbert Comparetti:Paolo_Milani
+Wondracek:Gilbert Holz:Thorsten
+Wondracek:Gilbert Kruegel:Christopher
 Wong:Alexander Clausi:David_A=
 Wong:Alexander Fieguth:Paul_W=
 Wong:Alexander Jamieson:Michael
@@ -43235,6 +43350,7 @@ Wu:Qiang Li:Hongdong
 Wu:Qiang Yuan:Chun
 Wu:Qingbo Wang:Zhou
 Wu:Qingbo Zhang:Lei
+Wu:Qiying Cui:Jingyu
 Wu:Qiying Gool:Luc_J=_Van
 Wu:Qiying Tang:Xiaoou
 Wu:Qiying Wen:Fang
@@ -44001,7 +44117,6 @@ Xu:Jinchang Wang:Xinchao
 Xu:Jinchang Wang:Zhengtao
 Xu:Jinchang Wu:Shixiang
 Xu:Jinchang Xu:Xiangyu
-Xu:Jinchang Yang_0001:Ming=Hsuan
 Xu:Jinchang Ye:Jong_Chul
 Xu:Jinchang Yoo:Jae_Jun
 Xu:Jinchang Yu:Haichao
@@ -44017,7 +44132,6 @@ Xu:Kun Guan:Ji=Song
 Xu:Kun Su:Hang
 Xu:Kun Zhu_0001:Jun
 Xu:Li Hu:Zhe
-Xu:Li Yang_0001:Ming=Hsuan
 Xu:Liefei Laramee:Robert_S=
 Xu:Liefei Lin:Zhongzang
 Xu:Liefei Zhang:Eugene
@@ -44114,7 +44228,6 @@ Xu:Xiangyu Tao:Dacheng
 Xu:Xiangyu Wang:Xinchao
 Xu:Xiangyu Wang:Zhengtao
 Xu:Xiangyu Wu:Shixiang
-Xu:Xiangyu Yang_0001:Ming=Hsuan
 Xu:Xiangyu Ye:Jong_Chul
 Xu:Xiangyu Yu:Haichao
 Xu:Xiangyu Yu:Ke
@@ -44565,6 +44678,7 @@ Yan:Shuicheng mm2013.html#ChenCBDFFYHP13
 Yan:Wang Hajimirsadeghi:Hossein
 Yan:Xiaoqiang Hu:Shizhe
 Yan:Xiaoqiang Ye:Yangdong
+Yan:Xifeng Fredrikson:Matt
 Yan:Yan Corso:Jason_J=
 Yan:Yan Feng:Jiashi
 Yan:Yan Meng:Deyu
@@ -44590,7 +44704,6 @@ Yang:Chao Lin_0001:Zhe
 Yang:Chao Quan:Long
 Yang:Chao Wang:Oliver
 Yang:Chuan Lu:Huchuan
-Yang:Chuan Yang_0001:Ming=Hsuan
 Yang:Chyuan=Huei_T= Shih:Frank_Y=
 Yang:Dan Elgammal:Ahmed_M=
 Yang:Dan Elhoseiny:Mohamed
@@ -44845,7 +44958,6 @@ Yang:Peng Zhong_0002:Lin
 Yang:Qian Karpikov:Alexander
 Yang:Qingxiong Gallup:David
 Yang:Qingxiong Pollefeys:Marc
-Yang:Qingxiong Yang_0001:Ming=Hsuan
 Yang:Rui Holub:Alex
 Yang:Rui Islam:A=
 Yang:Rui Ma:Chao
@@ -45078,25 +45190,96 @@ Yang_0001:Jie Liu:Zicheng
 Yang_0001:Jie Yan:Rong
 Yang_0001:Jie Zheng:Nanning
 Yang_0001:Jie cvpr2004-2.html#YanZYH04
+Yang_0001:Ming=Hsuan Arderiu:Joan
+Yang_0001:Ming=Hsuan Babenko:Boris
+Yang_0001:Ming=Hsuan Bae:Woong
+Yang_0001:Ming=Hsuan Belongie:Serge_J=
 Yang_0001:Ming=Hsuan Black:Michael_J=
+Yang_0001:Ming=Hsuan Cao:Lei
+Yang_0001:Ming=Hsuan Chen:Yi=Ting
+Yang_0001:Ming=Hsuan Choi:Jae=Seok
+Yang_0001:Ming=Hsuan Cruz:Crist=oacute=v=atilde=o
+Yang_0001:Ming=Hsuan Davis:James_E=
 Yang_0001:Ming=Hsuan Dong:Chao
+Yang_0001:Ming=Hsuan Duan:Ye
 Yang_0001:Ming=Hsuan Fan:Yuchen
+Yang_0001:Ming=Hsuan Gallo:Orazio
+Yang_0001:Ming=Hsuan Guo:Qi
+Yang_0001:Ming=Hsuan Guo:Tiantong
+Yang_0001:Ming=Hsuan Ho:Jeffrey
+Yang_0001:Ming=Hsuan Hu:Zhe
+Yang_0001:Ming=Hsuan Huang:Chang
+Yang_0001:Ming=Hsuan Huang:Qingming
 Yang_0001:Ming=Hsuan Huang:Thomas_S=
+Yang_0001:Ming=Hsuan Huynh:Xuan=Phung
+Yang_0001:Ming=Hsuan Jain:Arnav_Kumar
+Yang_0001:Ming=Hsuan Jia:Xu
+Yang_0001:Ming=Hsuan Jiang:Shaojie
+Yang_0001:Ming=Hsuan Kim:Heewon
+Yang_0001:Ming=Hsuan Kim:Munchurl
+Yang_0001:Ming=Hsuan Lau:Rynson_W=_H=
 Yang_0001:Ming=Hsuan Le:Truc
+Yang_0001:Ming=Hsuan Lee:Kyoung_Mu
 Yang_0001:Ming=Hsuan Li:Dong
+Yang_0001:Ming=Hsuan Lim:Bee
 Yang_0001:Ming=Hsuan Lin:Liang
+Yang_0001:Ming=Hsuan Lin:Xu
 Yang_0001:Ming=Hsuan Lin:Zhouchen
+Yang_0001:Ming=Hsuan Lin_0001:Zhe
+Yang_0001:Ming=Hsuan Liu:Ding
+Yang_0001:Ming=Hsuan Liu:Sifei
+Yang_0001:Ming=Hsuan Liu:Xiaokai
+Yang_0001:Ming=Hsuan Liu_0001:Si
+Yang_0001:Ming=Hsuan Loy:Chen_Change
 Yang_0001:Ming=Hsuan Lu:Huchuan
+Yang_0001:Ming=Hsuan Luo:Linkai
 Yang_0001:Ming=Hsuan Ma:Chao
+Yang_0001:Ming=Hsuan Mehta:Rakesh
+Yang_0001:Ming=Hsuan Monga:Vishal
+Yang_0001:Ming=Hsuan Mousavi:Hojjat_Seyed
+Yang_0001:Ming=Hsuan Pan:Jin=shan
+Yang_0001:Ming=Hsuan Pang:Jianxin
+Yang_0001:Ming=Hsuan Pfister:Hanspeter
+Yang_0001:Ming=Hsuan Praveen:Ch_V=_Sai
+Yang_0001:Ming=Hsuan Price:Brian_L=
+Yang_0001:Ming=Hsuan Qi:Yuankai
+Yang_0001:Ming=Hsuan Qiao:Yu
 Yang_0001:Ming=Hsuan Roth:Dan
+Yang_0001:Ming=Hsuan Schuon:Sebastian
+Yang_0001:Ming=Hsuan Shen:Xiaohui
+Yang_0001:Ming=Hsuan Shi:Honghui
+Yang_0001:Ming=Hsuan Soatto:Stefano
+Yang_0001:Ming=Hsuan Son:Sanghyun
+Yang_0001:Ming=Hsuan Su:Zhixun
 Yang_0001:Ming=Hsuan Sun:Deqing
+Yang_0001:Ming=Hsuan Tao:Dacheng
+Yang_0001:Ming=Hsuan Tian:Yapeng
+Yang_0001:Ming=Hsuan Tong:Na
+Yang_0001:Ming=Hsuan Vu:Tiep_Huu
+Yang_0001:Ming=Hsuan Wang:Xinchao
+Yang_0001:Ming=Hsuan Wang:Zhengtao
+Yang_0001:Ming=Hsuan Wen:Longyin
 Yang_0001:Ming=Hsuan Wu:Shixiang
 Yang_0001:Ming=Hsuan Wu_0001:Yi
+Yang_0001:Ming=Hsuan Xu:Jinchang
+Yang_0001:Ming=Hsuan Xu:Li
+Yang_0001:Ming=Hsuan Xu:Xiangyu
 Yang_0001:Ming=Hsuan Yang:Chih=Yuan
+Yang_0001:Ming=Hsuan Yang:Chuan
+Yang_0001:Ming=Hsuan Yang:Qingxiong
 Yang_0001:Ming=Hsuan Yang:Xiaokang
 Yang_0001:Ming=Hsuan Yao:Hongxun
+Yang_0001:Ming=Hsuan Ye:Jong_Chul
+Yang_0001:Ming=Hsuan Yoo:Jae_Jun
+Yang_0001:Ming=Hsuan Yoon:Ju_Hong
 Yang_0001:Ming=Hsuan Yu:Haichao
+Yang_0001:Ming=Hsuan Yu:Ke
 Yang_0001:Ming=Hsuan Zhang:Lei
+Yang_0001:Ming=Hsuan Zhang:Shengping
+Yang_0001:Ming=Hsuan Zhang:Yujin
+Yang_0001:Ming=Hsuan Zhao:Yu
+Yang_0001:Ming=Hsuan Zhong:Wei
+Yang_0001:Ming=Hsuan Zhou:Ruofan
 Yang_0001:Xiaodong Tian:Yingli
 Yang_0002:Jie Chen:Xiaogang
 Yang_0002:Jie Fang:Meng
@@ -45147,7 +45330,6 @@ Yao:Anbang Kong:Tao
 Yao:Anbang Lu:Ming
 Yao:Anbang Sun:Fuchun
 Yao:Anbang Zhao:Hao
-Yao:Angela Probst:Thomas
 Yao:B=_G= Tong:F=
 Yao:Bangpeng Bradski:Gary_R=
 Yao:Bangpeng Khosla:Aditya
@@ -45274,7 +45456,6 @@ Ye:Jong_Chul Tao:Dacheng
 Ye:Jong_Chul Wang:Xinchao
 Ye:Jong_Chul Wang:Zhengtao
 Ye:Jong_Chul Wu:Shixiang
-Ye:Jong_Chul Yang_0001:Ming=Hsuan
 Ye:Jong_Chul Yu:Haichao
 Ye:Jong_Chul Yu:Ke
 Ye:Jong_Chul Zhang:Lei
@@ -45509,7 +45690,6 @@ Yoo:Jae_Jun Wang:Xinchao
 Yoo:Jae_Jun Wang:Zhengtao
 Yoo:Jae_Jun Wu:Shixiang
 Yoo:Jae_Jun Xu:Xiangyu
-Yoo:Jae_Jun Yang_0001:Ming=Hsuan
 Yoo:Jae_Jun Ye:Jong_Chul
 Yoo:Jae_Jun Yu:Haichao
 Yoo:Jae_Jun Yu:Ke
@@ -45531,7 +45711,6 @@ Yoo:Youngjoon Choi:Jin_Young
 Yoo:Youngjoon Choi:Jongwon
 Yoo:Youngjoon Yun:Sangdoo
 Yoon:Ji_Won Chun:Ji_Young
-Yoon:Ju_Hong Yang_0001:Ming=Hsuan
 Yoon:Kuk=Jin Cho:Yeong=Jun
 Yoon:Kuk=Jin Kim:Sungho
 Yoon:Kuk=Jin Kweon:In=So
@@ -45572,7 +45751,6 @@ Yosinski:Jason Pal:Christopher_J=
 Yosinski:Jason Vincent:Pascal
 You:Di Mart=iacute=nez:Aleix_M=
 You:Jane Kumar:B=_V=_K=_Vijaya
-You:Jane Liu:Xiaofeng
 You:Jinjie Li:Xiang
 You:Jinjie Zheng:Wei=Shi
 You:Shaodi Feng:David
@@ -45824,7 +46002,6 @@ Yu:Ke Tao:Dacheng
 Yu:Ke Wang:Xinchao
 Yu:Ke Wang:Zhengtao
 Yu:Ke Wu:Shixiang
-Yu:Ke Yang_0001:Ming=Hsuan
 Yu:Ke Yu:Haichao
 Yu:Ke Zhang:Lei
 Yu:Ke Zhou:Ruofan
@@ -46321,8 +46498,12 @@ Zamboni:Diego Sundaram:Aurobindo
 Zanchettin:Andrea_Maria Pogliani:Marcello
 Zanchettin:Andrea_Maria Quarta:Davide
 Zanchettin:Andrea_Maria Zanero:Stefano
+Zanero:Stefano Comparetti:Paolo_Milani
+Zanero:Stefano Kolbitsch:Clemens
+Zanero:Stefano Kruegel:Christopher
 Zanero:Stefano Pogliani:Marcello
 Zanero:Stefano Quarta:Davide
+Zanero:Stefano Salvaneschi:Guido
 Zang:Kai Diamond:Steven
 Zang:Kai Heide:Felix
 Zang:Kai O=Toole:Matthew
@@ -46539,6 +46720,7 @@ Zhang:Changqing Ren:Wenqi
 Zhang:Changqing Wang:Xiaobo
 Zhang:Changqing Zhang_0008:Hua
 Zhang:Changshui Chen_0003:Gang
+Zhang:Changshui Cui:Jingyu
 Zhang:Changshui Cui:Runpeng
 Zhang:Changshui Freeman:William_T=
 Zhang:Changshui Gai:Kun
@@ -46572,17 +46754,11 @@ Zhang:Changshui Zisserman:Andrew
 Zhang:Chao Black:Michael_J=
 Zhang:Chao Chu:Stephen_M=
 Zhang:Chao Dessein:Arnaud
-Zhang:Chao Duan:Lei
-Zhang:Chao McCamant:Stephen
 Zhang:Chao Pears:Nick
 Zhang:Chao Pons=Moll:Gerard
-Zhang:Chao Song:Dawn
-Zhang:Chao Szekeres:Laszlo
-Zhang:Chao Wei:Tao
 Zhang:Chao Yan:Junchi
 Zhang:Chao Yang:Xiaokang
 Zhang:Chao Zha:Hongyuan
-Zhang:Chao Zou:Wei
 Zhang:Charles_C= Winslett:Marianne
 Zhang:Chengcui Narasimhan:Giri
 Zhang:Chengqi Chang:Xiaojun
@@ -46844,7 +47020,9 @@ Zhang:Kaihua Liu:Qingshan
 Zhang:Kaipeng Qiao_0001:Yu
 Zhang:Ke Chao:Wei=Lun
 Zhang:Ke Sha:Fei
+Zhang:Kehuan Chen:Shuo
 Zhang:Kehuan Li:Zhou
+Zhang:Kehuan Wang:XiaoFeng
 Zhang:Keqi Narasimhan:Giri
 Zhang:Keqi Zhang:Chengcui
 Zhang:Le Moulin:Pierre
@@ -47005,7 +47183,6 @@ Zhang:Shaoting Zhong_0002:Lin
 Zhang:Shaoting Zhou:Feng
 Zhang:Shaoting Zhou:Jinghao
 Zhang:Shaoting Zhou:Xiang_Sean
-Zhang:Shengping Yang_0001:Ming=Hsuan
 Zhang:Shengping Yao:Hongxun
 Zhang:Shenzhi Yang:Xiaoli
 Zhang:Shile Lu:Hong
@@ -47234,7 +47411,6 @@ Zhang:Yujin Wang:Xinchao
 Zhang:Yujin Wang:Zhengtao
 Zhang:Yujin Wu:Shixiang
 Zhang:Yujin Xu:Xiangyu
-Zhang:Yujin Yang_0001:Ming=Hsuan
 Zhang:Yujin Ye:Jong_Chul
 Zhang:Yujin Yoo:Jae_Jun
 Zhang:Yujin Yu:Haichao
@@ -47549,6 +47725,16 @@ Zhang_0006:Xiaopeng Zheng:Qinfen
 Zhang_0006:Yu Yeung:Dit=Yan
 Zhang_0007:Jun Dai:Qionghai
 Zhang_0007:Jun Li:Wen
+Zhang_0008:Chao Dai:Shuaifu
+Zhang_0008:Chao Ding:Yu
+Zhang_0008:Chao Duan:Lei
+Zhang_0008:Chao Liang:Zhenkai
+Zhang_0008:Chao McCamant:Stephen
+Zhang_0008:Chao Song:Dawn
+Zhang_0008:Chao Szekeres:Laszlo
+Zhang_0008:Chao Wang:Tielei
+Zhang_0008:Chao Wei:Tao
+Zhang_0008:Chao Zou:Wei
 Zhang_0008:Hua Cao:Xiaochun
 Zhang_0008:Hua Ren:Wenqi
 Zhang_0010:Bo Dong:Yinpeng
@@ -47755,7 +47941,6 @@ Zhao:Yu Wang:Zhengtao
 Zhao:Yu Wu:Shixiang
 Zhao:Yu Xu:Jinchang
 Zhao:Yu Xu:Xiangyu
-Zhao:Yu Yang_0001:Ming=Hsuan
 Zhao:Yu Ye:Jong_Chul
 Zhao:Yu Yoo:Jae_Jun
 Zhao:Yu Yu:Haichao
@@ -47945,7 +48130,6 @@ Zhong:Meng=Ting Yang:Shao=Wen
 Zhong:Sheng Chang:Yi
 Zhong:Sheng Yan:Luxin
 Zhong:Wei Lu:Huchuan
-Zhong:Wei Yang_0001:Ming=Hsuan
 Zhong:Yiran Ji:Pan
 Zhong:Yiran Li:Hongdong
 Zhong:Yu Stevens:M=
@@ -48074,7 +48258,6 @@ Zhou:Ruofan Sun:Deqing
 Zhou:Ruofan Tao:Dacheng
 Zhou:Ruofan Wang:Xinchao
 Zhou:Ruofan Wu:Shixiang
-Zhou:Ruofan Yang_0001:Ming=Hsuan
 Zhou:Ruofan Yu:Haichao
 Zhou:Ruofan Zhang:Lei
 Zhou:Shaohua_Kevin Chellappa:Rama
@@ -48181,9 +48364,11 @@ Zhou:Zihan Sastry:S=_Shankar
 Zhou:Zihan Wagner:Andrew
 Zhou:Zihan Wright:John
 Zhou:Zihan Yang:Allen_Y=
+Zhou:Zongwei Datta:Anupam
 Zhou:Zongwei Gurudu:Suryakanth_R=
 Zhou:Zongwei Liang:Jianming
 Zhou:Zongwei McCune:Jonathan_M=
+Zhou:Zongwei Perrig:Adrian
 Zhou:Zongwei Yu:Miao
 Zhou:Zongwei Zhang:Lei
 Zhou_0001:Jianying Gollmann:Dieter
@@ -48417,9 +48602,6 @@ Zhu:Xiaolong Ma:Lin
 Zhu:Xinliang Yao:Jiawen
 Zhu:Xinliang Zhu:Feiyun
 Zhu:Xizhou Wei:Yichen
-Zhu:Yan Doll=aacute=r:Piotr
-Zhu:Yan Metaxas:Dimitris_N=
-Zhu:Yan Tian:Yuandong
 Zhu:Yi Hauptmann:Alexander_G=
 Zhu:Yi Lan:Zhen=Zhong
 Zhu:Yi Newsam:Shawn_D=
@@ -48454,6 +48636,8 @@ Zhu_0005:Hao Honauer:Katrin
 Zhu_0005:Hao Kweon:In_So
 Zhu_0005:Hao Tai:Yu=Wing
 Zhu_0005:Hao Wanner:Sven
+Zhu_0009:Yan Metaxas:Dimitris_N=
+Zhu_0009:Yan Tian:Yuandong
 Zhuang:Bohan Li:Yao
 Zhuang:Bohan Liu:Lingqiao
 Zhuang:Liansheng Gao:Haoyuan
@@ -48575,7 +48759,6 @@ Zisserman:Andrew Senior:Andrew_W=
 Zitnick:C=_Lawrence Bala:Kavita
 Zitnick:C=_Lawrence Bansal:Mohit
 Zitnick:C=_Lawrence Bell:Sean
-Zitnick:C=_Lawrence Chen:Tsuhan
 Zitnick:C=_Lawrence Chen:Xinlei
 Zitnick:C=_Lawrence Deng:Li
 Zitnick:C=_Lawrence Fang:Hao

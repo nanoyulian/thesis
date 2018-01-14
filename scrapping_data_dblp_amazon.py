@@ -139,54 +139,110 @@ def parse_dblp_author_in_conference(url):
     except Exception as e:
         print e
   
-#run louvain algorithm community detection, G = network (sudah ada vertex dan edge)
-def run_louvain_cd(G,show_com_list,savefile):
+def getKey(item):
+    return item[1]
+    
+def run_louvain_cd(G,show_com_list = False, show_graph = True, save_to_file = True):
+    ''' Jalankan louvain algorithm community detection, 
+        \n Parameter : \n 
+            G : graph (sudah ada vertex dan edge); \n
+            show_graph = True (default: True); \n
+            show_com_list : True/False (default:False); \n
+            save_to_file : True/False  (default:True) '''
+    
     print "running Louvain Algorithm..."
+    #simpan kumpulan community di part    
     part = co.best_partition(G)
-    #bikin part baru iterate, yang urutannya sesuai dengan g.nodes￼
-    part2 = [] #list baru
-    #print list(G)
-    for x in G.nodes():
-        part2.append(part[x])
-
-    #set color for each community
-    part_id = [ float((_x+1)) for _x in part2]
-    colors = [ (_i/(_i+3)) for _i in part_id]
+    
+    # Tampilkan Graph hasil deteksi komunitas 
+    if show_graph == True:
+        #bikin part baru iterate, yang urutannya sesuai dengan g.nodes￼
+        part2 = [] #list baru
+        #print list(G)
+        for x in G.nodes():
+            part2.append(part[x])
+    
+        #set color for each community
+        part_id = [ float((_x+1)) for _x in part2]
+        colors = [ (_i/(_i+3)) for _i in part_id]
+            
+        #draw graph and apply the colors for each community.
+        plt.figure('Detected Community : Louvain Algorithm')
+        plt.rcParams['axes.facecolor'] = '#ffffb3'
+        nx.draw_networkx(G,node_color = colors,  with_labels=False, font_size=8, alpha=0.5, node_size=18 )
+        plt.show()        
         
-    #draw graph and apply the colors for each community.
-    nx.draw_networkx(G,node_color = colors,  with_labels=False, font_size=8, alpha=0.5, node_size=18 )
-
-    print "========================================================================="
+    print "============================"
     print "Network Descriptions"
-    print "========================================================================="    
+    print "============================"    
     print "Modularity: ", co.modularity(part,G)
     print "Num. of Vertices:", G.number_of_nodes()
     print "Num. of Edges: ", G.number_of_edges()
     print "Network Size:", G.size()   
-    print "========================================================================="
-    print "Detected Communities Based On Louvain Algorithm(Member , Community ID)"
     print "Number of Communities Detected:",  len(set(part.values()))    
-    print "=========================================================================\n"    
     
+    #pengelompokkan tampilan komunitas dari label terkecil
     sorted_part = sorted(part.items(),key=operator.itemgetter(1))
-    
-    if savefile == True:
-        f = open('com_list_louvain','wb')
-        f.write("community_detected using Louvain Algorithm: (member : id community) \n" )
+    #simpan file
+    if save_to_file == True:
+        f = open('com_list_degree_louvain','wb')
+        f2 = open('com_list_degree_louvain_summary','wb')
+        f.write("community_detected using Louvain Algorithm: (member : id community) \n" )        
+        label = 0        
+        list_com = []
+        f2.write("komunitas ke-n   :  (jumlah anggota) (3 anggota dengan degree tertinggi) \n")
         for val in sorted_part:
-            f.write("%s \n" % str(val))        
-        f.close()
+            vertex = val[0] # id_vertex
+            id_com = val[1] # label komunitas hasil deteksi 
+            pair_vertex_degree = [vertex,G.degree(vertex)] # siapkan set pasangan vertex dan degreenya
+            #tulis setiap komunitas ke file dalam satu baris 
+            if id_com == label :
+                list_com.append(pair_vertex_degree)
+                label = id_com
+            else :
+                #urutkan member dalam komunitas berdasarkan degreenya
+                list_com.sort(key=getKey, reverse=True)
+                # tulis ke file satu komunitas
+                f.write("%s \n" % str(list_com)) 
+                # tulis summary komunitas
+                f2.write("komunitas ke -%d : %d (%s)  \n" % (label, len(list_com), list_com[0:3]) )
+                # kosongkan list komunitas
+                list_com = []
+                # tambah member ke list
+                list_com.append(pair_vertex_degree)
+                # simpan id_comunity sebelumnya untuk dibandingkan dgn baris berikutnya
+                label = id_com
         
+        #urutkan member dalam komunitas berdasarkan degreenya
+        list_com.sort(key=getKey, reverse=True)
+        #tulis baris terakhir
+        f.write("%s \n" % str(list_com))  
+        # tulis summary komunitas
+        f2.write("komunitas ke -%d : %d (%s)  \n" % (label, len(list_com), list_com[0:3]) )              
+        #close file
+        f.close()
+        f2.close()
+        
+    #menampilkan di console hasil labeling komunitas utk tiap vertex
     if show_com_list == True:
+        print "============================="
+        print "Detected Communitiy (Member , Community ID)"
+        print "=============================\n"            
         print "Community List : \n" 
         print  sorted_part
     
-    plt.show()
-
-#menyimpan graph dalam format edgelist (original f1 dan converted f2, f3 mapping id)
-def generate_edgelistfile(G): 
-    print "Creating dblp_nodes_id file..."
-    f3=open('dblp_nodes_id','wb')
+    
+def generate_edgelistfile(G, show_graph = False): 
+    ''' Menyimpan graph dalam format edgelist ke file.
+        [f1 : file edgelist dengan nama/id vertex asli,
+        f2 : file edgelist dengan nama/id vertex dimulai dari 1,
+        f3 : file keterangan hasil mapping id vertex pada f1 dgn f2] \n
+        
+        Parameter : \n
+        show_graph : True/False (default: False), Menampilkan graph dari G (NetworkX) '''    
+        
+    print "Creating f3_nodes_id file..."
+    f3=open('f3_nodes_id','wb')
     dict_id_authors = {}
     #print G.nodes
     for key,val in zip(G.nodes,range(len(G.nodes))):
@@ -194,10 +250,10 @@ def generate_edgelistfile(G):
         f3.write("%s : %d \n" % (key, val+1))
     f3.close()
     
-    print "Creating dblp_data and edgelist file..."
+    print "Creating f1_data and f2_edgelist file..."
     #print dict_id_authors['Andrade:Ewerton_R=']+1 = 336 (eurosp)
-    f1=open('dblp_data','wb')
-    f2=open('dblp_edgelist','wb')    
+    f1=open('f1_edgelist_ori_id','wb')
+    f2=open('f2_edgelist_map_id','wb')    
     
     for u,v in sorted(G.edges()):
         f1.write("%s %s\n" % (u, v))
@@ -207,31 +263,60 @@ def generate_edgelistfile(G):
     f1.close()
     f2.close()
     
+    if show_graph == True:
+        plt.figure('Graph')
+        plt.rcParams['axes.facecolor'] = '#ffffb3'
+        nx.draw_networkx(G,pos=nx.spring_layout(G), width = 0.6, edge_color="#ff0000", node_color="#333399", with_labels=False,alpha=0.4, node_size=5)
+
+
+    
 ################## ENTRY POINT #################################
 if __name__ == "__main__":
-      
-    #1. siapkan array link id conference yang ingin di scrap authornya per paper
-    conflist_id = ['eurosp','sp','cvpr'] # sp, eurosp, cvpr, issi, 
     
-    #2. lakukan scrapping authors , return array 4D
+    #1. siapkan array link id conference yang ingin di scrap authornya per paper '''
+    conflist_id = ['eurosp','sp','cvpr'] # sp, eurosp, cvpr, issi, 
+    #2. lakukan scrapping authors , return array 4D '''
     extracted_data = readConference(conflist_id)
-
-    #3. siapkan Graph kosong
+    #3. siapkan Graph kosong '''
     G = nx.Graph()
-
-    #4. membuat edge list pada Graph berdasarkan data (2D array:lihat generate_graph_with_edge_list) hasil scrapping
+    #4. Membangun Graph dengan membuat edge list pada Graph berdasarkan data (2D array:lihat generate_graph_with_edge_list) hasil scrapping '''
     for data in extracted_data:
        #3D Array conference  
        for conf in data:
            generate_graph_with_edge_list(G,conf)
+    #5. (optional) save ke file edgelist id dimulai dari 1 '''
+    #generate_edgelistfile(G)
         
-    #5. (optional) save ke file edgelist    id dimulai dari 1
-    generate_edgelistfile(G)
-    
-    #plt.rcParams['axes.facecolor'] = '#ffffb3'
-    #nx.draw_networkx(G,pos=nx.spring_layout(G), width = 0.6, edge_color="#ff0000", node_color="#333399", with_labels=False,alpha=0.4, node_size=5)
     #listofdegreetuple = G.degree()    
     #print sorted(listofdegreetuple, key=lambda x: x[1],reverse=True)
     
-    #4. Jalankan algoritma Louvain Community Detection
-    run_louvain_cd(G,show_com_list=False, savefile = True)
+    #6. Jalankan algoritma Louvain Community Detection '''
+    #run_louvain_cd(G,show_com_list=False, show_graph = False, save_to_file = True)
+    
+    #7 Dapatkan informasi jumlah komunitas, jumlah anggota tiap komunitas, 
+    #  3 vertex dgn degree tertinggi 
+#    import csv as csv    
+#    f= open("com_list_degree_louvain")
+#    df = csv.reader(f)
+#    i = 1
+#    for row in df:
+#        if i < 100:
+#            com_list = row       
+#            print list(row)
+#            n_com_list = list(row).count
+#            #print "jumlah member komunitas ke-", i, ":", n_com_list  
+#            i +=1
+    #Building a network, read edge list as row in file input
+    #for row in df:
+    #    G.add_edge(row[0],row[1])        
+    #close file connection            
+    #f.close()
+    
+    #print G.edges()
+    #C = G.subgraph(['11952','8569','1300','4967','12883','9943','2447','15915','2745', '12939','1276', '15600', '8941',  '6107',  '2934' , '7050', '10418',  '7670',  '4498', '10544',  '4160', '10637',  '8889',  '3219'  ,'9165', '10518',  '1554', '14230','1847','15180','12361','15563', '16663','13805','4369','6930','11956','319', '13622', '11210','8929'])
+    #plt.figure(1)
+    #nx.draw_networkx(G,pos=nx.spring_layout(G), width = 0.6, edge_color="#ff0000", node_color="#333399", with_labels=False, alpha=0.4, node_size=5)
+    #plt.figure(2)
+    #nx.draw_networkx(C,pos=nx.spring_layout(C), width = 0.6, edge_color="#ff0000", node_color="#333399", with_labels=True, font_size = 8, alpha=0.4, node_size=15)
+    #plt.show()
+    

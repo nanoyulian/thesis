@@ -262,7 +262,7 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
         node_in_new_graph_ori_index.append(RW_dict_reverse[v])
     node_in_new_graph_ori_index = set(node_in_new_graph_ori_index)
     
-    print "The size of sampled graph is", len(node_in_new_graph)
+    #print "The size of sampled graph is", len(node_in_new_graph)
     new_graph = np.eye(new_graph_size)
     map_dict = {}
     map_dict_reverse = {}
@@ -281,7 +281,7 @@ def sample_graph(G_linklist,node_number,degree_sequence,starting_node,sample_rat
 
                     new_graph[i,j] = 1.0
                     new_graph[j,i] = 1.0
-    print "new graph returned"
+    #print "new graph returned"
     sample_rate = new_graph_size / float(node_number)
 
     return new_graph, map_dict, map_dict_reverse, sample_rate, new_graph_size
@@ -371,7 +371,7 @@ def min_one_norm(B,initial_seed,seed):
 
     prob.solve()
 
-    print "Status:", pulp.LpStatus[prob.status]
+    #print "Status:", pulp.LpStatus[prob.status]
     result = []
     for var in indices_y:
         result.append(y[var].value())
@@ -535,7 +535,7 @@ if __name__=='__main__':
     parser.add_option("-d", "--delimiter", dest="delimiter", default=' ',
                       help="delimiter of input & output files [default: space]")
 
-    parser.add_option("-f", "--input network file", dest="network_file", default="../dblp_edgelist",
+    parser.add_option("-f", "--input network file", dest="network_file", default="../f2_edgelist_map_id",
                       help="input file of edge list for clustering [default: example_graphs/amazon/graph]")
 
 #    parser.add_option("-g", "--input community ground truth file", dest="groundtruth_community_file", default="../example/amazon/community",
@@ -547,16 +547,16 @@ if __name__=='__main__':
     parser.add_option("--sd", "--input seed set file", dest="seed_set_file", default="../dblp_seed",
                       help="input file of initial seed set [default: example_graphs/amazon/seed]")
 
-    parser.add_option("-c", "--minimum community size", dest="min_comm_size", default=600,
+    parser.add_option("-c", "--minimum community size", dest="min_comm_size", default=50,
                       help="the minimum size of a single community in the network [default: 50]")
 
-    parser.add_option("-C", "--maximal community size", dest="max_comm_size", default=1000,
-                      help="the maximum size of a single community in the network [default: 400]")
+    parser.add_option("-C", "--maximal community size", dest="max_comm_size", default=320,
+                      help="the maximum size of a single community in the network [default: 100]")
 
     parser.add_option("-s", "--sample rate", dest="sample_rate", default=0.007,
                       help="the percentile of nodes left for local detection after sampling [default: 0.007]")
 
-    parser.add_option("-e", "--expand step", dest="expand_step", default=3,
+    parser.add_option("-e", "--expand step", dest="expand_step", default=6,
                       help="the step of seed set increasement during expansion process [default: 6]")
 
     parser.add_option("-z", "--seed set size", dest="ini_num_of_seed", default=3,
@@ -581,69 +581,61 @@ if __name__=='__main__':
 
     #comms_indices_map, count = read_groundtruth(community_file,delimiter=delimiter,nodetype=int)
     graph_linklist,node_number,edge_number, degree= read_edgelist(network_file,delimiter=delimiter,nodetype=int)
-
+    
+    # write out result
+    f = open('output_lemon_dblp','wb')
+    f.write("#detected communities : (perbaris) \n")
     # read the initial seed set from file
     with open(seed_set_file) as fin:
         for line in fin.readlines():
             if not line.strip().startswith("#"):
                 L = line.strip().split('\t')
-                #print L
                 seedset = np.fromstring(L[0],dtype=int,sep=' ')
-                break
-    seedset = np.array(seedset) - 1 #get the index not the value
-
-    #print seedset
-    #print graph_linklist
-    
-    
-    # modify the "test_comm" if you want to test some other ground truth communities
-#    test_comm = np.array([14833, 42658, 43004, 58660 ,14835, 14836, 14837 ,106584, 115338 ,42659 ,58661 ,106585 ,288614 ,106586 ,14838 ,106587 ,302943 ,14839 ,14840 ,302944 ,115339, 106588 ,106589 ,206424 ,106590 ,42660 ,106591, 42661, 115340, 293641, 106592])
-#    test_comm = test_comm - 1
+                print "Seed Set : " , seedset
+                seedset = np.array(seedset) - 1
+                 # sample the graph, adjust indices      PAKE METODE GRAPH SAMPLING (LIHAT DI PAPER), 
+                # NEW GRAPH SUDAH DALAM BENTUK MATRIKS ADJANCCY MATRIKS DARI NODE-NODE YANG DISAMPLE
+                #map_dict = mapping index antara (indexNode-newgraph : indexNode-graph asli)
+                #new_seedset = INDEXNODE DARI INDEXNODE-NEWGRAPH => LIHAT hasil map_dict
+                new_graph, map_dict, map_dict_reverse, sample_rate, new_graph_size  = sample_graph(graph_linklist,node_number,degree,seedset,0.007,biased=False)
+                new_seedset = map_from_ori_to_new(seedset,map_dict_reverse)
+                
+                # run the local spectral clustering algorithm and return the detected community (Note: the indices here correspond to mapped indices in the sampled graph)
+                detected_comm = seed_expand_auto(new_graph,new_seedset,min_comm_size,max_comm_size,expand_step,subspace_dim=3,walk_steps=6,biased=False)
+                # map the indices back to the original graph
+                detected_comm_ori = map_from_new_to_ori(detected_comm,map_dict)
+                #ditambah 1 karena ini matrix dari INDEX node communitynya.. 
+                # print detected_comm_ori + 1                 
+                # hilangkan karakter awal n akhir
+                str_q = str((list(detected_comm_ori+1) ))[1 : -1]
+                #hilangkan spasi
+                str_q.replace(" ", "")
+                # write out result            
+                f.write(str_q)    
+                f.write("\n")
+    #seedset = np.array(seedset) - 1 #get the index not the value
+    f.close()
     
     # sample the graph, adjust indices      PAKE METODE GRAPH SAMPLING (LIHAT DI PAPER), 
     # NEW GRAPH SUDAH DALAM BENTUK MATRIKS ADJANCCY MATRIKS DARI NODE-NODE YANG DISAMPLE
     #map_dict = mapping index antara (indexNode-newgraph : indexNode-graph asli)
     #new_seedset = INDEXNODE DARI INDEXNODE-NEWGRAPH => LIHAT hasil map_dict
-    new_graph, map_dict, map_dict_reverse, sample_rate, new_graph_size  = sample_graph(graph_linklist,node_number,degree,seedset,0.007,biased=False)
-    new_seedset = map_from_ori_to_new(seedset,map_dict_reverse)
-    #new_test_comm = map_from_ori_to_new(test_comm,map_dict_reverse)
-    
-    #print new_seedset
-    #print new_graph
-    #print map_dict
-    #print new_graph_size
-    
-    # run the local spectral clustering algorithm and return the detected community (Note: the indices here correspond to mapped indices in the sampled graph)
-    detected_comm = seed_expand_auto(new_graph,new_seedset,min_comm_size,max_comm_size,expand_step,subspace_dim=3,walk_steps=3,biased=False)
-   
-    # map the indices back to the original graph
-    detected_comm_ori = map_from_new_to_ori(detected_comm,map_dict)
-    
-    print detected_comm_ori + 1 #ditambah 1 karena ini matrix dari INDEX node communitynya.. 
-    
-    #NEXT: 
-    #COBA TAMBAHIN SET SEEDNYA APAKAH JUGA AKAN BERPENGARUH KE JUMLAH KOMUNITAS YG DIDETEKSI
-
-    # printing running information
-#    print "-------------------------------------------------------"
-#    print "The detected community is: \n"
-#    print list(detected_comm_ori+1)
-#    F1_score = cal_Fscore(detected_comm,new_test_comm)
-#    print "-----------------------------------------------------------------------"
-#    print "The F1 score between detected community and ground truth community is: ",F1_score
-#
+#    new_graph, map_dict, map_dict_reverse, sample_rate, new_graph_size  = sample_graph(graph_linklist,node_number,degree,seedset,0.007,biased=False)
+#    new_seedset = map_from_ori_to_new(seedset,map_dict_reverse)
 #    
+#    # run the local spectral clustering algorithm and return the detected community (Note: the indices here correspond to mapped indices in the sampled graph)
+#    detected_comm = seed_expand_auto(new_graph,new_seedset,min_comm_size,max_comm_size,expand_step,subspace_dim=3,walk_steps=6,biased=False)
+#    # map the indices back to the original graph
+#    detected_comm_ori = map_from_new_to_ori(detected_comm,map_dict)
+#    #ditambah 1 karena ini matrix dari INDEX node communitynya.. 
+#    print detected_comm_ori + 1 
+#
 #    # write out result
 #    with open(output_file,"a") as out:
 #        out.write("# detected community:"+"\n")
 #        out.write(str(list(detected_comm_ori+1)))
 #        out.write('\n')
-#        out.write('\n')
-#        out.write("# F1 score: "+str(F1_score)+'\n')
-        
-      
-
-        
+       
 
 """
 ALGORITMA LEMON
