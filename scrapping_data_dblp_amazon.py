@@ -71,27 +71,23 @@ def generate_graph_with_edge_list(G, data2D):
             edge_list_data = list(itertools.combinations(data,2))
             #menambahkan edge list ke dalam graph
             for edge_list in edge_list_data:
-                G.add_edge(edge_list[0],edge_list[1])
-                
-        #untuk author tunggal tambahkan langsung mjd node pada graph
-#        else:      
-#            if(len(data)==1): #ada beberapa li entry proceeding formatnya bukan paper dan author jadi pastikan minimal 1.
-#                G.add_node(data[0])        
-       
+                G.add_edge(edge_list[0],edge_list[1])   
+    # return graph
     return G     
-    
+
+#Proses crawling n Srap Halaman Conference DBLP
 def readConference(conflist_id):
     #4D array untuk semua conflist_id
     extracted_data = []
-   
+    # start crawl n scrap
     for i in conflist_id:
         url = "http://dblp.uni-trier.de/db/conf/"+i
         print "Scrap-Processing: "+url
         extracted_data.append(parse_dblp_author_in_conference(url))
-    
+    #return data
     return extracted_data
        
-                                   
+#Fungsi Scrapping Halaman DBLP Target : Author per Paper      
 def parse_dblp_author_in_conference(url):
     headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
     page = requests.get(url,headers=headers)
@@ -131,17 +127,19 @@ def parse_dblp_author_in_conference(url):
                     arr_id_authors_per_paper_per_conference.append(arr_id_authors_per_paper)
                 #tambahkan ke array all conference   
                 arr_id_authors_per_paper_all_conference.append(arr_id_authors_per_paper_per_conference)                
-                
+            #masalah Saat proses Scrapping
             except Exception as e:
                 print e
-        
-        return arr_id_authors_per_paper_all_conference                        
+        #Sukses Mendapatkan Data author-author per paper dalam conference terpilih
+        return arr_id_authors_per_paper_all_conference    
+    #Masalah Koneksi               
     except Exception as e:
         print e
   
 def getKey(item):
     return item[1]
-    
+
+#Menjalankan Algoritma Louvain dan Simpan Hasil Ke dalam File
 def run_louvain_cd(G,show_com_list = False, show_graph = True, save_to_file = True):
     ''' Jalankan louvain algorithm community detection, 
         \n Parameter : \n 
@@ -192,9 +190,12 @@ def run_louvain_cd(G,show_com_list = False, show_graph = True, save_to_file = Tr
         list_com = []
         f2.write("komunitas ke-n   :  (jumlah anggota) (3 anggota dengan degree tertinggi) \n")
         for val in sorted_part:
-            vertex = val[0] # id_vertex
-            id_com = val[1] # label komunitas hasil deteksi 
-            pair_vertex_degree = [vertex,G.degree(vertex)] # siapkan set pasangan vertex dan degreenya
+            # id_vertex
+            vertex = val[0] 
+            # label komunitas hasil deteksi 
+            id_com = val[1] 
+            # siapkan set pasangan vertex dan degreenya
+            pair_vertex_degree = [vertex,G.degree(vertex)] 
             #tulis setiap komunitas ke file dalam satu baris 
             if id_com == label :
                 list_com.append(pair_vertex_degree)
@@ -231,7 +232,7 @@ def run_louvain_cd(G,show_com_list = False, show_graph = True, save_to_file = Tr
         print "Community List : \n" 
         print  sorted_part
     
-    
+#Menyimpan graph dalam format edgelist ke File (labelling dimulai dari 1)
 def generate_edgelistfile(G, show_graph = False): 
     ''' Menyimpan graph dalam format edgelist ke file.
         [f1 : file edgelist dengan nama/id vertex asli,
@@ -274,27 +275,28 @@ def generate_edgelistfile(G, show_graph = False):
 if __name__ == "__main__":
     
     #1. siapkan array link id conference yang ingin di scrap authornya per paper '''
-    conflist_id = ['eurosp','sp','cvpr'] # sp, eurosp, cvpr, issi, 
+    conflist_id = ['eurosp'] #,'sp','cvpr']  
+    
     #2. lakukan scrapping authors , return array 4D '''
     extracted_data = readConference(conflist_id)
+    
     #3. siapkan Graph kosong '''
     G = nx.Graph()
-    #4. Membangun Graph dengan membuat edge list pada Graph berdasarkan data (2D array:lihat generate_graph_with_edge_list) hasil scrapping '''
+    #4. Membangun Graph dengan membuat edge list pada Graph 
+    #   berdasarkan data (2D array:lihat generate_graph_with_edge_list) hasil scrapping '''
     for data in extracted_data:
        #3D Array conference  
        for conf in data:
            generate_graph_with_edge_list(G,conf)
-    #5. (optional) save ke file edgelist id dimulai dari 1 '''
-    #generate_edgelistfile(G)
-        
-    #listofdegreetuple = G.degree()    
-    #print sorted(listofdegreetuple, key=lambda x: x[1],reverse=True)
     
-    #6. Jalankan algoritma Louvain Community Detection '''
-    #run_louvain_cd(G,show_com_list=False, show_graph = False, save_to_file = True)
+    #5. (optional) save ke file edgelist id dimulai dari 1 '''
+    generate_edgelistfile(G)    
+    
+    #6. Jalankan algoritma Louvain Community Detection
+    run_louvain_cd(G,show_com_list=True, show_graph = False, save_to_file = True)
     
     #7 Dapatkan informasi jumlah komunitas, jumlah anggota tiap komunitas, 
-    #  3 vertex dgn degree tertinggi 
+    #3 vertex dgn degree tertinggi 
 #    import csv as csv    
 #    f= open("com_list_degree_louvain")
 #    df = csv.reader(f)
@@ -304,19 +306,12 @@ if __name__ == "__main__":
 #            com_list = row       
 #            print list(row)
 #            n_com_list = list(row).count
-#            #print "jumlah member komunitas ke-", i, ":", n_com_list  
+#            print "jumlah member komunitas ke-", i, ":", n_com_list  
 #            i +=1
-    #Building a network, read edge list as row in file input
-    #for row in df:
-    #    G.add_edge(row[0],row[1])        
-    #close file connection            
-    #f.close()
+#    #Building a network, read edge list as row in file input
+#    for row in df:
+#        G.add_edge(row[0],row[1])        
+#    #close file connection            
+#    f.close()
     
-    #print G.edges()
-    #C = G.subgraph(['11952','8569','1300','4967','12883','9943','2447','15915','2745', '12939','1276', '15600', '8941',  '6107',  '2934' , '7050', '10418',  '7670',  '4498', '10544',  '4160', '10637',  '8889',  '3219'  ,'9165', '10518',  '1554', '14230','1847','15180','12361','15563', '16663','13805','4369','6930','11956','319', '13622', '11210','8929'])
-    #plt.figure(1)
-    #nx.draw_networkx(G,pos=nx.spring_layout(G), width = 0.6, edge_color="#ff0000", node_color="#333399", with_labels=False, alpha=0.4, node_size=5)
-    #plt.figure(2)
-    #nx.draw_networkx(C,pos=nx.spring_layout(C), width = 0.6, edge_color="#ff0000", node_color="#333399", with_labels=True, font_size = 8, alpha=0.4, node_size=15)
-    #plt.show()
-    
+   

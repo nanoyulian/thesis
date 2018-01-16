@@ -2,7 +2,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import community as co
 import numpy as np
-#import matplotlib.cm as cm 
+#import matplotlib.cm as cm
+ 
 def generate_overlapp_vertex_file():
     with open('output_lemon_dblp', 'U') as f:
         #hanya temporary saja    
@@ -47,9 +48,9 @@ def generate_overlapp_vertex_file():
     
 ################## ENTRY POINT #################################
 if __name__ == "__main__":
+    #1. output overlapp_member_community
     generate_overlapp_vertex_file()
-
-
+    #2. 
     G = nx.Graph()    
     G_lemons = nx.Graph()
     
@@ -58,8 +59,6 @@ if __name__ == "__main__":
             line = line.strip().split(' ')
             #print line
             G.add_edge(line[0],line[1])
-    
-#    print G.nodes()
     
     com_lemon = []
     with open('output_lemon_dblp','U') as f:
@@ -71,7 +70,7 @@ if __name__ == "__main__":
                 #print line
                 com_lemon.append (line)
     
-    from random import randint
+    #Siapkan Warna
     col = ['k','r','g','b','c','y','#00ffff','#663d00','#e68a00', '#8cff1a','#660066','#663300','#996600','#999966','#99cc00','#ccccff','#00ff99','#669999','#cc0066','#660033','#ff33cc','#006600','#ffffff','#333300','#ccff66','#ffcc99','#003300','#009933','#ff0066','#cc0000','#993333','#66ff66','#003366','#336699','#333300','#3366ff','#000099','#33cccc','#ff9999']
     
     #substract graph berdasarkan hasil komunitas lemon : output_lemon_dblp
@@ -98,7 +97,7 @@ if __name__ == "__main__":
             s = str(line)
             overlapmember.append(s)
             
-    
+    #Setting Tampilan vertex
     for node in G_lemons.nodes:
         for o in overlapmember:      
             if node == o :

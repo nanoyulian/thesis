@@ -10,3 +10,7 @@ inputnya adalah :
 1. dblp_seed (tentukan sendiri)
 2. dblp_edgelist 
 
+Output adalah : 
+1. output_lemon_dblp
+2. overlap_member_dblp
+
