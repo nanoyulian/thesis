@@ -7,10 +7,10 @@ Created on Thu Jan 18 13:07:47 2018
 
 import json
 import gzip
-import itertools
 import networkx as nx  
 import matplotlib.pyplot as plt
 
+#fungsi parsing ke format json string
 def parse(path): 
     g = gzip.open(path, 'r') 
     for l in g: 
@@ -29,14 +29,13 @@ def generate_edgelistfile(G, show_graph = False):
     print "Creating f3_nodes_id file..."
     f3=open('f3_nodes_id','wb')
     dict_id = {}
-    #print G.nodes
+    #val dimulai dari 0 (jadi harus ditambah 1)
     for key,val in zip(G.nodes,range(len(G.nodes))):
         dict_id[key]=val
         f3.write("%s : %d \n" % (key, val+1))
     f3.close()
     
     print "Creating f1_data and f2_edgelist file..."
-    #print dict_id_authors['Andrade:Ewerton_R=']+1 = 336 (eurosp)
     f1=open('f1_edgelist_ori_id','wb')
     f2=open('f2_edgelist_map_id','wb')    
     
@@ -57,14 +56,14 @@ def generate_edgelistfile(G, show_graph = False):
 #############################################################################################################################################################
 if __name__ == "__main__":
     i = 0
-    #idmap asin mapping buat asin ke integer mulai dari 1
-    idmap_asin = 0
+    #baris yang diproses
+    row_processed = 0
     #asin graph
     g_asin = nx.Graph()
     #telusuri setiap baris di file meta_Apps_for_Android.json.gz
     for l in parse("meta_Apps_for_Android.json.gz"):     
         #baca sampai baris ke - n
-        #if i<20:
+        if i<3000:
             #load baris ke dictionary data
             data = json.loads(l)
             #simpan value asin 
@@ -84,15 +83,17 @@ if __name__ == "__main__":
                             for edge_list in asin_bought:
                                 #print edge_list[0],edge_list[1]                            
                                 g_asin.add_edge(asin,edge_list)   
-                
-                idmap_asin += 1
-                
-        #else:
-        #    break
-        #i +=1
-    
-    print "jumlah baris yg diproses : ", idmap_asin
-    #print g_asin.nodes()    
+                #baris yg diproses
+                row_processed += 1
+        # jika sudah baris ke-n break
+        else:
+            #proses baca file selesai
+            break
+        #baris selanjutnya
+        i +=1
+        
+    #print rangkuman hasil preprocessing data
+    print "jumlah baris yg diproses : ", row_processed
     print "jumlah node : " , g_asin.number_of_nodes()
     print "jumlah_edge : " , g_asin.number_of_edges()
     
