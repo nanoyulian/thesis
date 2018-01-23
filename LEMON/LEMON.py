@@ -550,7 +550,7 @@ if __name__=='__main__':
     parser.add_option("-c", "--minimum community size", dest="min_comm_size", default=50,
                       help="the minimum size of a single community in the network [default: 50]")
 
-    parser.add_option("-C", "--maximal community size", dest="max_comm_size", default=320,
+    parser.add_option("-C", "--maximal community size", dest="max_comm_size", default=100,
                       help="the maximum size of a single community in the network [default: 100]")
 
     parser.add_option("-s", "--sample rate", dest="sample_rate", default=0.007,
@@ -576,14 +576,13 @@ if __name__=='__main__':
     seed_set_size = int(options.ini_num_of_seed)
 
   
-
 ####################################################################################################################
 
     #comms_indices_map, count = read_groundtruth(community_file,delimiter=delimiter,nodetype=int)
-    graph_linklist,node_number,edge_number, degree= read_edgelist(network_file,delimiter=delimiter,nodetype=int)
+    graph_linklist,node_number,edge_number, degree = read_edgelist(network_file,delimiter=delimiter,nodetype=int)
     
     # write out result
-    f = open('output_lemon_dblp','wb')
+    f = open('output_lemon','wb')
     f.write("#detected communities : (perbaris) \n")
     # read the initial seed set from file
     with open(seed_set_file) as fin:
